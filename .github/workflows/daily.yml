@@ -2,7 +2,7 @@ name: Daily Quote Scheduler
 
 on:
   schedule:
-    - cron: "0 21 * * *"  # Runs 0500 AWST (2100 UTC) every day
+    - cron: "*/5 * * * *"  # Runs 0500 AWST (2100 UTC) every day
   workflow_dispatch:  # Allows manual runs
 
 jobs:
