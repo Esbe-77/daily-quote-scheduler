@@ -15,7 +15,7 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
 
 # Load quotes from JSON file
-json_file_path = r"C:/Users/samue/Desktop/Code Projects/AutoQuote/4/stoic_quotes.json"  # Update path if necessary
+json_file_path = "stoic_quotes.json"  # Update path if necessary
 
 try:
     with open(json_file_path, "r") as file:
