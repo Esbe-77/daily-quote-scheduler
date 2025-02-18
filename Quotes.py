@@ -25,7 +25,7 @@ except FileNotFoundError:
 random_quotes = random.sample([q["quote"] for q in stoic_quotes], 1)
 
 # Email content
-subject = "Todays' thought to ponder"
+subject = "Todays' thought"
 body = "\n\n".join(f"- {quote}" for quote in random_quotes)
 
 # Function to send email
