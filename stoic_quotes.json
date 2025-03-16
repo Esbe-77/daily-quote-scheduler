@@ -234,7 +234,7 @@
         "quote": "Don't let yesterday take up too much of today. - Will Rogers"
     },
     {
-        "quote": "A goal without a plan is just a wish. - Antoine de Saint-Exupéry"
+        "quote": "A goal without a plan is just a wish. - Antoine de Saint-Exup\u00e9ry"
     },
     {
         "quote": "If you want something you've never had, you must be willing to do something you've never done. - Thomas Jefferson"
@@ -345,7 +345,7 @@
         "quote": "Make your life a masterpiece; imagine no limitations on what you can be, have, or do. - Brian Tracy"
     },
     {
-        "quote": "Nothing ever goes away until it teaches us what we need to know. - Pema Chödrön"
+        "quote": "Nothing ever goes away until it teaches us what we need to know. - Pema Ch\u00f6dr\u00f6n"
     },
     {
         "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit. - Aristotle"
@@ -430,5 +430,263 @@
     },
     {
         "quote": "Everything is hard before it is easy. - Goethe"
+    },
+    {
+        "quote": "We do not rise to the level of our expectations, we fall to the level of our training. - Archilochus"
+    },
+    {
+        "quote": "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power. - Lao Tzu"
+    },
+    {
+        "quote": "The best revenge is massive success. - Frank Sinatra"
+    },
+    {
+        "quote": "He who is not courageous enough to take risks will accomplish nothing in life. - Muhammad Ali"
+    },
+    {
+        "quote": "The greatest wealth is to live content with little. - Plato"
+    },
+    {
+        "quote": "The mind is everything. What you think, you become. - Buddha"
+    },
+    {
+        "quote": "Success is the sum of small efforts, repeated day in and day out. - Robert Collier"
+    },
+    {
+        "quote": "A man is but the product of his thoughts. What he thinks, he becomes. - Mahatma Gandhi"
+    },
+    {
+        "quote": "Life is what happens when you're busy making other plans. - John Lennon"
+    },
+    {
+        "quote": "Your time is limited, so don't waste it living someone else's life. - Steve Jobs"
+    },
+    {
+        "quote": "It is never too late to be what you might have been. - George Eliot"
+    },
+    {
+        "quote": "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt"
+    },
+    {
+        "quote": "You must be the change you wish to see in the world. - Mahatma Gandhi"
+    },
+    {
+        "quote": "In three words I can sum up everything I've learned about life: it goes on. - Robert Frost"
+    },
+    {
+        "quote": "Time is a great teacher, but unfortunately it kills all its pupils. - Louis Hector Berlioz"
+    },
+    {
+        "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar"
+    },
+    {
+        "quote": "I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison"
+    },
+    {
+        "quote": "No one can make you feel inferior without your consent. - Eleanor Roosevelt"
+    },
+    {
+        "quote": "The journey of a thousand miles begins with one step. - Lao Tzu"
+    },
+    {
+        "quote": "The only impossible journey is the one you never begin. - Tony Robbins"
+    },
+    {
+        "quote": "You will face many defeats in life, but never let yourself be defeated. - Maya Angelou"
+    },
+    {
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill"
+    },
+    {
+        "quote": "The only way to do great work is to love what you do. - Steve Jobs"
+    },
+    {
+        "quote": "Success is not in what you have, but who you are. - Bo Bennett"
+    },
+    {
+        "quote": "It's not whether you get knocked down, it's whether you get up. - Vince Lombardi"
+    },
+    {
+        "quote": "Believe you can and you're halfway there. - Theodore Roosevelt"
+    },
+    {
+        "quote": "You must do the thing you think you cannot do. - Eleanor Roosevelt"
+    },
+    {
+        "quote": "Don't count the days, make the days count. - Muhammad Ali"
+    },
+    {
+        "quote": "It does not matter how slowly you go as long as you do not stop. - Confucius"
+    },
+    {
+        "quote": "A goal without a plan is just a wish. - Antoine de Saint-Exup\u00e9ry"
+    },
+    {
+        "quote": "Hard times may have held you down, but they are also what will shape you. - Anonymous"
+    },
+    {
+        "quote": "The man who has confidence in himself gains the confidence of others. - Hasidic Proverb"
+    },
+    {
+        "quote": "You cannot swim for new horizons until you have courage to lose sight of the shore. - William Faulkner"
+    },
+    {
+        "quote": "What we think, we become. - Buddha"
+    },
+    {
+        "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty. - Winston Churchill"
+    },
+    {
+        "quote": "Every man has his secret sorrows which the world knows not; and often times we call a man cold when he is only sad. - Henry Wadsworth Longfellow"
+    },
+    {
+        "quote": "He who has a why to live can bear almost any how. - Friedrich Nietzsche"
+    },
+    {
+        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall. - Nelson Mandela"
+    },
+    {
+        "quote": "It always seems impossible until it's done. - Nelson Mandela"
+    },
+    {
+        "quote": "The only thing we have to fear is fear itself. - Franklin D. Roosevelt"
+    },
+    {
+        "quote": "Courage is grace under pressure. - Ernest Hemingway"
+    },
+    {
+        "quote": "It is not the mountain we conquer but ourselves. - Sir Edmund Hillary"
+    },
+    {
+        "quote": "Everything you've ever wanted is on the other side of fear. - George Addair"
+    },
+    {
+        "quote": "In the end, we only regret the chances we didn't take. - Lewis Carroll"
+    },
+    {
+        "quote": "If you don't stand for something, you'll fall for anything. - Malcolm X"
+    },
+    {
+        "quote": "Do not wait for leaders; do it alone, person to person. - Mother Teresa"
+    },
+    {
+        "quote": "Whatever you are, be a good one. - Abraham Lincoln"
+    },
+    {
+        "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail. - Ralph Waldo Emerson"
+    },
+    {
+        "quote": "Life is really simple, but we insist on making it complicated. - Confucius"
+    },
+    {
+        "quote": "Act as if what you do makes a difference. It does. - William James"
+    },
+    {
+        "quote": "The most difficult thing is the decision to act, the rest is merely tenacity. - Amelia Earhart"
+    },
+    {
+        "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit. - Aristotle"
+    },
+    {
+        "quote": "There are no shortcuts to any place worth going. - Beverly Sills"
+    },
+    {
+        "quote": "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt"
+    },
+    {
+        "quote": "It's not what happens to you, but how you react to it that matters. - Epictetus"
+    },
+    {
+        "quote": "Don't watch the clock; do what it does. Keep going. - Sam Levenson"
+    },
+    {
+        "quote": "The best way out is always through. - Robert Frost"
+    },
+    {
+        "quote": "A ship is always safe at shore but that is not what it's built for. - Albert Einstein"
+    },
+    {
+        "quote": "Life isn't about waiting for the storm to pass, it's about learning to dance in the rain. - Anonymous"
+    },
+    {
+        "quote": "It's not whether you get knocked down, it's whether you get up. - Vince Lombardi"
+    },
+    {
+        "quote": "Challenges are what make life interesting; overcoming them is what makes life meaningful. - Joshua Marine"
+    },
+    {
+        "quote": "To succeed in life, you need two things: ignorance and confidence. - Mark Twain"
+    },
+    {
+        "quote": "The key to success is to focus on goals, not obstacles. - Unknown"
+    },
+    {
+        "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment. - Buddha"
+    },
+    {
+        "quote": "Do one thing every day that scares you. - Eleanor Roosevelt"
+    },
+    {
+        "quote": "The future belongs to those who prepare for it today. - Malcolm X"
+    },
+    {
+        "quote": "Life isn't about finding yourself. It's about creating yourself. - George Bernard Shaw"
+    },
+    {
+        "quote": "Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll"
+    },
+    {
+        "quote": "Success is not measured by what you accomplish, but by the opposition you have encountered, and the courage with which you have maintained the struggle against overwhelming odds. - Orison Swett Marden"
+    },
+    {
+        "quote": "Do what you can, where you are, with what you have. - Theodore Roosevelt"
+    },
+    {
+        "quote": "Failure will never overtake me if my determination to succeed is strong enough. - Og Mandino"
+    },
+    {
+        "quote": "Success usually comes to those who are too busy to be looking for it. - Henry David Thoreau"
+    },
+    {
+        "quote": "Act as if what you do makes a difference. It does. - William James"
+    },
+    {
+        "quote": "In the middle of every difficulty lies opportunity. - Albert Einstein"
+    },
+    {
+        "quote": "If you want to go fast, go alone. If you want to go far, go together. - African Proverb"
+    },
+    {
+        "quote": "The only way to do great work is to love what you do. - Steve Jobs"
+    },
+    {
+        "quote": "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. - Ralph Waldo Emerson"
+    },
+    {
+        "quote": "Our lives begin to end the day we become silent about things that matter. - Martin Luther King Jr."
+    },
+    {
+        "quote": "It is not what we get, but who we become, what we contribute... that gives meaning to our lives. - Tony Robbins"
+    },
+    {
+        "quote": "The only true wisdom is in knowing you know nothing. - Socrates"
+    },
+    {
+        "quote": "You can never plan the future by the past. - Edmund Burke"
+    },
+    {
+        "quote": "Life is a journey that must be traveled no matter how bad the roads and accommodations. - Oliver Goldsmith"
+    },
+    {
+        "quote": "The man who moves a mountain begins by carrying away small stones. - Confucius"
+    },
+    {
+        "quote": "Perseverance is not a long race; it is many short races one after another. - Walter Elliot"
+    },
+    {
+        "quote": "We cannot solve our problems with the same thinking we used when we created them. - Albert Einstein"
+    },
+    {
+        "quote": "You miss 100% of the shots you don't take. - Wayne Gretzky"
     }
 ]
