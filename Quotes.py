@@ -2,37 +2,57 @@ import smtplib
 import json
 import random
 import os
+from datetime import date, datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+# ──------ Settings ──────────────────────────────────────────────────────────
+JSON_FILE = "stoic_quotes.json"          # your weighted-quotes file
+NUM_QUOTES = 1                              # how many quotes per e-mail
+DECAY_WEEKS = 4                             # zero → full weight after N weeks
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587
 
-# Get email credentials from environment variables
-EMAIL_ADDRESS = os.getenv("EMAIL_SENDER")
+# e-mail credentials from env
+EMAIL_ADDRESS  = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
 
-# Load quotes from JSON file
-json_file_path = "stoic_quotes.json"  # Update path if necessary
+# ──----- Weight logic ──────────────────────────────────────────────────────
+def current_weight(q):
+    """
+    Return the draw-weight for a quote.
+    • First use ⇒ 1 .0
+    • After being sent, weight ramps linearly 0 → 1 over DECAY_WEEKS.
+    """
+    last = q.get("last_sent")
+    if not last:
+        return 1.0
+    weeks = (date.today() - datetime.fromisoformat(last).date()).days // 7
+    return min(1.0, weeks / DECAY_WEEKS)
 
+# ──----- Load quotes ────────────────────────────────────────────────────────
 try:
-    with open(json_file_path, "r") as file:
-        stoic_quotes = json.load(file)
+    with open(JSON_FILE, "r", encoding="utf-8") as f:
+        quotes = json.load(f)
 except FileNotFoundError:
-    print(f"Error: {json_file_path} not found.")
-    exit(1)
+    raise SystemExit(f"Error: {JSON_FILE} not found.")
 
-# Select 3 random Stoic quotes
-random_quotes = random.sample([q["quote"] for q in stoic_quotes], 1)
+# Gracefully handle legacy entries without the new fields
+for q in quotes:
+    q.setdefault("weight", 1.0)
+    q.setdefault("last_sent", None)
 
-# Email content
-subject = "Todays' thought"
-body = "\n\n".join(f"- {quote}" for quote in random_quotes)
+weights = [current_weight(q) for q in quotes]
+chosen_quotes = random.choices(quotes, weights=weights, k=NUM_QUOTES)
 
-# Function to send email
+# ──----- Compose e-mail ─────────────────────────────────────────────────────
+subject = "Today’s thought"
+body = "\n\n".join(f"- {q['quote']}" for q in chosen_quotes)
+
 def send_email():
-    if not EMAIL_ADDRESS or not EMAIL_PASSWORD:
-        print("Error: Missing email credentials. Ensure they are set in the .env file.")
-        return
+    if not (EMAIL_ADDRESS and EMAIL_PASSWORD and EMAIL_RECEIVER):
+        raise SystemExit("Error: Missing e-mail credentials in environment.")
 
     msg = MIMEMultipart()
     msg["From"] = EMAIL_ADDRESS
@@ -41,14 +61,25 @@ def send_email():
     msg.attach(MIMEText(body, "plain"))
 
     try:
-        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
         server.starttls()
         server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
         server.sendmail(EMAIL_ADDRESS, EMAIL_RECEIVER, msg.as_string())
         server.quit()
-        print("Email sent successfully!")
+        print("Email sent successfully.")
     except Exception as e:
-        print("Error:", e)
+        print("SMTP error:", e)
 
-# Execute the function
-send_email()
+# ──----- Update weights & save file ────────────────────────────────────────
+def mark_as_sent():
+    today_str = date.today().isoformat()
+    for q in chosen_quotes:
+        q["weight"] = 0.0
+        q["last_sent"] = today_str
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
+        json.dump(quotes, f, ensure_ascii=False, indent=2)
+
+# ──----- Execute ───────────────────────────────────────────────────────────
+if __name__ == "__main__":
+    send_email()
+    mark_as_sent()
