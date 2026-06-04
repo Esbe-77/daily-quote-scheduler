@@ -648,6 +648,156 @@ His Stoic framework held that human beings have a natural function — the same 
 Service, in this account, is not a sacrifice that the virtuous person makes. It is the natural expression of what a human being is for. The person who retreats entirely from the world and its demands has not achieved freedom — they have simply failed to be fully human.
 
 He also made the practical point that service done with resentment is worse than useless. If you are going to act for others — as emperor, as father, as friend — the quality of the action depends on the quality of the attention behind it. Do it fully, or do not do it."""),
+
+    ("On Heraclitus and Change", "Heraclitus",
+"""Almost nothing survives of Heraclitus's actual writing — only fragments, quoted by later authors. But the fragments are enough to establish him as one of the most original thinkers in the Western tradition, and his central idea is one of the few philosophical insights that has never been overturned.
+
+Everything flows. Panta rhei. The universe is not a collection of things but a process — a continuous movement, a constant becoming. What appears to be a stable object is in fact a temporary pattern in something that is always changing. You cannot step into the same river twice, because neither the river nor you is the same from one moment to the next.
+
+This sounds like it could produce despair — nothing is stable, nothing can be held onto, everything you care about is in the process of dissolution. Heraclitus drew a different conclusion. The fact that everything is in tension, in conflict, in process is not a defect in reality but its basic character. The tension between opposites is what produces everything there is. Day requires night. Health requires sickness. Life requires death. The tension is the engine.
+
+He also thought that most people were sleepwalkers — moving through the world without actually perceiving what was there, inhabiting a private dream rather than the shared logos, the rational principle he believed governed all things. 'Eyes and ears are poor witnesses for people with uncultured souls.' The world is there to be understood, but understanding requires a certain quality of attention that most people never develop.
+
+The river you step into is always new. That is not a loss. It is an invitation."""),
+
+    ("On Tranquility", "Seneca",
+"""Seneca's essay On Tranquility of Mind is addressed to a friend who has described his condition with unusual precision: a restlessness that has no clear object. He is not exactly unhappy. He is not satisfied. He moves between ambition and withdrawal, between wanting more engagement with the world and wanting to retreat from it entirely. He does not know what he wants.
+
+Seneca recognised this immediately, because he had experienced it himself. He called it taedium vitae — a weariness of life, not the desperate weariness of someone in crisis but the low-level dissatisfaction of someone who has not yet found what their energy is for.
+
+His diagnosis was that this condition comes from not having decided what kind of life you are actually living. The person who is uncertain whether they should be pursuing an active public life or a contemplative private one will do neither well. They will pursue public life with the nagging sense that they should be reading, and pursue reading with the nagging sense that they should be acting. The dissatisfaction comes not from either choice but from the failure to choose.
+
+His recommendation was not to choose once and rigidly stick to it — Seneca was too intelligent for that. He recommended what he called a mixed life: active engagement with the world, but with regular periods of genuine withdrawal. Not escape, but rhythm. The person who alternates between full engagement and genuine solitude is in better condition than the person who tries to do both simultaneously or who has committed entirely to either one.
+
+'The mind must be given relaxation — it will rise improved and sharper after a rest. Just as rich fields must not be forced — uninterrupted production will soon exhaust them.'"""),
+
+    ("On Desire and Aversion", "Epictetus",
+"""Everything depends on desire and aversion, in Epictetus's account. If you desire something that is not in your power and you do not get it, you suffer. If you are averse to something that is not in your power and it happens anyway, you suffer. The solution is not to want more or to try harder to avoid what you dislike. The solution is to want only what is in your power, and to be averse only to what is in your power.
+
+What is in your power is your own judgment, desire, aversion, and all mental activity — your own action, in short. What is not in your power is everything else: your body's condition, other people's behaviour, outcomes, the weather of circumstance.
+
+This is a narrower territory than most people are comfortable with. Epictetus is saying that you should not desire health, because health is not fully in your power. You should not desire success, because success depends on others' judgments. You should not desire that people treat you well, because how people treat you is not your choice. He means this literally.
+
+What he recommends instead is to pursue all these things — health, success, good relationships — as preferred indifferents. Things that are worth pursuing but not worth suffering over when they fail to arrive. You pursue health as an expression of what a rational person does, not as something your wellbeing depends on. You pursue good relationships because they are natural and worthwhile, not because the loss of them will destroy you.
+
+This is very difficult. It requires a genuinely different relationship with outcomes — not the usual one in which what you want determines how you feel, but one in which what you want has been carefully aligned with what you can actually control."""),
+
+    ("On Genuine Friendship", "Montaigne",
+"""Montaigne had one great friendship in his life — with Etienne de La Boetie, who died of plague in 1563, when they had known each other for only four years. He spent the rest of his long life writing, in part, in an attempt to reconstruct something of what that friendship had been.
+
+In his essay 'On Friendship,' he tried to describe what made it different from all the other relationships in his life. He could not find a reason. When someone asked him why he had loved La Boetie so much, his only answer was: 'Because it was him; because it was me.' The friendship had not been founded on utility, or pleasure, or shared interest in any ordinary sense. It was simply a recognition — immediate, complete, inexplicable — of another person as a second self.
+
+He distinguished this from what he called ordinary friendships, which he did not mean disparagingly — ordinary friendships are good, and necessary. But they are contingent. They depend on shared circumstance, on usefulness, on ongoing compatibility. The friendship he was describing had none of that contingency. It was, in his account, closer to the Greek concept of philia than any modern word for friendship captures.
+
+What he thought made this kind of friendship so rare was not that the people involved were unusually admirable but that they were unusually transparent to each other — that they had shared enough of themselves honestly enough that genuine recognition was possible. Most people never get there, because the process of being known honestly is frightening and most people protect against it.
+
+He wrote in middle age about a friendship that had lasted four years, twenty years before. The essay is among the most moving things in Western literature."""),
+
+    ("On the Examined Life", "Seneca",
+"""Seneca wrote about philosophy as though it were medicine — not because he was being metaphorical, but because he genuinely thought this was its function. Philosophy is the treatment of the soul. Just as the body can be sick without dramatic symptoms, the soul can be disordered in ways that produce constant low-level dysfunction — anxiety, bad judgment, the inability to be satisfied — without ever producing the kind of crisis that makes the problem obvious.
+
+The examined life, in his account, is not a luxury for people with leisure. It is basic maintenance. And like physical health, it requires regular attention. You cannot examine your life once and consider the matter settled.
+
+His practice was a daily review — in the evening, before sleep, a short accounting of the day. Not in a spirit of self-punishment but of honest assessment. Where had he been impatient? Where had he spoken when silence would have served better? Where had he done less than he might have? Where had he done well? The point was not guilt but information — the kind of feedback that makes tomorrow slightly better than today.
+
+He was also specific about what the examination should produce. Not just self-criticism, but recalibration. The person who reviews their day and finds they handled a difficult person with more patience than they expected should note that too — it is evidence that the capacity exists, that the practice is working. Change is confirmed by noticing the change.
+
+'The whole life of the philosopher,' he wrote, 'is a meditation on death.' This sounds morbid. What he meant was that the person who takes seriously the fact that they will die has a different relationship with every day they have. They do not postpone. They do not pretend there is unlimited time. They live with a kind of urgency that is not anxiety but clarity."""),
+
+    ("On Attention", "Simone Weil",
+"""Simone Weil is one of the strangest and most demanding thinkers of the twentieth century. She was a philosopher, a mystic, a labour organiser, and a saint — she refused to eat more than the ration available to French civilians under German occupation and died, in effect, of solidarity. Her writing is correspondingly extreme: very precise, very uncompromising, and occasionally illuminating in ways that ordinary philosophy is not.
+
+Her central concept was attention — and she meant something by it that goes beyond what we usually mean. Attention, for Weil, was not concentration. Concentration is effortful, directive, focused on an object. What she called attention was almost its opposite: a receptive waiting, an opening of the mind that allows reality to be received rather than processed.
+
+She thought this kind of attention was rare and extremely valuable, and that it was systematically undermined by education as usually practised. Schools teach students to concentrate — to lock their focus on a problem and force a solution. What they do not teach is the prior capacity: to be genuinely present to what is in front of you, to let it be what it is before deciding what to do about it.
+
+She applied this concept to ethics in a way that is still surprising. To pay true attention to a person who is suffering is itself a form of love — not to rush in with solutions, not to project your own experience, but to simply and fully receive the reality of what they are going through. This, she thought, was the most difficult and most valuable thing one person could do for another.
+
+'Attention is the rarest and purest form of generosity.' This is not a metaphor. She meant it as a precise claim about what genuine care actually consists of."""),
+
+    ("On Revolt", "Albert Camus",
+"""Camus's political philosophy centred on a distinction between revolution and revolt, and on the argument that the history of the twentieth century was largely the story of revolution betraying revolt.
+
+Revolt, in his account, is a particular kind of no — said by a person who has reached their limit. It is the slave who at some point says: this far, and no further. It is not based on ideology or theory. It is based on a direct experience of something intolerable, and the refusal to continue tolerating it. The values it defends are not abstract; they are derived directly from what the person in revolt has discovered they cannot live without.
+
+Revolution, by contrast, is organised around an idea — a vision of the future that justifies whatever means are necessary to achieve it. The revolutionary says: the present is intolerable, and the future we are building is worth any price. This logic, Camus thought, invariably produces atrocity, because any actual human being who stands in the way of the ideal future can be sacrificed to it.
+
+What he was defending was something modest and difficult: the insistence that the values you are fighting for should constrain how you fight. You cannot murder your way to a just society. You cannot build freedom on a foundation of coercion. The means are not separate from the ends; they are the earliest instantiation of them.
+
+This made him unpopular on the left, especially after his public break with Sartre over this question. He was accused of being bourgeois, of defending the comfortable against the revolutionary. He thought the accusation missed the point: he was defending the actual lives of actual people against their sacrifice to ideas, however beautiful the ideas."""),
+
+    ("On the Value of Philosophy", "Bertrand Russell",
+"""Russell's final chapter of 'The Problems of Philosophy' is one of the most honest defences of the subject ever written, precisely because it begins by conceding the obvious: philosophy does not, for the most part, produce answers.
+
+Unlike mathematics, which can prove theorems, or science, which can establish facts about the world, philosophy tends to produce better-formulated questions rather than solutions. The great philosophical problems — what is the nature of knowledge? what is the good? what is the self? — have been discussed for thousands of years without convergence. If you expected philosophy to resolve them, you would be right to be disappointed.
+
+But Russell thought this was the wrong expectation. The value of philosophy is not in its answers but in the questions themselves, and in what the practice of taking them seriously does to the person who engages with them. The person who has genuinely wrestled with the problem of other minds — whether we can know that anyone else has an inner life — has a different relationship with other people than the person who has never considered it. Not necessarily a better conclusion, but a richer understanding of what is at stake in the assumption we all make.
+
+He also thought philosophy was the cure for a specific kind of intellectual arrogance — the certainty that comes from never having examined the foundations of what you believe. The person who has done philosophy knows how much they do not know, and holds their remaining convictions with appropriate tentativeness. This is not scepticism. It is calibration.
+
+'The man who has no tincture of philosophy goes through life imprisoned in the prejudices derived from common sense, from the habitual beliefs of his age or his nation, and from convictions which have grown up in his mind without the cooperation or consent of his deliberate reason.'"""),
+
+    ("On Becoming", "Friedrich Nietzsche",
+"""Late in his productive life, before the mental collapse that would end it, Nietzsche wrote a series of books in a kind of frenzy — 'Twilight of the Idols,' 'The Antichrist,' and finally the autobiography 'Ecce Homo,' whose chapters bear titles like 'Why I Am So Wise' and 'Why I Am So Clever.' It reads as arrogance. It was actually something stranger: an attempt to describe what it felt like to have become what he was.
+
+His central argument throughout his work was that the self is not a given but a project. You do not discover what you are; you make what you are, through choices, disciplines, refusals, and the slow accumulation of who you decide to be. Most people inherit their values and their identity and never seriously examine either. The few who do — who actually ask what they believe and why, who refuse the values they have been handed unless they can verify them from the inside — are engaged in what Nietzsche called self-overcoming.
+
+Self-overcoming is not self-improvement in the sense of fixing defects. It is something more radical: a willingness to become genuinely other than what you have been, to let go of the identity you have built when it no longer serves who you are becoming. This requires a certain relationship with discomfort — not masochism, but the tolerance for the period between identities when you are not sure what you are.
+
+He was suspicious of comfort, of happiness as a goal, of the person who optimised their life for the avoidance of suffering. The suffering that comes from genuine growth is not a cost to be minimised but part of what growth is. 'The secret for harvesting from existence the greatest fruitfulness and the greatest enjoyment — is to live dangerously.'"""),
+
+    ("On the Sage", "Stoic Philosophy",
+"""The Stoics had a concept — the sage, or sophos — that served as a kind of theoretical limit. The sage was the person who had achieved perfect virtue: whose judgment was always correct, whose emotions were always appropriate, who was never moved by passion in a way that distorted their reason. This person was free — genuinely free — regardless of external circumstances.
+
+The Stoics were honest enough to admit that they had probably never met one. Socrates was sometimes offered as a candidate, and sometimes Cato the Younger. But the general view was that the sage was an extremely rare, perhaps theoretical figure — useful as a standard, not as a description of anyone actually known.
+
+This honesty matters, because it shapes how you relate to the philosophy. If the Stoics had presented the sage as easily achievable, their system would have been dishonest. Instead, they presented it as a direction — something to move toward, indefinitely, with improvement at every stage having value regardless of the distance still to go.
+
+Marcus Aurelius, writing as the most powerful man in the world, never described himself as a sage. He described himself as someone trying, falling short, and trying again. The Meditations are not a record of enlightenment but of a practice — the daily discipline of returning to the same principles and asking whether today was better than yesterday.
+
+This is the version of the philosophy that is actually useful: not the demand for perfection but the insistence on direction. You will not become the sage. You can, today, make a choice that is closer to what the sage would choose than the choice you made yesterday. That is enough."""),
+
+    ("On the Human Condition", "Hannah Arendt",
+"""Hannah Arendt spent much of her intellectual life trying to understand how the catastrophes of the twentieth century had happened — how ordinary human beings had participated in, and sometimes administered, atrocities of extraordinary scale.
+
+Her most important concept was the 'banality of evil,' developed from her observation of the trial of Adolf Eichmann. She had expected a monster. What she found was a bureaucrat — a man who seemed to have no particular malice, who had simply followed orders, filled out forms, organised logistics, and never thought seriously about what he was doing. The evil was banal not because it was trivial but because it was thoughtless.
+
+This led her to place thinking — genuine, uncomfortable, honest thinking — at the centre of her ethics. The person who is genuinely thinking is not susceptible to the kind of collapse Eichmann represented. Thinking requires you to take seriously the reality of others, to reason from principles rather than from orders, to ask what is actually being done rather than what category it falls into.
+
+She distinguished action — genuine, public, plural, the kind of thing that happens between people in a common world — from labour (the endless repetition required to sustain life) and work (the production of durable objects). Action, for Arendt, was what was distinctly human: the capacity to begin something new, to insert yourself into the world in a way that changes it.
+
+Her argument has an uncomfortable implication: the person who never appears in public, who retreats entirely into private life, has abandoned the domain where humanity is most distinctly expressed. We are political animals not because politics is pleasant, but because action in the company of others is what we are."""),
+
+    ("On Despair", "Søren Kierkegaard",
+"""Kierkegaard's 'The Sickness Unto Death' is about a condition he called despair, and his first move is to define it in a way that makes it almost universal. Despair is not what you feel when things go badly. It is a relationship of the self to itself — a misrelation, a failure to be what you are.
+
+He distinguished several forms. There is the despair of not being aware that you are a self — living entirely on the surface, driven by sensation and social expectation, with no inner life to speak of. This is the most common form, and the person in it does not feel like they are despairing; they feel like they are getting on with it. There is the despair of not wanting to be the self you are — the person who wishes they were someone else, who cannot accept what they actually are. And there is the despair of wanting to be the self you are in defiance of God or the ground of existence — a desperate kind of self-assertion that is still, at its root, a refusal to accept the conditions of one's existence.
+
+The cure he prescribed was faith — a relationship with what he called the eternal, which grounded the self in something beyond its own limited resources. You may or may not share his theology. But his description of the condition is extraordinarily precise without it.
+
+What he was pointing at is the experience of being estranged from yourself — not knowing what you want, not being at home in your own life, moving through the days in a way that has the shape of living without the substance. This is common. The first step out of it, Kierkegaard thought, was simply to recognise it. Most people prefer not to."""),
+
+    ("On Responsibility", "Jean-Paul Sartre",
+"""Sartre's claim that we are 'condemned to be free' is usually read as dark. He meant it straightforwardly: you did not choose to be born, you did not choose to be human, you cannot choose not to choose — and these unchosen facts leave you with an absolute and inescapable responsibility for what you do with the life you have.
+
+This responsibility, he insisted, extends further than most people want to accept. When you choose how to live, you are not just choosing for yourself — you are, in some sense, affirming that this is how a human being in your situation should live. 'In choosing myself, I choose man.' Every choice is implicitly a statement about what a person ought to do in these circumstances, a contribution to the project of defining what human beings are.
+
+This is why bad faith — the strategy of pretending you have no choice — is not just a self-deception but a form of moral failure. By pretending you are determined by your nature, your circumstances, or your role, you are refusing to take responsibility for a choice you are actually making.
+
+Authenticity, for Sartre, was not being in touch with your feelings or expressing your true self in some romantic sense. It was acknowledging the full weight of your freedom — living without the excuse of necessity, without the comfort of a fixed human nature, without the reassurance of a God who has provided a blueprint. Just a person, choosing, in full awareness that they are choosing and that the choice is theirs.
+
+This is genuinely demanding. Sartre did not pretend otherwise."""),
+
+    ("On Wonder", "Aristotle",
+"""At the beginning of the Metaphysics — his investigation into the nature of reality — Aristotle writes that philosophy began in wonder. Not in practical need, not in fear, not in the desire for power, but in the particular human experience of finding the familiar suddenly strange and wanting to understand it.
+
+The examples he gave are astronomical: people began to wonder about the sun and the moon and the stars. But wonder, in his account, is not limited to the cosmic. Anything can become an object of wonder if you approach it with the right quality of attention — the willow tree, the formation of a snowflake, the question of why humans laugh. Wonder is what happens when you stop taking something for granted and actually look at it.
+
+He thought this capacity was the beginning of wisdom and also its sign. The person who has never wondered at anything has never thought philosophically. The person who thinks they have understood everything has lost the capacity for wonder. What remains when you have actually understood something is a richer awareness of how much more there is to understand — wonder that has been deepened rather than extinguished.
+
+There is a practical application here that has nothing to do with metaphysics. The person who can genuinely wonder at ordinary things — who has not allowed familiarity to collapse everything into background — is living more richly than the person who has not. The world is not less strange because we have got used to it. It is only less noticed.
+
+'All men by nature desire to know.' This desire is not the desire for information. It is the desire to understand — to have the strangeness of things resolved into something comprehensible, and then to discover that comprehension opens onto more strangeness still."""),
 ]
 
 # ── Weight logic ──────────────────────────────────────────────────────────────
