@@ -798,6 +798,149 @@ He thought this capacity was the beginning of wisdom and also its sign. The pers
 There is a practical application here that has nothing to do with metaphysics. The person who can genuinely wonder at ordinary things — who has not allowed familiarity to collapse everything into background — is living more richly than the person who has not. The world is not less strange because we have got used to it. It is only less noticed.
 
 'All men by nature desire to know.' This desire is not the desire for information. It is the desire to understand — to have the strangeness of things resolved into something comprehensible, and then to discover that comprehension opens onto more strangeness still."""),
+
+    ("On Courage", "Aristotle",
+"""Courage is the virtue Aristotle thought most misunderstood, because it is most easily confused with its adjacent vices.
+
+The reckless person does not fear what should be feared, or fears it insufficiently, and acts on that incomplete accounting. They may look brave, and their actions may sometimes have brave consequences, but they are not responding accurately to the situation. The coward fears what should not be feared, or fears appropriate dangers to an excessive degree, and allows that fear to prevent right action.
+
+The courageous person does fear what should be feared — Aristotle was clear that courage without fear was not virtue but deficiency. The brave soldier feels afraid; the feeling is appropriate, because the danger is real. What courage is, is the capacity to act rightly despite that fear. The fear is there; it is neither suppressed nor indulged; it is simply not permitted to determine the outcome.
+
+This applies beyond physical danger. Aristotle's broader account of courage includes the courage required to speak an unwelcome truth to someone who does not want to hear it, to maintain a position under social pressure, to act on your judgment when everyone around you disagrees. In each case the structure is the same: something that functions like fear — discomfort, anticipated pain, risk of loss — is present, and the question is whether you act rightly despite it.
+
+He also insisted that courage was developed through courageous action — not through deciding to be brave, but through doing brave things repeatedly until the response becomes natural. The person who acts courageously in small matters gradually develops the capacity for courage in large ones. There is no shortcut from intention to character. Only practice builds it."""),
+
+    ("On Justice", "Plato",
+"""The whole of Plato's Republic is an attempt to answer one question: what is justice? The answer takes ten books and involves the construction of an ideal city, an account of the human soul, a theory of knowledge, and the allegory of the cave. The question is not simple.
+
+His final answer, roughly, is that justice is each part doing what it is best suited to do. In the city, it is the rulers ruling, the soldiers defending, the producers producing — each class in its proper role, none overstepping. In the soul, it is reason governing, spirit supporting reason, and appetite following their direction. Injustice is when appetite starts making the decisions, or when spirit acts independently of reason, or when reason abdicates and lets the other parts run things.
+
+What makes this interesting is the psychological claim embedded in it. For Plato, the unjust person is not simply someone who breaks rules. They are someone whose internal order is disordered — whose desires and impulses are not governed by reason, who is therefore never really doing what they most truly want, because what they most truly want is not available to a disordered soul.
+
+The tyrant, in his account, is the most disordered person of all — a person so completely dominated by appetite that they are genuinely enslaved, unable to act freely, always driven by the next desire. The apparent freedom of the person who can do anything they want is, for Plato, a kind of prison.
+
+Justice, then, is not primarily a social arrangement. It is a condition of the person. The just city is the outward expression of the just soul."""),
+
+    ("On Knowledge", "Francis Bacon",
+"""Bacon is credited with formulating the scientific method, or at least with articulating the philosophical basis for it. His key contribution was the critique of what he called the Idols — the systematic ways in which human minds distort their understanding of the world.
+
+The Idol of the Tribe: the tendency of the human mind to impose more order on the world than is actually there, to see patterns that do not exist, to confirm beliefs it already holds. This is not individual stupidity; it is a feature of the human cognitive architecture.
+
+The Idol of the Cave: the individual's particular version of the tribal tendency. Each person has their own history, their own education, their own preoccupations, that colour everything they see. What seems obvious to you may not even be visible to someone from a different background.
+
+The Idol of the Marketplace: the distortions introduced by language. Words that seem to refer to the same thing may actually refer to different things. Words that seem precise may be vague. The arguments that seem to settle a question may be entirely about the words and not about the reality.
+
+The Idol of the Theatre: the hold that philosophical systems and authorities have on the mind. People believe things not because they have examined them but because a respected tradition or teacher said them. This is comfortable and frequently wrong.
+
+His remedy was systematic observation — going back to the things themselves, collecting data without prior commitment to what it would show, drawing inferences carefully from what was actually found. This sounds obvious now. In 1620, when he wrote it, it was a revolution."""),
+
+    ("On the Good Life", "Aristotle",
+"""At the opening of the Nicomachean Ethics, Aristotle makes an observation that has not been improved upon: every art, inquiry, action, and pursuit aims at some good. The archer aims at the target. The doctor aims at health. The general aims at victory. And every subordinate good points to something beyond itself — health is a good not only in itself but because it enables a certain kind of life; victory is a good because of what it protects or produces.
+
+Follow this chain far enough and you arrive, Aristotle thought, at something that is desired for its own sake and not as a means to anything further. This is what he called eudaimonia — the highest good, the thing that is an end in itself rather than a means to an end.
+
+He was clear that eudaimonia is not a feeling. You cannot have it at a single moment; you cannot have it by being lucky; you cannot have it by believing you do. It is a property of a life as a whole, assessed from the outside as much as the inside. A life of eudaimonia is a life well-lived — characterised by the exercise of distinctively human capacities, by virtue, by genuine relationships, by engagement with something beyond oneself.
+
+This has a practical implication that is easy to miss. Aristotle was saying that the question 'what should I do with my life?' cannot be answered by asking what will make you feel good, or what will make you comfortable, or what will give you the most pleasure. It has to be answered by asking what kind of person you are trying to become, and whether the specific things you are doing are expressions of or impediments to that person."""),
+
+    ("On Time", "Seneca",
+"""'It is not that we have a short time to live, but that we waste a good deal of it.' Seneca wrote this near the beginning of 'On the Shortness of Life,' and spent the rest of the essay making the case with increasing specificity.
+
+His target was the person who says they do not have time — for philosophy, for genuine friendship, for the examination of their own life. Seneca thought this was almost always a lie, or at least a confusion. The person who says they do not have time is usually the person who has given their time to things that did not deserve it: to ambition that consumed years without producing anything they actually valued; to entertainment that filled hours without enriching them; to social obligations they did not choose and could not refuse because they had never decided what their time was for.
+
+He was particularly severe about the postponers — people who planned to begin living properly once the current pressure had passed. 'Men do not let anyone seize their estates, and if there is the slightest dispute about their boundaries they rush to stones and arms; but they allow others to trespass upon their life — why, they themselves even invite in those who will take over their lives.'
+
+His advice was not to be more productive. It was to treat time the way you would treat money if you were actually paying attention — to know where it was going, to stop giving it to things that offered no return, to be unwilling to spend it on what did not matter.
+
+The urgency in his writing is real. He was composing letters in his sixties, knowing the years remaining were fewer than the years spent. He was not preaching. He was testifying."""),
+
+    ("On the Unconquerable Soul", "William Ernest Henley",
+"""In 1875, William Ernest Henley was in Edinburgh Infirmary, recovering from surgery that had saved his remaining leg — the other had already been amputated below the knee due to tuberculosis of the bone. He was twenty-six years old, and he would spend almost two years in the hospital. During this time he wrote a series of poems. The most famous became known as Invictus.
+
+It is not a philosophical text in the ordinary sense — it is a poem, and a short one. But its argument is precise. 'I am the master of my fate: I am the captain of my soul.' This is not a claim about outcomes. Henley did not control whether his leg would heal, whether the tuberculosis would spread, whether he would survive. What he was claiming mastery of was his response — the inner life that circumstances could batter but could not determine.
+
+The Stoic resonance is unmistakable. Epictetus, who began life as a slave, made the same claim in different words: the one thing that can never be taken from you is your capacity to respond to your situation with dignity. The body can be chained; the will cannot, unless you surrender it.
+
+What makes the poem worth returning to is its honesty. It does not say the situation was easy. 'In the fell clutch of circumstance / I have not winced nor cried aloud.' This presupposes that wincing and crying aloud were possible, that the clutch was actually fell. The claim is not that nothing hurt. It is that nothing, in the end, had the final say.
+
+That is a different claim than optimism. It is closer to defiance — the refusal to let what happens to you determine what you are."""),
+
+    ("On Knowing Nothing", "Socrates",
+"""Socrates claimed, repeatedly and in public, to know nothing. This was not false modesty, and the Athenians who eventually killed him for it understood that it was not. It was a philosophical position — and a provocation.
+
+The Delphic Oracle had declared that no one was wiser than Socrates. He found this puzzling, because he knew he knew nothing. So he went and interviewed the men who were supposed to be wise — the politicians, the poets, the craftsmen — to find someone wiser than himself, and thereby disprove the Oracle.
+
+What he discovered was that the politicians thought they were wise but were not. The poets could produce beautiful things but could not explain how or why. The craftsmen genuinely knew their craft but mistook that knowledge for wisdom about everything else. In each case, the person he interviewed believed they knew things they did not actually know.
+
+The difference between them and Socrates was not knowledge. Neither they nor he knew the things they did not know. The difference was that Socrates knew he did not know them. His ignorance was self-aware. Theirs was not. And this difference — between ignorance that knows itself and ignorance that does not — was, in the Oracle's judgment, wisdom.
+
+The practical implication runs deeper than intellectual humility. The person who knows they do not know something is in a position to find out. The person who thinks they already know it is not. Socratic ignorance is not the end of inquiry but its necessary beginning. You cannot learn what you believe you already know."""),
+
+    ("On Habits", "William James",
+"""James's chapter on habit in 'The Principles of Psychology' is one of the most practically useful things ever written, and it was published in 1890. Almost nothing he said has been contradicted by subsequent research; much of it has been confirmed in detail.
+
+His central observation is that the nervous system is essentially a habit-forming machine. Every repeated experience leaves a physical trace, making the next repetition slightly easier and the eventual response increasingly automatic. This is how skills are learned, how character is formed, and also how it is deformed.
+
+'The hell to be endured hereafter, of which theology tells, is no worse than the hell we make for ourselves in this world by habitually fashioning our characters in the wrong way.' He meant this literally. The person who repeatedly chooses comfort over effort, dishonesty over truth, or reaction over reflection is building a character that will make those choices feel inevitable — and eventually they will be.
+
+The positive corollary is equally important. Every good choice made today makes the next good choice slightly easier. Every act of courage builds the capacity for courage. Every day of disciplined work trains the habit of discipline. The accumulation is slow and invisible, but it is real, and it is the only mechanism by which character actually changes.
+
+His practical advice was specific: begin immediately, allow no exceptions in the early stages of habit formation, seize every opportunity to act on your new behaviour, and keep the capacity for effort alive by making voluntary sacrifices even when no sacrifice is required.
+
+'Nothing is so fatiguing as the eternal hanging on of an uncompleted task.'"""),
+
+    ("On Authenticity", "Martin Heidegger",
+"""Heidegger's philosophy is notoriously difficult, but one of his central ideas is surprisingly accessible once you strip away the terminology. He thought that most people live what he called an inauthentic existence — not in the sense of being false or hypocritical, but in the sense of being absorbed in the anonymous 'they,' the general drift of how 'one' lives, without ever confronting the fact of their own specific existence.
+
+The 'they,' for Heidegger, is not a conspiracy or a social pressure. It is a mode of being — the comfortable default in which you do what people do, think what people think, value what people value, without the questions ever arising of what you specifically want, what you specifically think, what your specific life is for.
+
+What breaks this default open, he argued, is the confrontation with death — your own death, specifically. Not death in general, not the thought of mortality as an abstract fact, but the recognition that this particular existence, yours, will end, and that there is nothing in principle that prevents it ending now. This recognition, if genuinely faced rather than evaded, returns you to your own existence with a kind of urgency. What are you doing with this specific, limited, irreplaceable life?
+
+Authentic existence is not some heroic or exceptional state. It is simply the mode of living in which this question is actually present — in which you are, at some level, choosing your life rather than simply inhabiting it. Most people avoid the question because it is uncomfortable. Heidegger thought the avoidance was itself the problem, and that the discomfort was the beginning of what mattered."""),
+
+    ("On Gratitude", "Marcus Aurelius",
+"""There is a passage in the Meditations where Aurelius lists the people he is grateful to, and what he learned from each of them. His grandfather taught him gentleness and serenity. His father modesty and manliness. His great-grandfather the importance of education. His mother piety and generosity. From one teacher he learned endurance and freedom from passion; from another to endure hardship; from another the love of truth. The list goes on for pages.
+
+This is not false modesty. Aurelius was genuinely, specifically, and carefully grateful — and the specificity is the point. Gratitude that is vague, that says simply 'I am grateful for everything,' is not really gratitude. It is a sentiment. Real gratitude names what was given, by whom, and how it shaped you.
+
+The Stoic case for gratitude is not sentimental. It is rational. The person who recognises what they have received is accurately accounting for their situation. The person who does not, who acts as though everything they have is self-produced, is mistaken about their actual position. They are also more likely to be unhappy, because they measure their situation by what they lack rather than what they have.
+
+Aurelius also practised what the Stoics called the negative visualisation — the deliberate contemplation of what it would be like to not have what you have. To imagine your morning coffee without assuming it will be there. To notice your health by briefly imagining its absence. This is not morbidity; it is a technique for keeping gratitude alive against the numbness that familiarity produces.
+
+'When you arise in the morning, think of what a privilege it is to be alive — to breathe, to think, to enjoy, to love.'"""),
+
+    ("On Silence and Speech", "Epictetus",
+"""Epictetus spent a great deal of time on the question of when to speak and when to be silent — not because he thought silence was always better than speech, but because he thought the failure to observe the distinction was one of the most common sources of unnecessary trouble.
+
+His rule was simple: on most subjects, say nothing, or say only what is necessary. Avoid gossip about other people's affairs. Do not spend time discussing who is good and who is bad, who did what to whom. These conversations produce the illusion of intimacy without the substance, and they pull you into judgments about matters that are, ultimately, not your business and not in your control.
+
+He was also suspicious of public displays of philosophy. The person who announces their philosophical commitments in company and then talks about them at length is, in his view, usually performing philosophy rather than practising it. Real practice shows in behaviour, not in what you say about yourself. 'Never call yourself a philosopher, nor talk much with unlearned people about philosophical principles.'
+
+This applied to complaints as well. Epictetus had been enslaved. He had a lame leg — reportedly broken by his master as a demonstration of power. He had no money, no family, no legal standing. His recorded teachings contain almost no complaints about any of this. Not because he thought these things were fine, but because complaining about things that are not in your control is a waste of the attention that could go toward things that are.
+
+'Seek not the good in external things; seek it in yourself.' The silence this produces is not emptiness. It is the silence of someone who has reduced the noise to the signal."""),
+
+    ("On Nature and Civilisation", "Jean-Jacques Rousseau",
+"""Rousseau's most famous claim — that man is naturally good and has been corrupted by society — is usually quoted without the complication he attached to it. He was not saying that primitive life was paradise, or that we should return to it. He was making a more precise observation about what the development of social life had cost.
+
+Before civil society, he argued, human beings were solitary, self-sufficient, and without the capacity to compare themselves with others. They felt what they felt without the layer of social evaluation. They did not suffer from vanity, from status anxiety, from the constant measuring of themselves against their neighbours. These were not virtues they possessed; they were simply not yet in the conditions that produce these vices.
+
+Civil society brought the arts, the sciences, the comforts of civilisation — and also brought with it a form of dependence that Rousseau found deeply troubling. Not economic dependence alone, but psychological dependence: the need for others' opinions, the sense that your worth is determined by what others think of you, the loss of whatever direct, uncomplicated relationship with your own experience you might once have had.
+
+He was describing a real phenomenon. The capacity for social comparison — for knowing that someone else has more, is admired more, lives more visibly well — is genuinely connected to forms of misery that seem absent from social conditions in which comparison is more limited.
+
+His prescription was not to abandon society but to design it differently — to create conditions in which people could maintain a stronger connection with their own experience and values rather than being entirely at the mercy of public opinion."""),
+
+    ("On Wisdom", "Confucius",
+"""Near the end of the Analects, Confucius offers a brief autobiography that is one of the most concentrated passages in philosophical literature: 'At fifteen, I had my mind bent on learning. At thirty, I stood firm. At forty, I had no doubts. At fifty, I knew the decrees of Heaven. At sixty, my ear was an obedient organ for the reception of truth. At seventy, I could follow what my heart desired, without transgressing what was right.'
+
+He was describing not the accumulation of information but the progressive integration of understanding with character. Learning comes first — the earnest desire to understand. Standing firm comes next — the ability to hold convictions under pressure. Then the dissolution of doubt, not through certainty but through the development of judgment that no longer needs to be calculated. Then the deepening of that judgment into something that could be called wisdom — an understanding so thoroughly part of you that you can trust your own impulses.
+
+The final stage is the one most worth attending to. At seventy, he could follow his heart without transgressing what was right. Not because his heart had become perfectly virtuous in some abstract sense, but because decades of practice, reflection, and commitment had aligned what he naturally inclined toward with what was actually good.
+
+This is what virtue as a habit looks like at its fullest development. The gap between desire and right action has been closed not by will but by formation. The person does not have to choose between what they want and what is right, because they have become the kind of person who wants what is right.
+
+This does not happen quickly. It is the work of a lifetime, and Confucius said so honestly."""),
 ]
 
 # ── Weight logic ──────────────────────────────────────────────────────────────
