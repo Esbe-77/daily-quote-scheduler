@@ -311,6 +311,220 @@ He wrote about the retreat into yourself — not as a withdrawal from action but
 The gap between knowing what is right and doing what is right is not usually a gap in knowledge. It is a gap in the moment — the half-second between the stimulus and the response where habit and character actually live. Aurelius was trying to widen that gap, through writing, through practice, through the daily discipline of returning to the same questions.
 
 'Confine yourself to the present.' Not because the future does not matter, but because the present is where you actually are, and it is only here that anything can be done."""),
+
+    ("The Absurd", "Albert Camus",
+"""There is only one truly serious philosophical question, and that is suicide. Whether life is worth living — this is where Camus began, and the answer he arrived at was both defiant and joyful.
+
+His starting point was what he called the absurd: the collision between the human need for meaning and the universe's complete indifference to that need. We are creatures who demand that things make sense, that suffering have a purpose, that effort be rewarded. The universe offers none of this. It is silent, indifferent, and does not negotiate.
+
+Most people deal with this by what Camus called philosophical suicide — leaping into a belief system that explains away the collision. Religion, ideology, optimism about progress. These are all, in his view, evasions. They refuse the absurd rather than confronting it.
+
+His alternative was to live with it. To acknowledge fully that life offers no ultimate meaning, and then to live as richly and deliberately as possible anyway. Not in despair — despair would require the belief that meaning should exist and does not. But in revolt: a clear-eyed, defiant insistence on living fully despite the silence.
+
+He found his image for this in Sisyphus, condemned by the gods to roll a boulder up a hill forever, only to watch it roll back down. The myth is usually read as a picture of futile suffering. Camus read it differently. Sisyphus, descending the hill to begin again, is aware of his situation. He has no illusions. And in that awareness, Camus argued, lies a kind of freedom. His struggle is his own. His effort is real.
+
+'One must imagine Sisyphus happy.' This is not irony. It is the most demanding thing Camus ever said."""),
+
+    ("On Bad Faith", "Jean-Paul Sartre",
+"""Sartre's most uncomfortable idea was not that God does not exist. It was that the consequences of that absence fall entirely on us.
+
+If there is no God, there is no fixed human nature — no essence that precedes our existence and tells us what we should be. We arrive in the world first, and we define ourselves through what we choose. 'Existence precedes essence.' This sounds liberating. The weight of it, Sartre insisted, is enormous.
+
+Because if we define ourselves through our choices, we cannot blame our nature, our upbringing, or our circumstances for what we are. We are, at every moment, what we have chosen to be. And we are, at every moment, choosing.
+
+Bad faith is the strategy of pretending otherwise. The waiter who plays at being a waiter so completely that he forgets he chose the role. The man who says 'I have a violent temper' as though violence were a geological feature rather than a repeated choice. The woman who refuses a decision by allowing circumstances to decide, then pretends she had no choice.
+
+These are all ways of fleeing freedom — of pretending to be a thing rather than a person, a product of forces rather than a source of them.
+
+Sartre did not think bad faith was easily escaped. The temptation to be something solid and defined, rather than the anxious openness of genuine freedom, is very strong. But he thought the honest response to the human condition was to face it — to acknowledge that you are always choosing, always responsible, always the author of what you are becoming."""),
+
+    ("On Anxiety and Freedom", "Søren Kierkegaard",
+"""Anxiety, for Kierkegaard, is not a disease to be cured. It is the feeling that accompanies freedom, and it is inseparable from being genuinely human.
+
+He described it as the dizziness of freedom — the vertiginous sensation at the edge of possibility. When you stand before a genuine choice, one that actually matters, you feel it: the awareness that you could go one way or the other, that neither way is guaranteed, that you must choose and then live with what you chose. That feeling is anxiety, and it is not pathological. It is what freedom feels like from the inside.
+
+Most people spend their lives avoiding this feeling. They fill every hour, commit to every existing obligation, follow convention so closely that genuine choice never appears. They are, in his terms, living on the surface of experience — moving from sensation to sensation, never arriving anywhere that requires them to be someone.
+
+The move he called for was inward — a willingness to face your own anxiety rather than escape it, to acknowledge that you are a self that must be built rather than a role that can be played. This is what he meant by the leap: not blind faith, but the willingness to commit, to choose, to take responsibility for a direction when no certainty is available.
+
+The alternative — living entirely within convention, following the crowd, never choosing in any deep sense — he called the despair of not being oneself. It is the most common form of despair, he thought, precisely because it does not feel like despair. It feels like security.
+
+What Kierkegaard wanted people to feel was the weight of their own existence. Not to crush them, but to wake them up."""),
+
+    ("On Learning and Character", "Confucius",
+"""Confucius spent most of his life failing, by conventional measures. He held official positions, lost them, wandered from state to state offering counsel to rulers who mostly ignored him, and died without seeing his ideas implemented. His success was posthumous, and vast.
+
+What he was trying to build, in the small community of students who did follow him, was a specific kind of person: the junzi — the superior man. Not superior by birth or position, but by character — by the quality of attention, care, and effort brought to every relationship and every responsibility.
+
+The core of his teaching was that character is formed through practice, and practice begins with attention. Pay attention to how you treat the people immediately around you. The quality of your relationships with your family is the foundation of the quality of your relationships with everything else. Get that right first.
+
+He was suspicious of people who could speak movingly about virtue without embodying it in ordinary conduct. 'Fine words and an insinuating appearance are seldom associated with true virtue.' The test was not what you said but what you did — not in large, visible moments, but in the daily texture of how you treated people who had nothing to give you.
+
+Learning, for Confucius, was not the accumulation of information. It was the progressive refinement of perception and response — becoming someone who could see what each situation actually required and who had built the habits to respond appropriately. This required constant reflection: examining yourself daily on whether you had been faithful in your dealings, sincere with your friends, and diligent in what you had been taught.
+
+The examination was the practice."""),
+
+    ("On the Way", "Laozi",
+"""The Tao Te Ching is eighty-one short chapters, and most of them concern the same thing: the difference between forcing and allowing.
+
+Laozi's central insight is that the world has its own nature, its own tendency, its own way of unfolding. When you work with that nature rather than against it, everything becomes possible and effort becomes effortless. When you work against it — insisting that things be other than they are, forcing outcomes that the situation is not ready to produce — you generate resistance, friction, and eventual exhaustion.
+
+He called this principle wu wei — often translated as non-action, but better understood as non-forcing. Not passivity, but action that is in harmony with circumstances rather than in opposition to them. The most skilled craftsman does not fight his material; he understands it so well that working with it looks easy.
+
+Water is his recurring image. Water is the softest thing in the world, and it wears away rock. It does not fight the rock — it simply keeps moving, and it finds every available path. It always goes lower, seeking the humble place, and nothing can stop it in the long run.
+
+The practical implication is a suspicion of urgency, of striving, of the insistence on controlling outcomes. Not because outcomes do not matter, but because desperate grasping often produces the opposite of what is wanted. The plant grows better when you stop pulling it upward.
+
+'Do you have the patience to wait until the mud settles and the water is clear?' That is not a passive question. It is one of the most demanding questions in philosophy."""),
+
+    ("On Suffering and Liberation", "The Buddha",
+"""The first teaching the Buddha gave after his enlightenment was the most compressed and most demanding: life involves suffering; suffering has a cause; the cause can be ended; there is a path that ends it.
+
+He was not being pessimistic. He was being precise. The word he used, dukkha, covers more than suffering — dissatisfaction, the sense that things are slightly off, the low-level discomfort of impermanence that runs beneath even pleasant experience. The observation was not that life is terrible but that it is fundamentally unsettled, and that we spend enormous energy pretending otherwise.
+
+The cause he identified was craving — thirst. Not just the obvious desires for things we want and do not have, but the subtler grasping at experiences, the clinging to what is pleasant, the aversion to what is unpleasant. The self that is doing the grasping is itself part of the problem — it is not a fixed thing that has desires; it is, in part, constituted by them.
+
+This does not mean the goal is extinction or joylessness. The path he described covers right understanding, right intention, right speech, right action, right livelihood, right effort, right mindfulness, right concentration. These are not rules imposed from outside but descriptions of how a person who has seen clearly tends to live.
+
+What liberation looks like from inside, he was reluctant to describe — not because it is unknowable but because any description risks becoming another object to grasp at. The direction, though, is clear: toward less clinging, less reactivity, more presence, more compassion. Not away from the world, but more fully in it."""),
+
+    ("On Meaning", "Viktor Frankl",
+"""Viktor Frankl survived Auschwitz, Dachau, and two other concentration camps. He was a psychiatrist before the war and became one after it. What he discovered was the basis for logotherapy — the idea that the search for meaning is the primary motivation in human life.
+
+He watched men die in the camps, and he watched men survive conditions that should have killed them. The difference, he came to believe, was not physical strength alone. It was whether a person had something to live for — a future self they could imagine, a task they felt called to complete, a person they needed to return to. Those who could locate meaning had a resource the others did not.
+
+'He who has a why to live can bear almost any how.' He quoted Nietzsche, and he meant it literally. The suffering did not diminish; the conditions did not improve. What changed was the relationship to the suffering. When it had a context — when it could be seen as a test, a sacrifice, a means to some future end — it could be endured. When it was simply pointless, it destroyed people.
+
+His conclusion was both urgent and practical: do not wait for meaning to present itself. Ask what life is demanding of you. The question is not what you expect from life but what life expects from you, in this situation, right now. The answer may be very small — to comfort someone nearby, to do this piece of work with care, to simply endure with dignity. It does not need to be large to be real.
+
+He also insisted that meaning is found, not manufactured. You cannot decide that something is meaningful and make it so by force of will. You discover it by paying honest attention to what actually calls to you."""),
+
+    ("On Idle Curiosity", "Bertrand Russell",
+"""Russell argued against a culture that had made busyness a moral virtue. The man who never stops working is admired; the man who spends an afternoon following an idea wherever it leads, reading something with no practical application, simply thinking — he is suspected of laziness. Russell thought this exactly backwards.
+
+The things that have most changed human life, he argued, have rarely come from people working efficiently toward known ends. They have come from people pursuing curiosity without a predetermined destination. The history of science is largely the history of inquiries that seemed useless at the time. Pure mathematics, pursued for centuries with no practical goal, turned out to underlie all of modern physics.
+
+But his deeper point was not about scientific progress. It was about what kind of person the capacity for idle curiosity makes you. The person who can be genuinely interested in something that does not concern their immediate situation has a wider relationship with the world. They are less trapped in their own preoccupations. They are better company. They are less likely to be fooled by simple answers, because they have spent time with complex ones.
+
+He thought the goal of education was not to produce people who could perform useful tasks, but people who had genuine interests — who were pulled toward ideas and questions for their own sake, and who had the capacity to follow that pull without needing it to pay off immediately.
+
+'The good life is one inspired by love and guided by knowledge.' The knowledge he had in mind was not credentials or information. It was the kind of understanding that comes from sustained, disinterested attention — the attention that curiosity makes possible."""),
+
+    ("On Moral Duty", "Immanuel Kant",
+"""Kant thought that most ethical thinking was confused because it started in the wrong place. Consequentialists ask about outcomes. Virtue ethicists ask about character. Kant thought both were asking the wrong question. The right question was: what can I will as a universal law?
+
+His categorical imperative is actually very practical. When you are tempted to lie because it is convenient, to break a promise because keeping it is difficult, ask: what if everyone did this? Not just occasionally, but as a universal principle? If the practice becomes self-defeating or unjust at universal scale, you should not do it. The principle is not about consequences — it is about consistency.
+
+He also insisted on something simpler and more demanding: treat people always as ends in themselves, never merely as means. This is not an instruction to be nice. It is an instruction to recognise the full humanity of every person you deal with — their capacity for reason, their own projects and purposes, their right to make their own decisions. To use someone purely for your own ends, without regard for their interests or consent, is to treat them as a tool rather than a person.
+
+What makes Kantian ethics difficult is that it allows no exceptions. The duty to tell the truth, in his account, holds even when lying would produce better outcomes. Most people cannot accept this, and many philosophers agree. But the rigour is the point — Kant was trying to describe what morality actually demands, not what is convenient.
+
+'Act only according to that maxim by which you can at the same time will that it should become a universal law.' Simple to state. Very difficult to live by."""),
+
+    ("On Reason and Passion", "David Hume",
+"""Hume made a claim so radical that it still provokes: reason is, and ought only to be, the slave of the passions.
+
+He meant this precisely. Reason, by itself, can only tell us what is true — what the world is like, what causes what, what consequences follow from what actions. It cannot, by itself, tell us what to want or what to do. For that, you need desire, feeling, care. Reason without passion has no direction. It can compute the most efficient route to any destination but cannot choose the destination.
+
+This sounds like an argument for being driven by emotion. Hume did not mean that. He thought the emotions that typically drove people — vanity, fear, greed, short-term pleasure-seeking — were often unreliable guides. What he was saying was that even the most careful, rational person is ultimately moved by caring about something. The philosopher who values truth is still valuing something; reason did not produce that valuing.
+
+He was also one of the first philosophers to take seriously the question of moral psychology — not just what we should value, but why we value what we value, how sympathy works, how we come to care about people beyond our immediate circle. His answer was that sympathy — the capacity to imaginatively inhabit another's perspective — is the foundation of moral concern.
+
+The implication he drew was modest and important: rather than pretending our ethical reasoning is purely rational, we should understand its emotional roots — and try to cultivate the right emotions, the ones that lead to genuine concern for others rather than mere concern for appearance."""),
+
+    ("On Method and Doubt", "René Descartes",
+"""Descartes decided, at some point in his thirties, to doubt everything he had ever been told. Not as a permanent state, but as a method. He wanted to find something he could know with absolute certainty, and the only way to find it was to strip away everything that could possibly be doubted.
+
+What can you doubt? The evidence of your senses — they deceive you regularly. The external world — perhaps everything you perceive is a dream. Mathematics — even simple arithmetic might be the product of a deceiving demon arranging your mind. He doubted everything he could doubt, methodically, and found one thing he could not doubt: that he was doubting. The very act of doubting presupposed a doubter. 'I think, therefore I am.'
+
+This is not just a clever argument. It established the thinking subject as the foundation of knowledge — consciousness, mind, the inner life — as the one thing that could not be dissolved by sceptical doubt. Everything else had to be rebuilt on this basis.
+
+The method itself is perhaps more useful than the specific result. When you want to know what you actually believe versus what you have simply absorbed, the Cartesian move is to ask: can I doubt this? What would it take to show this false? What remains when I strip away the claims I cannot verify?
+
+Most people never run this procedure on their most important beliefs. They have inherited positions on politics, morality, religion, and human nature from their culture and upbringing, and have never examined them. Descartes thought systematic doubt was the beginning of intellectual honesty, and he was right."""),
+
+    ("On Freedom and Necessity", "Baruch Spinoza",
+"""Spinoza's Ethics is one of the most unusual books in Western philosophy: written in the form of a geometry textbook, with definitions, axioms, propositions, and proofs. The subject is how to be free.
+
+His argument begins with determinism. Everything that happens, happens necessarily — according to the laws of nature. Human beings are no exception. Your thoughts, your desires, your choices — all follow necessarily from prior causes. In one sense, you have no free will.
+
+But Spinoza thought this conclusion was liberating rather than defeating, because he had a different idea of what freedom means. Freedom is not the absence of causation — nothing is free from causation. Freedom is acting from your own nature rather than from external compulsion. A free action is one that flows from your own understanding rather than from passion or ignorance.
+
+Passion, in his account, is what happens when you are moved by causes you do not understand — when you are angry without knowing why, fearful of things that are not actually threatening, driven by desires you cannot explain. The remedy is not to suppress these passions but to understand them. When you truly understand why you feel what you feel, the feeling changes character. It loses its compulsive quality.
+
+The highest good, for Spinoza, was what he called the intellectual love of God — the contemplative understanding of the whole, of which you are a part. This is not a religious sentiment but a philosophical one: the peace that comes from understanding your place in the necessary unfolding of things, and accepting it without either resistance or resentment."""),
+
+    ("On Anger", "Marcus Aurelius",
+"""Of all the subjects Marcus Aurelius returns to in the Meditations, anger gets the most attention. He was an emperor surrounded constantly by incompetence, ingratitude, and bad faith. He was also committed, by philosophy and temperament, to not being controlled by any of it.
+
+His analysis of anger is precise. When someone wrongs you or behaves badly, you have two choices: you can be angry, or you can be useful. Anger does not repair the wrong. It does not improve the person who behaved badly. It does not make you more capable of responding well. It consumes your attention, distorts your judgment, and leaves you exhausted. The only person it reliably harms is you.
+
+He did not mean that wrongs should be ignored or injustice passively accepted. He was an active ruler who made decisions about justice daily. The point was about the internal state in which those decisions are made. You can act firmly, clearly, even forcefully, without being driven by anger. In fact, you act better without it — more clearly, with better judgment about what the situation actually requires.
+
+He returned again and again to the people who most provoked him, and asked himself to understand them. Not to excuse them, but to understand them. 'When you wake up in the morning, tell yourself: the people I deal with today will be meddling, ungrateful, arrogant, dishonest, jealous and surly.' Not as a counsel of despair, but as a preparation. You will encounter these people. You will be less surprised and more useful if you have anticipated them.
+
+The goal was not serenity for its own sake but clarity in action."""),
+
+    ("On Anger", "Seneca",
+"""Seneca wrote an entire book on anger — De Ira — and it is probably the most practically useful thing he produced. His opening observation is blunt: no passion is more eager for revenge, more capable of violence, and more terrible in its effects; yet none more shameful in its cause.
+
+He was interested in what anger actually is. It begins with an injury — real or imagined — followed immediately by an evaluation: this was unjust, this was deliberate, this deserves a response. The anger is not the injury; it is the interpretation applied to the injury. And interpretations can be examined.
+
+Most of what makes people angry, he observed, is not actually as bad as it feels in the moment. The delay that seemed deliberate was an accident. The slight that seemed intentional was carelessness. The refusal that felt like contempt was simply someone else's limitation. None of this means the anger was wrong to feel. But whether you act from the anger, and how, is chosen.
+
+His practical recommendations are simple. First: delay. 'The greatest remedy for anger is delay.' The initial intensity decreases rapidly if you do not feed it. Most things that seem intolerable in the first five minutes look different after an hour.
+
+Second: perspective. Place the incident in context. How large is this, really, against the scale of your life? How will it feel in a year?
+
+Third: self-examination. Before blaming others, ask whether your own conduct has ever been comparable to what you are blaming them for. 'Let us be more gentle in our assessments; we are bad men who correct bad men.' That is not an instruction to excuse wrongdoing. It is an instruction to correct it without contempt."""),
+
+    ("On Progress", "Epictetus",
+"""'If you wish to make progress, be content to seem foolish and stupid about externals.'
+
+He was describing what it actually costs to change. Most people want improvement — they want to be calmer, wiser, less reactive, more consistent. What they do not want is the period of awkwardness between the old self and the new one. They do not want to look uncertain when they used to look confident. They do not want to lose arguments they used to win by force of will.
+
+But this period of looking foolish is not avoidable. The man who is genuinely becoming less angry will, for a time, simply not respond in situations that used to produce a response. He will seem passive or slow. The woman who is genuinely becoming less concerned with others' opinions will, for a time, not perform the usual social rituals. She will seem cold or indifferent.
+
+Progress is not a smooth upward curve. It is a series of retreats from the old identity before the new one is fully formed. In that in-between space, you are genuinely neither — not who you were, not yet who you are becoming. This is uncomfortable, and most people retreat back into the familiar pattern.
+
+Epictetus thought the test of genuine commitment to change was whether you could tolerate this period — whether you cared more about actually becoming someone different than about appearing consistent. He was suspicious of people who talked about philosophy publicly while remaining privately unchanged. The point of philosophy was not to have interesting opinions. It was to behave differently as a result of thinking more clearly.
+
+'Never call yourself a philosopher. Just do what follows from what you believe.'"""),
+
+    ("On Purpose", "Marcus Aurelius",
+"""'Ask yourself at every moment: is this necessary?'
+
+It sounds like a question about efficiency. Aurelius meant something deeper — a question about purpose. Is what you are doing, thinking, or feeling in service of something that actually matters to you, or is it simply habit, obligation, or distraction?
+
+He applied the question to thought as much as to action. There is a kind of mental activity — rehearsing old grievances, imagining disasters that may never come, working out clever things to say to people who have annoyed you — that is constant but purposeless. It consumes attention without producing anything. Asking 'is this necessary?' in the middle of this kind of thinking is the equivalent of finding that you are walking in circles and stopping.
+
+The companion question was: 'What does this situation actually require?' Not what he wanted to do, not what would be easiest or most comfortable, but what the situation genuinely called for. His role as emperor, as father, as friend — each had requirements, and his job was to meet them clearly and without unnecessary elaboration.
+
+He was not advocating narrowness or joylessness. He read widely, studied philosophy, engaged with people from every background. His question was not 'is this productive?' but 'is this mine?' — is this arising from genuine care, genuine curiosity, genuine necessity, or is it simply filling space?
+
+He did not always succeed. The Meditations are full of the gap between aspiration and performance. But the aspiration itself was clear: a life that was intentional rather than reactive, purposeful rather than drifting, answerable to something real rather than merely responsive to whatever had most recently demanded attention."""),
+
+    ("On Perspective", "Zhuangzi",
+"""Zhuangzi told a story about a cook who had such mastery of his craft that when he cut up an ox, his knife never dulled. He did not hack through joints; he found the spaces between them, guided by understanding rather than force. The prince who watched him thought he was watching a performance. The cook said: I am simply following the Tao.
+
+Zhuangzi used stories where other philosophers used arguments, and the stories often work on several levels simultaneously. On the surface, the cook is an example of skill. Deeper down, he is an example of a mind that has stopped imposing its own grid on reality and has learned to perceive what is actually there.
+
+His most persistent theme was the relativity of perspective. What looks large from one angle looks small from another. What seems important in one frame seems trivial in the next. The mushroom that lives for a single morning has no conception of seasons. The chrysalis that lives a season has no conception of years. Their ignorance is not deficient; it is simply a different vantage point.
+
+This is not relativism — the view that no perspective is better than any other. It is an argument for holding your own perspective lightly, for recognising that your current frame of reference is not the only possible one, and that reality is usually larger and stranger than whatever framework you are currently using.
+
+The practical implication is something like humility in perception — a willingness to be surprised, to revise, to find that what seemed useless is actually valuable and what seemed essential is actually optional. 'Uselessness is useful.' The tree that is too gnarled to be lumber lives for a thousand years. The question is always: useful to what, on what timescale, from whose vantage point?"""),
+
+    ("On Liberty", "John Stuart Mill",
+"""Mill's central argument in On Liberty is simple and radical: the only legitimate reason for society to limit the freedom of any individual is to prevent harm to others. Not to protect their own good. Not to enforce majority opinion about how people should live. Not to preserve tradition. Only harm to others.
+
+He was writing against two things: the tyranny of governments, and what he called the tyranny of prevailing opinion — the pressure that society exerts on individuals to conform, to think and behave like everyone else, to avoid eccentricity even when it harms no one. He thought this second tyranny was more dangerous than the first, because it operated silently, inside people's heads.
+
+His argument for tolerance of diverse ways of living was not moral relativism. He thought people are the best judges of their own good — they understand their own situation and values better than any observer can. And he thought human progress depends on variety and experiment. If everyone is forced to live the same way, society loses the experiments that might have discovered better ways.
+
+He also made an argument specifically about free speech that remains urgent: the silenced opinion might be true. Even if it is not, the process of engaging with it — of having to defend the prevailing view rather than simply assuming it — is how understanding deepens. An opinion that has never been challenged is held mechanically, as a dead dogma, not as a living truth.
+
+'He who knows only his own side of the case knows little of that.' The value of hearing the strongest version of the opposing view is not just tolerance — it is epistemic. It is how you avoid being wrong without knowing you are wrong."""),
 ]
 
 # ── Weight logic ──────────────────────────────────────────────────────────────
