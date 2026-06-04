@@ -525,6 +525,129 @@ His argument for tolerance of diverse ways of living was not moral relativism. H
 He also made an argument specifically about free speech that remains urgent: the silenced opinion might be true. Even if it is not, the process of engaging with it — of having to defend the prevailing view rather than simply assuming it — is how understanding deepens. An opinion that has never been challenged is held mechanically, as a dead dogma, not as a living truth.
 
 'He who knows only his own side of the case knows little of that.' The value of hearing the strongest version of the opposing view is not just tolerance — it is epistemic. It is how you avoid being wrong without knowing you are wrong."""),
+
+    ("On Pragmatism", "William James",
+"""William James invented pragmatism as a method for settling metaphysical disputes, and his insight was deceptively simple: if two propositions lead to exactly the same practical consequences, they have exactly the same meaning. A difference that makes no difference is no difference at all.
+
+Applied to ideas more broadly, pragmatism says: the truth of a belief is not a fixed property it has independent of us, but something that happens to it — a belief is true insofar as it helps us navigate the world, make useful predictions, and live better. This sounds like it makes truth arbitrary. James insisted it did not. The test is not whether a belief makes you feel good but whether it actually works — whether it survives contact with experience, whether it holds up under pressure.
+
+He was particularly interested in the psychology of belief — how we form beliefs, why we hold on to them, what it would take to change them. His observation was that most people do not reason their way to beliefs; they begin with a conviction and then find reasons for it. The reasons feel like causes but are usually justifications after the fact.
+
+The practical implication was to be suspicious of the conviction that comes too easily, that has no memory of the process by which it arrived. Real beliefs should be able to tell you something about how they would be falsified — what it would take to prove them wrong. If a belief cannot answer that question, it is probably not a belief at all but a preference masquerading as one.
+
+'Act as if what you do makes a difference. It does.' This is not naive optimism. It is the pragmatist's response to paralysis: the question of whether your action matters is itself answered by acting."""),
+
+    ("On Epicurean Pleasure", "Epicurus",
+"""Epicurus is routinely misunderstood. His name has become synonymous with luxury and sensual indulgence — 'epicurean' now means someone who enjoys fine food and wine. The real Epicurus lived on bread, olives, and water, and thought this was living well.
+
+His philosophy was about pleasure, but he distinguished between two kinds. Kinetic pleasures are the active pleasures of desire being satisfied — eating when hungry, drinking when thirsty, pursuing and obtaining what you want. These are real pleasures, but they are inherently unstable. Desire, once satisfied, is replaced by new desire. The pleasure is inseparable from the prior lack.
+
+Katastematic pleasures are different — they are the stable pleasures of a state of contentment. Not the satisfaction of a desire, but the absence of pain and anxiety. Ataraxia: tranquility, equanimity, the condition of a person who wants what they have rather than chasing what they do not. This was, for Epicurus, the highest pleasure available to a human being.
+
+The practical implications were radical. Stop pursuing things you do not need. Examine which of your desires are natural and necessary, which are natural but unnecessary, and which are neither. The first category is small: enough food, safety, friendship, some shelter from the elements. Everything beyond this is a trap — it produces the anxiety of wanting it, the risk of losing it, and the disappointment of discovering it did not satisfy as much as expected.
+
+He also insisted on friendship as essential. 'Of all the things that wisdom provides for living one's whole life in happiness, the greatest by far is the possession of friendship.' Not a decorative addition to life but a central necessity."""),
+
+    ("On Freedom from Convention", "Diogenes",
+"""Diogenes of Sinope was thrown out of his home city for defacing the coinage — literally, stamping false currency. He spent the rest of his life defacing figurative currency: the conventions, pretensions, and social performances that pass for respectability.
+
+He slept in a large ceramic jar. He ate in the marketplace, which was considered obscene. When Alexander the Great came to visit him and asked if there was anything he needed, Diogenes said: yes, stand out of my sunlight. He saw no reason to treat power with reverence it had not earned.
+
+His philosophy was called cynicism — from the Greek word for dog — because he and his followers lived with what they considered the simplicity and honesty of animals, without the elaborate social performances of human beings. The dog does not pretend to be better than it is. The dog does not perform wealth or status. The dog does what it does and sleeps when it sleeps.
+
+He was not advocating for actual animal life. He was using the dog as a provocation — a way of asking which human conventions are genuinely valuable and which are merely performances of value. The toga that marks you as respectable. The titles that must be used. The places where certain things may or may not be said or done.
+
+Diogenes thought most of these conventions were forms of slavery — that people accepted enormous constraints on their behaviour in exchange for social approval that was itself worth very little. His freedom was the freedom of someone who has genuinely stopped caring what others think, because he had examined the matter and decided their opinions were not worth the price of their approval.
+
+He was extreme. He was also, occasionally, correct."""),
+
+    ("On Friendship", "Aristotle",
+"""Aristotle devoted more pages of the Nicomachean Ethics to friendship than to any other single topic. He thought it was not a decoration on the good life but a constituent of it — you cannot live well without genuine friends.
+
+He distinguished three kinds. Friendships of utility exist because each party gets something useful from the other — business relationships, convenient acquaintances, people we like because they are helpful. Friendships of pleasure exist because each party enjoys the other's company — the fun of spending time together, shared interests, good humour. Both of these kinds of friendship are real, but they are contingent. The friendship lasts as long as the utility or the pleasure does.
+
+The third kind — friendship of character, or complete friendship — is rarer and more demanding. It is the friendship between people who admire each other's virtue, who wish each other well for the other's own sake, who are engaged in something like a long-running conversation about how to live well. This kind of friendship survives the removal of all benefits, because the benefit was never the point.
+
+He also thought that genuine self-knowledge was almost impossible without this kind of friend. We are not good judges of our own character — we tend to think better of ourselves than we deserve, to miss our own blind spots, to mistake our weaknesses for strengths. A real friend who knows you well and wishes you well is one of the few sources of honest feedback that actually reaches you.
+
+This is why the person who has many acquaintances and no real friends is, in Aristotle's view, in a worse epistemic position than they know. They have lost the main mechanism by which character is examined and refined."""),
+
+    ("On Love", "Plato",
+"""In Plato's Symposium, a series of characters give speeches in praise of love, each from a different angle. The most famous is Aristophanes' myth: that human beings were originally spherical creatures with four arms, four legs, and two faces, and that the gods split them in half. Love is the search for the other half, the longing to be complete.
+
+Socrates, in his speech, says he learned about love from a priestess named Diotima — and what she told him was more demanding. Love, she said, is not the possession of beauty but the desire for it. A person who is beautiful does not love beauty; a person who has wisdom does not seek wisdom. It is the lack that drives the seeking.
+
+But she went further. The lover begins by loving a beautiful body. A more advanced lover recognises that the beauty in one body is kin to the beauty in all bodies, and begins to love beauty more generally. A still more advanced lover recognises that the beauty of souls is greater than the beauty of bodies, and begins to love beautiful minds and characters. Eventually — and this is the culmination of her argument — the lover catches a glimpse of beauty itself, not in any particular body or mind, but the form of beauty, pure and unchanging.
+
+Whether you accept this metaphysical structure or not, the movement it describes is real: from the particular to the general, from the specific to the principle, from the beloved person to the thing that made them loveable. What begins as attachment becomes, at its furthest reach, something like philosophical wonder.
+
+Love, for Plato, is not just an emotion. It is an epistemological engine."""),
+
+    ("On Death", "Socrates",
+"""When the jury sentenced Socrates to death, he delivered what is arguably the most extraordinary response to a death sentence in recorded history. He did not beg. He did not recant. He said, essentially: you have freed me.
+
+His argument was characteristically precise. Death is one of two things: either an endless dreamless sleep — in which case it is nothing to fear, since we do not suffer from the nights in which we do not dream — or a journey to another place, where the souls of all who have died have gone before. If the latter, then what an extraordinary opportunity: to finally meet Homer, Hesiod, the heroes of Troy, all the great thinkers and poets, and to spend eternity in conversation with them about what actually matters.
+
+Either way, he could not see the harm. The worst they could do to him, it turned out, was to accelerate something that was going to happen anyway, and save him from the difficulties of old age.
+
+He was not performing courage. He genuinely believed that the care of the soul was the only thing worth spending a life on, and that a philosopher who had done this had nothing to fear in death. The fear of death, he thought, was a kind of pretending to know something you do not know — assuming that death is bad without any actual knowledge of what it is.
+
+The last thing he said, as the hemlock took effect, was a request that a friend sacrifice a rooster to Asclepius, the god of medicine. It was the conventional offering made when someone recovered from a disease. He was indicating that death, for him, was a cure."""),
+
+    ("On Civil Disobedience", "Henry David Thoreau",
+"""In 1846, Thoreau spent a night in jail rather than pay his poll tax to a government that supported slavery and was conducting a war he considered unjust. It was a single night — a friend paid the tax on his behalf — but the experience produced one of the most influential political essays in American history.
+
+His argument was direct: when a government enacts unjust laws, the obligation of a just person is not to wait for the political process to correct them. It is to refuse to comply with them, immediately, regardless of consequence. 'Under a government which imprisons any unjustly, the true place for a just man is also a prison.'
+
+He was suspicious of people who agreed with him in principle but did not act. They voted against slavery; they wrote letters; they signed petitions. Meanwhile, they paid their taxes and kept the machine running. The man who votes correctly but whose life and money continues to support the wrong is still, in effect, supporting it. Good intentions without changed behaviour are not enough.
+
+What he was describing was a politics of personal integrity — the insistence that the state's authority over you ends where your conscience begins. This is not a comfortable position. It requires actually bearing the costs of disagreement rather than merely performing disagreement.
+
+His essay influenced Gandhi's development of satyagraha, and through Gandhi it influenced the American civil rights movement. Martin Luther King read Thoreau as a student. The argument is still active, still demanding the same question: at what point is compliance complicity?"""),
+
+    ("On Nature", "Ralph Waldo Emerson",
+"""Emerson's first book was called Nature, and it began a tradition of American thought that tried to find in the natural world something that organised religion no longer provided: a direct encounter with the divine.
+
+His central claim was that nature is not merely backdrop — the scenery behind human drama — but a living symbol of something larger. Every natural fact, he thought, is a symbol of some spiritual fact. The structure of a tree, the motion of a river, the fact of seasons — these are not just physical events but expressions of laws that also govern human life and thought.
+
+He was partly arguing against a kind of urban self-enclosure — the tendency of modern life to cut itself off from the natural world entirely and to become entirely absorbed in human affairs. This produced, he thought, a diminishment. People who never spent time in genuine nature were missing a recalibration available nowhere else.
+
+But his deeper argument was about receptivity. The experience of nature — if you are actually paying attention, if you have allowed yourself to be quiet enough to receive it — can produce what he called an 'original relation to the universe.' Not a relation mediated by tradition, education, or doctrine, but a direct one. This was what he meant by the transparent eyeball: the moment in which the self seems to dissolve and you are simply part of the whole, seeing through you rather than being seen by you.
+
+You do not need to share his metaphysics to recognise what he is pointing at. There is something available in genuine attention to the natural world that is not available anywhere else, and most of us are not getting enough of it."""),
+
+    ("On Eternal Recurrence", "Friedrich Nietzsche",
+"""The strangest idea Nietzsche ever had was also his most personal: the eternal recurrence. Suppose, he wrote, that you will live this life again — not a different life but this exact one, with every pleasure and every pain, every joy and every humiliation, repeated endlessly. Could you affirm it? Would you want it?
+
+He introduced it as a thought experiment, not a cosmological claim. He was not seriously arguing that physics would produce an infinite repetition of identical universes. He was using the thought experiment as a test — a way of asking how you feel about your life, stripped of the comfort that it will eventually end.
+
+Most people get through their lives by reassuring themselves that things will be different. The bad parts will pass. Someday they will be in a better situation, a better mood, a better relationship. The eternal recurrence removes this reassurance. If every moment returns infinitely, the question is whether you can say yes to each one — including the ones you hate, including the ones that have been taken from you, including the ones that have broken you.
+
+The person who could sincerely say yes — who could embrace the eternal recurrence of their own life — would be someone who had achieved what Nietzsche called amor fati: the love of fate. Not resignation to fate, not mere acceptance, but genuine love — the kind that does not wish anything had been otherwise, because you understand that everything that happened is part of what made you who you are.
+
+This is a very high standard. Nietzsche knew that. He also knew that the alternative — the life lived half-heartedly, in perpetual postponement — was a much worse kind of failure."""),
+
+    ("On Happiness", "Bertrand Russell",
+"""Russell's 'Conquest of Happiness' is unusual among philosophical treatments of its subject because it is relentlessly practical. He was not interested in defining happiness or locating its ultimate ground. He wanted to know what actually makes people miserable, and what can be done about it.
+
+His diagnosis of unhappiness is specific. Excessive self-preoccupation is at the top of his list — the habit of turning inward and examining your own thoughts and feelings with too much attention, too much anxiety about whether they are correct, too much concern with how you appear to yourself. This is the condition he called 'the disease of self.' The person in its grip spends enormous energy on internal accounting that produces diminishing returns.
+
+His remedy is equally specific: get genuinely interested in something outside yourself. Not as a technique for feeling better, but as a genuine reorientation. The person who is absorbed in a problem — scientific, artistic, political, personal — is not performing interest as a cure for misery. They have simply found something that matters more than their own mood.
+
+He also wrote about the importance of what he called 'impersonal interests' — things you care about that are not about you at all. History, mathematics, astronomy, music, the lives of people you will never meet. These provide what he called a refuge from the self, a way of being connected to something that will persist long after your personal concerns have resolved or dissolved.
+
+'The good life,' he concluded, 'is one inspired by love and guided by knowledge.' Love expands the self; knowledge situates it. Together they make possible a kind of happiness that does not depend on circumstances being particularly favourable."""),
+
+    ("On Service", "Marcus Aurelius",
+"""There is a particular passage in the Meditations that does not get enough attention. Aurelius writes that when you wake up in the morning and find it difficult to get up, you should say to yourself: 'I am rising to the work of a human being. Why should I complain of my nature if it is the nature of a human being to do his work?'
+
+He was an emperor who found it difficult to get out of bed. This is, in some ways, the most human thing about him. The point is what he did with it: not self-recrimination, not elaborate motivation techniques, but a simple appeal to function. This is what you are here to do. Do it.
+
+His Stoic framework held that human beings have a natural function — the same way a hand has a function, or an eye. The function of a human being is rational action in community with other human beings. To fulfil this function is to live well; to fail at it is to live poorly, regardless of how comfortable the failure is.
+
+Service, in this account, is not a sacrifice that the virtuous person makes. It is the natural expression of what a human being is for. The person who retreats entirely from the world and its demands has not achieved freedom — they have simply failed to be fully human.
+
+He also made the practical point that service done with resentment is worse than useless. If you are going to act for others — as emperor, as father, as friend — the quality of the action depends on the quality of the attention behind it. Do it fully, or do not do it."""),
 ]
 
 # ── Weight logic ──────────────────────────────────────────────────────────────
