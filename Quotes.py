@@ -122,8 +122,33 @@ def fetch_rss(feeds, n=3):
 finance_news = fetch_rss(FINANCE_FEEDS, 3)
 tech_news    = fetch_rss(TECH_FEEDS,    3)
 
-# ── Pick today's essay ────────────────────────────────────────────────────────
+# ── Chess lessons (rotated daily) ────────────────────────────────────────────
+CHESS_LESSONS = [
+    ("Control the Centre",        "Your first priority in any game. Place pawns on e4/d4 (or e5/d5 as Black) and develop pieces toward the middle. A piece in the centre controls more squares than one on the edge."),
+    ("Develop Every Piece",       "Get your knights and bishops off the back rank before you start attacking. A rule of thumb: don't move the same piece twice in the opening unless you have to. Every undeveloped piece is a wasted turn."),
+    ("King Safety — Castle Early","After developing your minor pieces, castle. Your king is a liability in the centre during the middlegame. Castling tucks it away and connects your rooks."),
+    ("The Fork",                  "A fork is a single piece attacking two enemy pieces at once, forcing your opponent to lose one. Knights are the best forkers — their L-shape lets them attack squares no other piece covers. Always scan for knight forks after exchanges."),
+    ("The Pin",                   "A pin locks a piece in place because moving it would expose a more valuable piece behind it. Absolute pins (pinned to the king) are the strongest — the piece literally cannot move. Use pins to win material or restrict your opponent."),
+    ("The Skewer",                "The reverse of a pin. You attack a high-value piece; when it moves, you win the lesser piece behind it. Rooks and bishops are the classic skewering pieces. Look for skewers along open files and diagonals."),
+    ("Discovered Attack",         "Move one piece to unleash an attack from another behind it. The moving piece can also create its own threat, making it doubly dangerous. Discovered checks are especially powerful — your opponent must deal with the check first."),
+    ("Rooks Belong on Open Files","A rook on a closed file does almost nothing. Put rooks on files with no pawns, or half-open files (no friendly pawn). Two rooks doubled on an open file is one of the most powerful structures in chess."),
+    ("Trade Pieces When Ahead",   "If you're up material, simplify. Trade pieces to reduce your opponent's counterplay and make your advantage easier to convert. Avoid trades when you're behind — you need chaos and complications to come back."),
+    ("The 1-2-3 of Pawn Endings", "In king-and-pawn endgames, three things win: (1) King activity — centralise your king immediately. (2) Passed pawns — a pawn with no opposing pawn blocking it or on adjacent files. (3) Opposition — the side whose king forces the other back. Learn these and you'll convert endgames others draw."),
+    ("Don't Move Your Queen Early","A premature queen sortie gets punished. Your opponent develops with tempo by chasing it. Bring out knights and bishops first, secure your king, then activate the queen when it has safe, useful squares."),
+    ("Think in Forcing Moves First","Before any move, scan for checks, captures, and threats — in that order. Forcing moves limit your opponent's options. Calculate those lines before quieter moves. Many games are decided by a tactic hiding in plain sight."),
+    ("Pawn Structure is Permanent","Unlike pieces, pawns can't go backwards. Doubled pawns, isolated pawns, and backward pawns are long-term weaknesses. Before pushing a pawn, ask: what does this create? Weak squares and open files last the whole game."),
+    ("The Outpost",               "A square that can't be attacked by an enemy pawn is an outpost. A knight planted on an outpost deep in enemy territory is often worth as much as a rook. Create outposts by trading or advancing pawns to clear the attacking pawn."),
+    ("Rook + King Checkmate",     "The most common endgame to know. Use the ladder method: put your rook on the edge of the board, drive the enemy king to the edge rank by rank, then bring your king over to help deliver mate. Practice this until it's automatic."),
+    ("Bishops vs Knights",        "Open positions favour bishops — they cover long diagonals and distant squares quickly. Closed positions with locked pawns favour knights — they can hop over pawns and reach squares bishops can't. Always consider which piece suits the structure."),
+    ("The Zwischenzug",           "A 'between move' — instead of recapturing immediately, you play a forcing move first (usually a check or big threat). Your opponent must respond, and then you recapture, often with an improved result. Always ask: before I take back, is there something better?"),
+    ("Piece Activity Over Material","A rook doing nothing is worth less than a bishop tearing up a diagonal. When evaluating a position, ask how active each piece is. Sometimes sacrificing a pawn to open lines and activate your pieces is objectively stronger than holding the material."),
+    ("Triangulation",             "A king manoeuvre in endgames to lose a tempo and gain the opposition. If your king needs to reach a square but direct paths keep the opposition equal, triangulate — take three moves to do what one would, forcing your opponent into a losing structure."),
+    ("The 50-Move Rule & Zugzwang","In endgames, two concepts matter: zugzwang (any move you make worsens your position — used to force a win) and the 50-move rule (50 moves without a capture or pawn move = draw). Knowing these prevents you from winning a won endgame incorrectly or letting a draw slip."),
+]
+
+# ── Pick today's essay & chess lesson ────────────────────────────────────────
 essay_title, essay_url = ESSAYS[date.today().toordinal() % len(ESSAYS)]
+chess_title, chess_body = CHESS_LESSONS[date.today().toordinal() % len(CHESS_LESSONS)]
 
 # ── Build HTML email ──────────────────────────────────────────────────────────
 def news_rows(items, fallback_label):
@@ -168,6 +193,15 @@ html_body = f"""
   <table style="width:100%;border-collapse:collapse;">
     {news_rows(tech_news, "tech")}
   </table>
+
+  <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
+
+  <!-- Chess -->
+  <h3 style="font-size:14px;letter-spacing:.05em;text-transform:uppercase;color:#888;margin:0 0 10px 0;">
+    Chess
+  </h3>
+  <p style="margin:0 0 6px 0;font-size:14px;font-weight:bold;color:#333;">{chess_title}</p>
+  <p style="margin:0;font-size:14px;color:#444;line-height:1.6;">{chess_body}</p>
 
   <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
 
