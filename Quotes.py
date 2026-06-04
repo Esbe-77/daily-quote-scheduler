@@ -941,6 +941,181 @@ The final stage is the one most worth attending to. At seventy, he could follow 
 This is what virtue as a habit looks like at its fullest development. The gap between desire and right action has been closed not by will but by formation. The person does not have to choose between what they want and what is right, because they have become the kind of person who wants what is right.
 
 This does not happen quickly. It is the work of a lifetime, and Confucius said so honestly."""),
+
+    ("On Voluntary Hardship", "Seneca",
+"""Seneca practised something he recommended: voluntary poverty. Not permanent destitution, but regular periods of deliberate privation — simple food, rough clothing, sleeping on the floor. His reason was specific: he wanted to know how afraid of poverty he actually was.
+
+Most of our fear of hardship is prospective. We imagine losing comfort and assume the loss would be intolerable. But the imagination of loss is almost always worse than the reality. Seneca found, by actually experiencing reduced circumstances, that they were bearable — that the things he had thought he could not live without turned out to be things he simply preferred.
+
+This knowledge is practically valuable. The person who knows from experience that they can handle reduced circumstances is not trapped by the need to maintain their current level of comfort. They can take risks they would otherwise avoid, because the worst case — if it came — would not be as bad as they feared.
+
+He was not recommending poverty as a permanent state. He was recommending it as a practice — a periodic test of where you actually stand in relation to the things you own, whether you possess them or they possess you.
+
+'Set aside a certain number of days, during which you shall be content with the scantiest and cheapest fare, with coarse and rough dress, saying to yourself the while: "Is this the condition that I feared?"'
+
+The practice also changes your relationship with good fortune. The person who has known voluntary hardship appreciates their ordinary comforts more genuinely than the person who has never experienced their absence. Gratitude requires a contrast that comfort alone cannot provide."""),
+
+    ("On Memory", "Michel de Montaigne",
+"""Montaigne was proud of having a bad memory. He said this not as an excuse but as an observation that had taught him something useful. A man who cannot remember what he has argued before is less likely to be a slave to his past positions. He cannot be caught in a contradiction he has forgotten making, because the contradiction is as invisible to him as it is to anyone else.
+
+He was joking, partly. But behind the joke was a serious observation about what memory actually is and what it does. We tend to think of memory as a recording device — a more or less faithful reproduction of what happened. Montaigne had noticed, from long experience of his own memory, that it was nothing like this. Memory selects, distorts, and reconstructs. It is shaped by what we currently believe, what we currently need, what we currently fear. The past we remember is partly a product of the present doing the remembering.
+
+This has two implications. First, be modest about your memories of disputes, conversations, and past events. The version you remember is not the version that happened; it is the version your mind has constructed, and that construction serves your current self in ways you cannot fully see.
+
+Second, be suspicious of the coherent narrative you tell about your own life. The story in which everything you experienced led logically and meaningfully to where you are now is a retrospective construction. It feels true because memory has arranged the material to make it feel that way.
+
+What Montaigne recommended was attention to the present rather than reliance on the past — and a certain lightness in relation to the self that memory constructs. That self is always partly fictional."""),
+
+    ("On Fame and Legacy", "Marcus Aurelius",
+"""'Alexander the Great and his stable-boy are both dead.' Aurelius returned to this observation, in different forms, throughout the Meditations. The most powerful man in history and the man who cleaned up after his horse ended up in exactly the same condition. Time erases the distinction.
+
+He was not saying that achievement is worthless. He was saying that the desire for fame — for recognition that extends beyond your own life — is based on a misunderstanding. The people who will remember you are themselves temporary. Their praise or criticism will dissolve as completely as you will. The chain of memory is finite.
+
+The practical implication was to decouple your actions from the desire for recognition. Do what is right because it is right, not because anyone will remember that you did it. The action is sufficient justification for itself; it does not need the endorsement of posterity.
+
+He also noted, in a passage that is simultaneously humbling and freeing, that the great men of previous generations — the ones whose names are still remembered — are almost unknown in detail. We remember Alexander's name; we do not know what his daily life actually felt like, what small choices he made, what worried him at night. Even the famous are anonymous in what matters most.
+
+This is not nihilism. Aurelius cared deeply about his duties, his family, his city. But he tried to care about them for what they actually were rather than for what remembering them would do for his reputation.
+
+'Waste no more time arguing what a good man should be. Be one.' The being is what matters, and it happens now, not in the historical record."""),
+
+    ("On Equanimity", "Epictetus",
+"""Epictetus distinguished between the way things are and the way we interpret them, and devoted most of his teaching to the second. But he was also clear about what the goal of this work was: equanimity — a stable, even temper that is not thrown by either good or bad fortune.
+
+Equanimity is not the same as indifference. The equanimous person is not unmoved; they feel what is appropriate to feel. They grieve real losses, take genuine pleasure in good things, feel appropriate anger at genuine injustice. What they do not feel is the additional suffering that comes from resisting reality — the anguish of 'this should not be happening' layered on top of whatever is actually happening.
+
+He used the analogy of a voyage. If you are on a ship, you can enjoy the port when you are in it without clinging to it so intensely that you are devastated when it is time to sail. When the captain calls, you go. If you have left something behind, you leave it behind. This is not coldness — you genuinely enjoyed the port. It is simply an accurate understanding of your relationship to the port: temporary, enjoyable, and not the point.
+
+Applied to life, the practice is this: take what comes with openness, hold it lightly, and release it without desperation when it goes. This sounds simple. It requires, in practice, a fundamental reorientation in how you relate to everything you care about — not caring less, but caring differently.
+
+'Seek not the good in external things; seek it in yourself.' Equanimity is not found; it is built, through long practice with small things, until the response becomes natural."""),
+
+    ("On Free Will", "William James",
+"""James was a man who had a breakdown at thirty and recovered partly by deciding to believe in free will. He described this in his diary: he would start by accepting that his first act of free will would be to believe in free will. He is telling us something important about his own nature of his project.
+
+The philosophical problem of free will is whether our choices are genuinely open — whether we could have done otherwise — or whether they are the inevitable product of prior causes. James thought this debate was often conducted in terms that made it unanswerable and, more importantly, unimportant.
+
+What actually matters, he argued, is the practical difference between believing you are free and believing you are not. The person who genuinely believes they are determined — that whatever they choose was inevitable and nothing they do makes any real difference — cannot function as an agent. The belief undermines the very capacity it describes. The person who believes they are free, who takes seriously the thought that their choices actually matter, does in fact make different choices. The belief is self-fulfilling in the direction that matters.
+
+This is not a proof of free will. It is an argument that, in the absence of a proof in either direction, the belief in free will is the more practically rational one. It makes life better, makes agency possible, and is no less compatible with the available evidence than its alternative.
+
+'Act as if what you do makes a difference. It does.' The 'as if' is not a concession. It is the point."""),
+
+    ("On Compassion", "The Buddha",
+"""The Buddha's teaching on compassion — karuna — is not primarily about feeling sorry for people who suffer. It is about a particular quality of perception: seeing the suffering that is actually present in other beings, clearly and without evasion.
+
+Most of us, most of the time, look away from suffering. Not through cruelty but through self-protection. The knowledge that others are in pain is uncomfortable, and comfort is easier to maintain by not looking directly at what would disturb it. The result is a kind of perceptual narrowness — a world in which suffering is noticed only when it intrudes unavoidably, and then quickly processed and filed away.
+
+What the Buddhist practice of compassion involves is training the perception in the opposite direction — deliberately attending to the suffering of beings around you, allowing it to register rather than sliding off your attention. This includes the suffering of people you like, people you dislike, people you do not know, and eventually — in the later stages of practice — yourself.
+
+The intention is not to produce guilt or despair. It is to produce a realistic picture of the world, and from that picture a natural motivation to help rather than an effortful one. The person who has genuinely seen the suffering of others finds that helping is not a duty that requires willpower but a natural expression of what they perceive.
+
+The companion practice is metta — loving-kindness, the active wishing of wellbeing to others. The two work together: clear perception of suffering combined with the active orientation toward its relief. Neither practice alone is sufficient."""),
+
+    ("On Enlightenment", "Immanuel Kant",
+"""'Enlightenment is man's emergence from his self-imposed immaturity.' This is the opening sentence of one of Kant's most accessible essays, and it is one of the most demanding sentences in the Enlightenment tradition.
+
+Immaturity, he meant, is not a lack of knowledge. It is the habit of allowing someone else to think for you — to let the priest tell you what to believe, the authority tell you what to think, the tradition tell you what to value, without the intermediate step of your own reasoning. The immaturity is self-imposed because it is chosen: it is more comfortable, less risky, less demanding to let someone else carry the burden of thought.
+
+His rallying cry was sapere aude — dare to know. Have the courage to use your own reason. The courage, because reasoning for yourself means being willing to arrive at conclusions that conflict with received authority, and this has always had social costs. It is much easier to defer.
+
+He was writing in the eighteenth century about the beginnings of what we now call liberal democracy and scientific culture. But the immaturity he described is not a historical condition. It is a permanent temptation. Every age has its official opinions, its consensus positions, its things that are not said in polite company. The person who defers entirely to these has not thought; they have outsourced their thinking.
+
+This does not mean always disagreeing. The person who reasons carefully may arrive at the same conclusions as the tradition. The difference is in the process — whether you arrived there by examination or by default. Only the examination is genuine thought, and only genuine thought is the enlightenment Kant was describing."""),
+
+    ("On Joy", "Baruch Spinoza",
+"""Spinoza's ethics ends with joy — not the easy, momentary pleasure of getting what you want, but the deep, stable joy of a mind that has understood its situation and made peace with it.
+
+His argument begins with conatus — the striving that he thought characterised all things: the effort of every being to persist in its own existence, to express its own nature, to continue being what it is. In human beings, this striving is conscious, and it produces what Spinoza called emotions: joy when we feel our power of action increasing, sadness when we feel it decreasing.
+
+Joy, on this account, is not just a pleasant feeling. It is a signal of something real: that you are living in accordance with your nature, that your capacities are being expressed rather than inhibited, that you are becoming more fully what you are.
+
+Sadness — in his specific technical sense — is the reverse: the felt diminishment of your capacity to act, to understand, to engage. This includes not only obvious suffering but the subtle diminishments produced by fear, hatred, contempt, and servility. All of these reduce what you are capable of.
+
+The goal he described was not happiness as contentment but something more like flourishing: the progressive increase in your power of understanding and action, the expansion of what you are capable of knowing, feeling, and doing. This is available in proportion to how well you understand your situation — both the specific circumstances of your life and the larger structure of the reality you are part of.
+
+The person who understands the most, in Spinoza's account, has the most joy. Not despite the knowledge that includes dark things, but because of it. Understanding is itself a form of joy."""),
+
+    ("On Practical Wisdom", "Aristotle",
+"""Aristotle used the word phronesis for what is usually translated as practical wisdom, and he considered it the master virtue — the one that makes all the others possible.
+
+The practically wise person is not simply a person who knows the right principles. Principles are general; situations are specific. The practically wise person knows how to apply general principles to particular situations — how to perceive what the situation actually requires and to respond with the appropriate action, in the appropriate way, at the appropriate time, toward the appropriate person.
+
+This is more difficult than it sounds. The courageous action in one situation looks different from the courageous action in another. The honest response to a friend's question differs from the honest response to an enemy's. The just treatment of one person in a specific context may be quite different from the just treatment of another person in a different context. The person who tries to follow a fixed rule without judgment will get it wrong in a systematic way, because the rule was never designed for the specific situation at hand.
+
+Phronesis is the capacity that allows good judgment in the absence of rules — or, more precisely, the capacity that knows which rules apply when, and how. It cannot be taught by instruction; it can only be developed by experience, by observing wise people, by repeatedly trying to act well and noticing where you went wrong.
+
+He also thought it was impossible to separate practical wisdom from virtue. The person who has practical wisdom has it in the service of good ends. The person who is clever at figuring out how to achieve whatever they want — regardless of whether the ends are good — has a different quality: cunning, not wisdom. The two can look similar from the outside. They differ entirely in what they are for."""),
+
+    ("On the Social Contract", "Jean-Jacques Rousseau",
+"""Rousseau's 'Social Contract' opens with one of the most famous lines in political philosophy: 'Man is born free, and everywhere he is in chains.' The chains he meant were not literal but institutional — the accumulated weight of laws, customs, property arrangements, and social hierarchies that constrain how people live without their having chosen or consented to them.
+
+His question was: what would make political authority legitimate? Not what authority actually is — he had no illusions about that — but what it would have to be in order to deserve obedience.
+
+His answer was the social contract: a hypothetical agreement in which individuals give up their natural freedom in exchange for civil freedom — the freedom that comes from living under laws they have made themselves. Under a just government, each person obeys only the laws that express the general will — the common interest of all citizens, as distinct from the particular interests of individuals or factions.
+
+The general will is not the same as majority opinion. A majority can be wrong. The general will is what all citizens would will if they were thinking clearly about the common good rather than their personal advantage. Getting to it requires genuine public deliberation and the willingness of citizens to reason beyond their immediate self-interest.
+
+He was under no illusions about how rare this was. He thought direct democracy was only possible in very small communities. But the standard he set — legitimate authority requires the genuine participation and consent of those it governs — remained as a permanent critique of every actual government, including democratic ones.
+
+Most political authority, on his account, is simply power that has learned to call itself law."""),
+
+    ("On the Limits of Language", "Ludwig Wittgenstein",
+"""Wittgenstein's first major work ends with one of the most famous sentences in philosophy: 'Whereof one cannot speak, thereof one must be silent.' It is often read as mysticism. It is actually a logical claim.
+
+His argument in the 'Tractatus' was that language can picture facts about the world, but it cannot say anything about the conditions that make language and the world possible. It cannot talk about itself, in this fundamental sense. The propositions of logic, the limits of what can be meaningfully said, the relationship between language and reality — these are shown in the structure of meaningful language but cannot be stated in it without crossing into nonsense.
+
+His later work — the 'Philosophical Investigations' — took a different approach to the same problem. He had come to think that his earlier account was itself a kind of philosophical mistake — the assumption that language works primarily by picturing facts. In reality, language is used in enormously diverse ways: to command, to promise, to play games, to express emotions, to tell stories. Each of these 'language games' has its own logic, and there is no master logic that governs them all.
+
+The philosophical problems that seem most profound — questions about consciousness, free will, the self — often turn out, on Wittgenstein's later account, to be generated by language that has 'gone on holiday,' that is being used outside the contexts that give it meaning. The cure is not a theory but a therapy: looking carefully at how language actually works in specific contexts, and noticing when it is being misused.
+
+'Philosophy simply puts everything before us and neither explains nor deduces anything.'"""),
+
+    ("On Forgiveness", "Hannah Arendt",
+"""Arendt placed forgiveness at the centre of her political philosophy in a way that surprised many readers. The 'Human Condition' is not a book about personal ethics; it is a book about politics, about what human beings do together in a shared world. And yet forgiveness appears there as one of the essential capacities that makes political life possible.
+
+Her argument was this: human action is irreversible and unpredictable. Once something has been done, it cannot be undone. And what we do inevitably has consequences we did not foresee and could not have controlled, which themselves lead to further consequences, ramifying outward in ways that are permanently beyond our reach. If there were no remedy for this, she thought, human beings would be locked in the consequences of their past actions forever — unable to begin again, unable to make new starts.
+
+Forgiveness is the remedy. Not the pretence that the action did not occur, or that it was not harmful. But the willingness to release the person from being defined by what they did — to allow them to begin again. Without this capacity, a community would be trapped in perpetual recrimination, each wrong compounding the last, with no possibility of renewal.
+
+She also thought that forgiveness was the condition of possibility for genuine action. The person who knows they will not be permanently defined by their failures and mistakes is free to act — to begin new things, to take risks, to engage fully with the unpredictable world. The person who lives in terror of permanent judgment is paralysed.
+
+'Without being forgiven, released from the consequences of what we have done, our capacity to act would, as it were, be confined to one single deed from which we could never recover.'"""),
+
+    ("On Self-Knowledge", "Socrates",
+"""'Know thyself' was inscribed at the Temple of Delphi, and Socrates made it the centre of his philosophical project. He did not think he had achieved this knowledge; he spent his life in pursuit of it, through conversation.
+
+His method was characteristic. He would ask someone what they thought self-knowledge meant, or what virtue was, or what courage was, and then follow their answer wherever it led — finding the places where it contradicted itself, where it excluded things it should include or included things it should not. The conversations almost always ended with both parties more confused than they had started, but confusion that was aware of itself rather than hidden behind false certainty.
+
+He thought the soul was the most important thing a person had, and that most people paid attention to everything except it. They attended to their wealth, their reputation, their body, their social position — and they neglected the one thing that determined whether all these other things were actually good for them. A person with a bad soul and great wealth is not better off for the wealth; the wealth becomes a means for the bad soul to do more damage.
+
+The care of the soul — the examination of what you actually believe, what you actually value, whether your actions are consistent with your professed values — was, for Socrates, the only serious human project. Everything else was secondary.
+
+What makes this difficult is that it is endless. The examined life is not a project with a completion date. It is a practice — not the achievement of self-knowledge but the ongoing pursuit of it, with honesty as the only method and the gradual reduction of self-deception as the only measure of progress."""),
+
+    ("On Power", "Friedrich Nietzsche",
+"""Nietzsche's concept of the will to power is probably his most misunderstood idea. It has been used to justify domination, exploitation, and violence — applications he would have found contemptible, since he thought the desire to dominate others was a sign of weakness rather than strength.
+
+What he meant by the will to power was not the desire for power over others. It was something more like the drive toward self-mastery and self-expression — the striving of every living thing to express its capacities to their fullest, to overcome what constrains it, to grow. In this sense, every living thing participates in the will to power: the plant growing toward the light, the artist struggling with an inadequate form, the philosopher trying to think more clearly than they have thought before.
+
+Genuine power, in his account, is internal. The person who dominates others has not become powerful; they have found a substitute for power. The truly powerful person has mastered themselves — their impulses, their reactivity, their need for approval — and can act from choice rather than compulsion.
+
+He was particularly interested in the psychology of resentment — what he called ressentiment. The person who cannot master themselves, who is blocked from genuine expression, tends to direct their aggression outward in the form of moral condemnation. By declaring the powerful evil and the weak virtuous, they reverse the usual hierarchy and find a form of victory in imagination if not in reality.
+
+His antidote was what he called the active life — not domination but creation. The person who creates — art, ideas, new ways of living — has found the expression that resentment is a substitute for."""),
+
+    ("On Death", "Seneca",
+"""Seneca thought about death every day. He recommended this practice to his friend Lucilius not as morbidity but as strategy: the person who has genuinely made peace with their own death can live with a freedom that is unavailable to someone who has not.
+
+Most people, he observed, live as though death were not coming. They postpone what matters, assuming there is unlimited time. They avoid difficult conversations because there will be other occasions. They defer the examination of their own life because the press of current business is always more urgent. And then, when death arrives — often unexpectedly, always with finality — they have not lived.
+
+His technique was the daily meditation on mortality — not a morbid dwelling on it, but a brief, honest acknowledgment: this day is one I have. Tomorrow is not guaranteed. What does this mean for how I spend the hours I have?
+
+The effect, when the practice is genuine, is the opposite of depression. It produces urgency about what actually matters and a corresponding release of urgency about what does not. The person who is clear that today may be their last day is very unlikely to spend it performing the social rituals that seemed pressing before the clarity arrived.
+
+He also wrote about dying well — the importance of having a death that was consistent with the life. The person who has lived by their values is in a position to die by them. The person who has spent their life avoiding discomfort and deferring everything difficult is unprepared for the one thing that cannot be deferred.
+
+'Let us prepare our minds as if we had come to the very end of life. Let us postpone nothing.'"""),
 ]
 
 # ── Weight logic ──────────────────────────────────────────────────────────────
