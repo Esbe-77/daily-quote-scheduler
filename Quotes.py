@@ -1281,26 +1281,26 @@ tech_news    = fetch_rss(TECH_FEEDS,    3)
 
 # ── Chess lessons (rotated daily) ────────────────────────────────────────────
 CHESS_LESSONS = [
-    ("Control the Centre",        "Your first priority in any game. Place pawns on e4/d4 (or e5/d5 as Black) and develop pieces toward the middle. A piece in the centre controls more squares than one on the edge."),
-    ("Develop Every Piece",       "Get your knights and bishops off the back rank before you start attacking. A rule of thumb: don't move the same piece twice in the opening unless you have to. Every undeveloped piece is a wasted turn."),
-    ("King Safety — Castle Early","After developing your minor pieces, castle. Your king is a liability in the centre during the middlegame. Castling tucks it away and connects your rooks."),
-    ("The Fork",                  "A fork is a single piece attacking two enemy pieces at once, forcing your opponent to lose one. Knights are the best forkers — their L-shape lets them attack squares no other piece covers. Always scan for knight forks after exchanges."),
-    ("The Pin",                   "A pin locks a piece in place because moving it would expose a more valuable piece behind it. Absolute pins (pinned to the king) are the strongest — the piece literally cannot move. Use pins to win material or restrict your opponent."),
-    ("The Skewer",                "The reverse of a pin. You attack a high-value piece; when it moves, you win the lesser piece behind it. Rooks and bishops are the classic skewering pieces. Look for skewers along open files and diagonals."),
-    ("Discovered Attack",         "Move one piece to unleash an attack from another behind it. The moving piece can also create its own threat, making it doubly dangerous. Discovered checks are especially powerful — your opponent must deal with the check first."),
-    ("Rooks Belong on Open Files","A rook on a closed file does almost nothing. Put rooks on files with no pawns, or half-open files (no friendly pawn). Two rooks doubled on an open file is one of the most powerful structures in chess."),
-    ("Trade Pieces When Ahead",   "If you're up material, simplify. Trade pieces to reduce your opponent's counterplay and make your advantage easier to convert. Avoid trades when you're behind — you need chaos and complications to come back."),
-    ("The 1-2-3 of Pawn Endings", "In king-and-pawn endgames, three things win: (1) King activity — centralise your king immediately. (2) Passed pawns — a pawn with no opposing pawn blocking it or on adjacent files. (3) Opposition — the side whose king forces the other back. Learn these and you'll convert endgames others draw."),
-    ("Don't Move Your Queen Early","A premature queen sortie gets punished. Your opponent develops with tempo by chasing it. Bring out knights and bishops first, secure your king, then activate the queen when it has safe, useful squares."),
-    ("Think in Forcing Moves First","Before any move, scan for checks, captures, and threats — in that order. Forcing moves limit your opponent's options. Calculate those lines before quieter moves. Many games are decided by a tactic hiding in plain sight."),
-    ("Pawn Structure is Permanent","Unlike pieces, pawns can't go backwards. Doubled pawns, isolated pawns, and backward pawns are long-term weaknesses. Before pushing a pawn, ask: what does this create? Weak squares and open files last the whole game."),
-    ("The Outpost",               "A square that can't be attacked by an enemy pawn is an outpost. A knight planted on an outpost deep in enemy territory is often worth as much as a rook. Create outposts by trading or advancing pawns to clear the attacking pawn."),
-    ("Rook + King Checkmate",     "The most common endgame to know. Use the ladder method: put your rook on the edge of the board, drive the enemy king to the edge rank by rank, then bring your king over to help deliver mate. Practice this until it's automatic."),
-    ("Bishops vs Knights",        "Open positions favour bishops — they cover long diagonals and distant squares quickly. Closed positions with locked pawns favour knights — they can hop over pawns and reach squares bishops can't. Always consider which piece suits the structure."),
-    ("The Zwischenzug",           "A 'between move' — instead of recapturing immediately, you play a forcing move first (usually a check or big threat). Your opponent must respond, and then you recapture, often with an improved result. Always ask: before I take back, is there something better?"),
-    ("Piece Activity Over Material","A rook doing nothing is worth less than a bishop tearing up a diagonal. When evaluating a position, ask how active each piece is. Sometimes sacrificing a pawn to open lines and activate your pieces is objectively stronger than holding the material."),
-    ("Triangulation",             "A king manoeuvre in endgames to lose a tempo and gain the opposition. If your king needs to reach a square but direct paths keep the opposition equal, triangulate — take three moves to do what one would, forcing your opponent into a losing structure."),
-    ("The 50-Move Rule & Zugzwang","In endgames, two concepts matter: zugzwang (any move you make worsens your position — used to force a win) and the 50-move rule (50 moves without a capture or pawn move = draw). Knowing these prevents you from winning a won endgame incorrectly or letting a draw slip."),
+    ("Control the Centre",         "The player who controls e4, d4, e5, d5 controls the game. Open with a central pawn (e4 or d4), develop pieces toward the middle, and deny your opponent the same. A piece in the centre commands the most squares — one on the rim is close to useless."),
+    ("Develop Every Piece",        "Get all your minor pieces off the back rank before you attack. Don't move the same piece twice in the opening unless forced — every tempo spent reshuffling is a free move for your opponent. An undeveloped piece is a passenger, not a player."),
+    ("Castle Early",               "Your king is a target in the centre. Castle as soon as your knights and bishops are out — it tucks the king behind a pawn wall and connects your rooks. A king stuck in the middle is the most common reason beginners lose."),
+    ("The Fork",                   "One piece, two threats — your opponent can only answer one. Knights are the best forking pieces because their L-shape attacks squares no other piece can reach at the same time. After exchanges, always ask: can a knight jump in and fork something?"),
+    ("The Pin",                    "A pin freezes a piece: moving it would expose something more valuable behind it. An absolute pin (pinned to the king) means the piece literally cannot move legally. Use pins to tie down defenders, win material, or set up a follow-up attack."),
+    ("The Skewer",                 "A skewer is a pin in reverse — you attack the valuable piece, it moves, and you win the lesser piece hiding behind it. Rooks and bishops on open lines are the classic skewering weapons. Always scan for alignment when your opponent's pieces line up."),
+    ("Discovered Attack",          "Move one piece to unleash a hidden attack from another behind it. The beauty is that the moving piece can also create a second threat, leaving your opponent two problems to solve in one move. A discovered check is especially brutal — the check must be answered first."),
+    ("Rooks on Open Files",        "A rook on a closed file does almost nothing. Put rooks on files with no pawns — or half-open files where only your opponent's pawn is gone. Double rooks on an open file and they become one of the most powerful forces on the board."),
+    ("Simplify When Ahead",        "Up material? Trade pieces — not pawns. Fewer pieces means less counterplay for your opponent and a cleaner path to conversion. Avoid trades when you're behind; you need complications. The side with more material wants a simple endgame."),
+    ("King and Pawn Endings",      "Three things win these endgames: (1) King activity — centralise immediately, the king is a fighting piece. (2) Passed pawns — a pawn with no enemy pawn in front or on adjacent files. (3) Opposition — placing your king directly opposite your opponent's to force them back. Master these and you'll convert endgames others throw away."),
+    ("Don't Rush the Queen",       "Bringing the queen out early is a beginner trap. Your opponent gains tempo by chasing it with minor pieces while developing for free. Develop knights and bishops first, castle, then activate the queen once the board has opened and she has safe, productive squares."),
+    ("Checks, Captures, Threats",  "Before every move, run this scan in order: Can I check? Can I capture? Can I create a threat? Forcing moves constrain your opponent's options and are where tactics hide. Many games are decided by a tactic that was there all along — the habit of looking is what finds it."),
+    ("Pawn Structure is Permanent","Pawns can't go backwards. Every push is a commitment. Doubled, isolated, and backward pawns are long-term weaknesses your opponent can target all game. Before advancing a pawn, ask: what does this create and what does it leave behind?"),
+    ("The Outpost",                "An outpost is a square your opponent can never attack with a pawn. A knight planted on an outpost in enemy territory is a monster — often worth as much as a rook. Create outposts by trading or advancing pawns to remove the pawn that would chase your piece away."),
+    ("Rook and King Checkmate",    "The most important basic endgame: use the ladder method. Push the enemy king to the edge rank by rank with your rook, cutting off ranks as you go, then bring your own king across to assist with the final checkmate. Drill this until it's reflex."),
+    ("Bishops vs Knights",         "Bishops love open positions — long diagonals, mobile play, distant threats. Knights love closed positions — they hop over pawn chains and reach squares bishops can never touch. Before trading, ask which piece suits the pawn structure you're heading toward."),
+    ("The Zwischenzug",            "Before recapturing, always ask: is there something better first? A zwischenzug (between-move) is an in-between forcing move — usually a check or major threat — played before the expected recapture. Your opponent must deal with it, and you recapture in a better situation."),
+    ("Piece Activity Over Material","A rook doing nothing is worth less than a well-placed knight. When assessing a position, count activity, not just material. A pawn sacrifice that opens lines and activates all your pieces can be objectively stronger than holding the extra pawn passively."),
+    ("Triangulation",              "An endgame king technique to lose a tempo. If your king needs to reach a square but the direct path gives your opponent equal opposition, take a three-move detour — a triangle — to arrive on the same square with the move still yours, putting your opponent in zugzwang."),
+    ("Zugzwang and the 50-Move Rule","Zugzwang: any move you make worsens your position — your opponent uses this to force a win by making you move. The 50-move rule: if 50 moves pass without a capture or pawn move, the game is a draw. Knowing both prevents you from mishandling won endgames or letting a draw slip through."),
 ]
 
 # ── Pick today's reading (weighted) ──────────────────────────────────────────
@@ -1322,8 +1322,17 @@ chosen_passage_idx = random.choices(range(len(PASSAGES)), weights=p_weights, k=1
 passage_title, passage_author, passage_text = PASSAGES[chosen_passage_idx]
 passage_html = passage_text.strip().replace('\n\n', '<br><br>')
 
-# ── Pick today's chess lesson ─────────────────────────────────────────────────
-chess_title, chess_body = CHESS_LESSONS[date.today().toordinal() % len(CHESS_LESSONS)]
+# ── Pick today's chess lesson (weighted) ─────────────────────────────────────
+def chess_weight(idx):
+    last = passages_state.get(f"chess_{idx}", {}).get("last_sent")
+    if not last:
+        return 1.0
+    weeks = (date.today() - datetime.fromisoformat(last).date()).days // 7
+    return min(1.0, weeks / DECAY_WEEKS)
+
+c_weights = [chess_weight(i) for i in range(len(CHESS_LESSONS))]
+chosen_chess_idx = random.choices(range(len(CHESS_LESSONS)), weights=c_weights, k=1)[0]
+chess_title, chess_body = CHESS_LESSONS[chosen_chess_idx]
 
 # ── Build HTML email ──────────────────────────────────────────────────────────
 def news_rows(items, fallback_label):
@@ -1422,6 +1431,7 @@ def mark_as_sent():
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(quotes, f, ensure_ascii=False, indent=2)
     passages_state[str(chosen_passage_idx)] = {"last_sent": today_str}
+    passages_state[f"chess_{chosen_chess_idx}"] = {"last_sent": today_str}
     with open("passages_state.json", "w", encoding="utf-8") as f:
         json.dump(passages_state, f, ensure_ascii=False, indent=2)
 
