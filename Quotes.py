@@ -21,15 +21,15 @@ EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
 
 # ── RSS feeds ─────────────────────────────────────────────────────────────────
 FINANCE_FEEDS = [
+    "https://feeds.apnews.com/rss/apf-business",
+    "https://feeds.npr.org/1006/rss.xml",
     "https://feeds.reuters.com/reuters/businessNews",
-    "https://feeds.reuters.com/reuters/companyNews",
-    "https://www.ft.com/?format=rss",
 ]
 
 TECH_FEEDS = [
-    "https://feeds.arstechnica.com/arstechnica/technology-lab",
-    "https://feeds.feedburner.com/TechCrunch",
-    "https://www.theverge.com/rss/index.xml",
+    "https://phys.org/rss-feed/",
+    "https://www.sciencedaily.com/rss/top/technology.xml",
+    "https://feeds.arstechnica.com/arstechnica/science/",
 ]
 
 # ── Philosophical readings (rotated daily) ───────────────────────────────────
@@ -395,9 +395,26 @@ CHESS_LESSONS = [
     ("The 50-Move Rule & Zugzwang","In endgames, two concepts matter: zugzwang (any move you make worsens your position — used to force a win) and the 50-move rule (50 moves without a capture or pawn move = draw). Knowing these prevents you from winning a won endgame incorrectly or letting a draw slip."),
 ]
 
-# ── Pick today's reading & chess lesson ──────────────────────────────────────
-passage_title, passage_author, passage_text = PASSAGES[date.today().toordinal() % len(PASSAGES)]
+# ── Pick today's reading (weighted) ──────────────────────────────────────────
+try:
+    with open("passages_state.json", "r", encoding="utf-8") as f:
+        passages_state = json.load(f)
+except FileNotFoundError:
+    passages_state = {}
+
+def passage_weight(idx):
+    last = passages_state.get(str(idx), {}).get("last_sent")
+    if not last:
+        return 1.0
+    weeks = (date.today() - datetime.fromisoformat(last).date()).days // 7
+    return min(1.0, weeks / DECAY_WEEKS)
+
+p_weights = [passage_weight(i) for i in range(len(PASSAGES))]
+chosen_passage_idx = random.choices(range(len(PASSAGES)), weights=p_weights, k=1)[0]
+passage_title, passage_author, passage_text = PASSAGES[chosen_passage_idx]
 passage_html = passage_text.strip().replace('\n\n', '<br><br>')
+
+# ── Pick today's chess lesson ─────────────────────────────────────────────────
 chess_title, chess_body = CHESS_LESSONS[date.today().toordinal() % len(CHESS_LESSONS)]
 
 # ── Build HTML email ──────────────────────────────────────────────────────────
@@ -496,6 +513,9 @@ def mark_as_sent():
         q["last_sent"] = today_str
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(quotes, f, ensure_ascii=False, indent=2)
+    passages_state[str(chosen_passage_idx)] = {"last_sent": today_str}
+    with open("passages_state.json", "w", encoding="utf-8") as f:
+        json.dump(passages_state, f, ensure_ascii=False, indent=2)
 
 # ── Execute ───────────────────────────────────────────────────────────────────
 if __name__ == "__main__":

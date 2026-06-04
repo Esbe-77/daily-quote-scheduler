@@ -991,8 +991,8 @@
   },
   {
     "quote": "It's not what happens to you, but how you react to it that matters. - Epictetus",
-    "weight": 1.0,
-    "last_sent": null
+    "weight": 0.0,
+    "last_sent": "2026-06-04"
   },
   {
     "quote": "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
@@ -1646,6 +1646,506 @@
   },
   {
     "quote": "The more you sweat in training, the less you bleed in combat. - Spartan Proverb",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The first rule is to keep an untroubled spirit. The second is to look things in the face and know them for what they are. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Nowhere can man find a quieter or more untroubled retreat than in his own soul. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Think of yourself as dead. You have lived your life. Now take what's left and live it properly. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "How much more grievous are the consequences of anger than the causes of it. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Never esteem anything as of advantage to you that will make you break your word or lose your self-respect. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The object of life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "A man must stand erect, not be kept erect by others. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Confine yourself to the present. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Look back over the past, with its changing empires that rose and fell, and you can foresee the future too. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The greatest remedy for anger is delay. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Wherever there is a human being, there is an opportunity for kindness. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "If you live in harmony with nature you will never be poor; if you live according to what others think, you will never be rich. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "No man was ever wise by chance. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Retire into yourself as much as you can. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "I am not born for one corner; the whole world is my native land. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Leisure without books is death, and burial of a man alive. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Treat your inferiors as you would be treated by your superiors. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "It is quality rather than quantity that matters. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "While we are postponing, life speeds by. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Make the best use of what is in your power, and take the rest as it happens. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Seek not the good in external things; seek it in yourself. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Know first who you are, and then adorn yourself accordingly. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Practice yourself in little things, and thence proceed to greater. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "To accuse others for one's own misfortunes is a sign of want of education. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "You become what you give your attention to. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Keep company only with people who uplift you, whose presence calls forth your best. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Wish the things which happen to be as they are, and you will have a tranquil flow of life. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Neither pursue pleasure nor flee from pain. - Epictetus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Knowing yourself is the beginning of all wisdom. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "It is the mark of an educated mind to be able to entertain a thought without accepting it. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Good habits formed at youth make all the difference. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "What is a friend? A single soul dwelling in two bodies. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Hope is a waking dream. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The educated differ from the uneducated as much as the living from the dead. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "No great mind has ever existed without a touch of madness. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Pleasure in the job puts perfection in the work. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "In all things of nature there is something of the marvelous. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Education is the best provision for old age. - Aristotle",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Education is the kindling of a flame, not the filling of a vessel. - Socrates",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Wise men speak because they have something to say; fools because they have to say something. - Plato",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "We can easily forgive a child who is afraid of the dark; the real tragedy is when men are afraid of the light. - Plato",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Thinking is the talking of the soul with itself. - Plato",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Knowledge which is acquired under compulsion obtains no hold on the mind. - Plato",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The measure of a man is what he does with power. - Plato",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "At the touch of love, everyone becomes a poet. - Plato",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Before you embark on a journey of revenge, dig two graves. - Confucius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Real knowledge is to know the extent of one's ignorance. - Confucius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "He who learns but does not think is lost. He who thinks but does not learn is in great danger. - Confucius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The superior man is satisfied and composed; the mean man is always full of distress. - Confucius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it — this is knowledge. - Confucius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "To the mind that is still, the whole universe surrenders. - Lao Tzu",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "When I let go of what I am, I become what I might be. - Lao Tzu",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Three things cannot be long hidden: the sun, the moon, and the truth. - Buddha",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "You only lose what you cling to. - Buddha",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "In the end, only three things matter: how much you loved, how gently you lived, and how gracefully you let go. - Buddha",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "One cannot step twice into the same river. - Heraclitus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "In the depth of winter, I finally learned that within me there lay an invincible summer. - Albert Camus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "I rebel; therefore I exist. - Albert Camus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "You will never be happy if you continue to search for what happiness consists of. - Albert Camus",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "We are our choices. - Jean-Paul Sartre",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "There is nothing either good or bad, but thinking makes it so. - William Shakespeare",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Our doubts are traitors, and make us lose the good we oft might win, by fearing to attempt. - William Shakespeare",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The coward dies a thousand times before his death; the valiant never taste of death but once. - William Shakespeare",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "We are all in the gutter, but some of us are looking at the stars. - Oscar Wilde",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "To live is the rarest thing in the world. Most people exist, that is all. - Oscar Wilde",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Be yourself; everyone else is already taken. - Oscar Wilde",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "A cynic is a man who knows the price of everything and the value of nothing. - Oscar Wilde",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Experience is simply the name we give our mistakes. - Oscar Wilde",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The truth is rarely pure and never simple. - Oscar Wilde",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "That which does not kill us, makes us stronger. - Friedrich Nietzsche",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Without music, life would be a mistake. - Friedrich Nietzsche",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The higher we soar, the smaller we appear to those who cannot fly. - Friedrich Nietzsche",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "In individuals, insanity is rare; but in groups, parties, nations and epochs, it is the rule. - Friedrich Nietzsche",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The most common form of despair is not being who you are. - Søren Kierkegaard",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Everyone thinks of changing the world, but no one thinks of changing himself. - Leo Tolstoy",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The two most powerful warriors are patience and time. - Leo Tolstoy",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "There is no greatness where there is not simplicity, goodness, and truth. - Leo Tolstoy",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "When we are no longer able to change a situation, we are challenged to change ourselves. - Viktor Frankl",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Man's main task in life is to give birth to himself, to become what he potentially is. - Erich Fromm",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The opposite of love is not hate, it's indifference. - Elie Wiesel",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Not everything that is faced can be changed, but nothing can be changed until it is faced. - James Baldwin",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Imagination is more important than knowledge. - Albert Einstein",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "If you can't explain it simply, you don't understand it well enough. - Albert Einstein",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The most important human endeavor is the striving for morality in our actions. - Albert Einstein",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "It matters not how strait the gate, how charged with punishments the scroll; I am the master of my fate, I am the captain of my soul. - William Ernest Henley",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Act only according to that maxim by which you can at the same time will that it should become a universal law. - Immanuel Kant",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Dare to know. Have the courage to use your own reason. - Immanuel Kant",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "We are never so happy nor so unhappy as we imagine. - François de La Rochefoucauld",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Self-love is the greatest of all flatterers. - François de La Rochefoucauld",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "We only acknowledge small faults in order to make it appear that we have no large ones. - François de La Rochefoucauld",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The desire of knowledge, like the thirst of riches, increases ever with the acquisition of it. - Laurence Sterne",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "I have no special talent. I am only passionately curious. - Albert Einstein",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Not all those who wander are lost. - J.R.R. Tolkien",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The secret of getting ahead is getting started. - Mark Twain",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "The mind is not a vessel to be filled, but a fire to be kindled. - Plutarch",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Even while they teach, men learn. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "It is not the man who has too little who is poor, but the man who hankers after more. - Seneca",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "Without a purpose, nothing should be done. - Marcus Aurelius",
+    "weight": 1.0,
+    "last_sent": null
+  },
+  {
+    "quote": "When you arise in the morning, think of what a privilege it is to be alive — to breathe, to think, to enjoy, to love. - Marcus Aurelius",
     "weight": 1.0,
     "last_sent": null
   }
