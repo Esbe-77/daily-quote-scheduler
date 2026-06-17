@@ -21,15 +21,15 @@ EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
 
 # ── RSS feeds ─────────────────────────────────────────────────────────────────
 FINANCE_FEEDS = [
-    "https://feeds.apnews.com/rss/apf-business",
-    "https://feeds.npr.org/1006/rss.xml",
+    "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "https://www.aljazeera.com/xml/rss/all.xml",
     "https://feeds.reuters.com/reuters/businessNews",
 ]
 
 TECH_FEEDS = [
-    "https://phys.org/rss-feed/",
-    "https://www.sciencedaily.com/rss/top/technology.xml",
-    "https://feeds.arstechnica.com/arstechnica/science/",
+    "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "https://www.aljazeera.com/xml/rss/all.xml",
+    "https://feeds.reuters.com/reuters/technologyNews",
 ]
 
 # ── Philosophical readings (rotated daily) ───────────────────────────────────
