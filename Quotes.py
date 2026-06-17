@@ -4,7 +4,7 @@ import random
 import os
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import date, datetime
+from datetime import date, datetime, timezone, timedelta
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
@@ -30,6 +30,19 @@ TECH_FEEDS = [
     "https://feeds.bbci.co.uk/news/technology/rss.xml",
     "https://www.aljazeera.com/xml/rss/all.xml",
     "https://feeds.reuters.com/reuters/technologyNews",
+]
+
+FINANCE_KEYWORDS = [
+    "economy", "economic", "market", "stock", "trade", "business", "bank", "banking",
+    "inflation", "interest rate", "earnings", "treasury", "currency", "recession",
+    "investment", "financial", "finance", "debt", "budget", "tax", "revenue", "profit",
+    "bond", "commodity", "oil", "energy", "dollar", "euro", "gdp",
+]
+TECH_KEYWORDS = [
+    "technology", "tech", "artificial intelligence", "ai", "software", "science",
+    "scientific", "research", "discovery", "space", "climate", "innovation", "digital",
+    "cyber", "robot", "quantum", "data", "computing", "chip", "semiconductor",
+    "breakthrough", "genome", "biology", "physics", "chemistry", "astronomy", "nasa",
 ]
 
 # ── Philosophical readings (rotated daily) ───────────────────────────────────
@@ -1244,40 +1257,42 @@ weights = [current_weight(q) for q in quotes]
 chosen_quotes = random.choices(quotes, weights=weights, k=NUM_QUOTES)
 
 # ── Fetch RSS news ────────────────────────────────────────────────────────────
-def fetch_rss(feeds, n=3):
-    items = []
+def fetch_rss(feeds, keywords, n=3):
+    all_items = []
     for url in feeds:
-        if len(items) >= n:
-            break
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=8) as r:
                 root = ET.fromstring(r.read())
             ns = {"atom": "http://www.w3.org/2005/Atom"}
-            # RSS 2.0
             for entry in root.iter("item"):
                 title = (entry.findtext("title") or "").strip()
                 link  = (entry.findtext("link")  or "").strip()
+                desc  = (entry.findtext("description") or "").strip()
                 if title and link:
-                    items.append((title, link))
-                if len(items) >= n:
-                    break
-            # Atom
-            if len(items) < n:
-                for entry in root.findall(".//atom:entry", ns):
-                    title = (entry.findtext("atom:title", namespaces=ns) or "").strip()
-                    link_el = entry.find("atom:link", ns)
-                    link = (link_el.get("href", "") if link_el is not None else "").strip()
-                    if title and link:
-                        items.append((title, link))
-                    if len(items) >= n:
-                        break
+                    all_items.append((title, link, desc))
+            for entry in root.findall(".//atom:entry", ns):
+                title = (entry.findtext("atom:title", namespaces=ns) or "").strip()
+                link_el = entry.find("atom:link", ns)
+                link = (link_el.get("href", "") if link_el is not None else "").strip()
+                desc = (entry.findtext("atom:summary", namespaces=ns) or "").strip()
+                if title and link:
+                    all_items.append((title, link, desc))
         except Exception:
             continue
-    return items[:n]
+    kw = [k.lower() for k in keywords]
+    filtered = [(t, l) for t, l, d in all_items
+                if any(k in (t + " " + d).lower() for k in kw)]
+    random.shuffle(filtered)
+    if len(filtered) >= n:
+        return filtered[:n]
+    filtered_links = {l for _, l in filtered}
+    extras = [(t, l) for t, l, _ in all_items if l not in filtered_links]
+    random.shuffle(extras)
+    return (filtered + extras)[:n]
 
-finance_news = fetch_rss(FINANCE_FEEDS, 3)
-tech_news    = fetch_rss(TECH_FEEDS,    3)
+finance_news = fetch_rss(FINANCE_FEEDS, FINANCE_KEYWORDS, 3)
+tech_news    = fetch_rss(TECH_FEEDS,    TECH_KEYWORDS,    3)
 
 # ── Chess lessons (rotated daily) ────────────────────────────────────────────
 CHESS_LESSONS = [
@@ -1333,6 +1348,85 @@ def chess_weight(idx):
 c_weights = [chess_weight(i) for i in range(len(CHESS_LESSONS))]
 chosen_chess_idx = random.choices(range(len(CHESS_LESSONS)), weights=c_weights, k=1)[0]
 chess_title, chess_body = CHESS_LESSONS[chosen_chess_idx]
+
+# ── World Cup (auto-expires 2026-07-19) ───────────────────────────────────────
+AWST   = timezone(timedelta(hours=8))
+WC_END = date(2026, 7, 19)
+
+def fetch_world_cup():
+    today_awst = datetime.now(AWST).date()
+    if today_awst > WC_END:
+        return [], []
+    yesterday = today_awst - timedelta(days=1)
+
+    def get_events(d):
+        url = (
+            "https://site.api.espn.com/apis/site/v2/sports/soccer"
+            f"/fifa.world/scoreboard?dates={d.strftime('%Y%m%d')}"
+        )
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                return json.loads(r.read()).get("events", [])
+        except Exception:
+            return []
+
+    def home_away(event):
+        comps = event.get("competitions", [{}])[0].get("competitors", [])
+        home = next((c for c in comps if c.get("homeAway") == "home"), comps[0] if comps else {})
+        away = next((c for c in comps if c.get("homeAway") == "away"), comps[-1] if comps else {})
+        return home, away
+
+    results = []
+    for e in get_events(yesterday):
+        if not e.get("status", {}).get("type", {}).get("completed"):
+            continue
+        try:
+            home, away = home_away(e)
+            results.append(
+                f"{home['team']['displayName']} {home.get('score', '?')} "
+                f"– {away.get('score', '?')} {away['team']['displayName']}"
+            )
+        except Exception:
+            continue
+
+    fixtures = []
+    for e in get_events(today_awst):
+        if e.get("status", {}).get("type", {}).get("completed"):
+            continue
+        try:
+            home, away = home_away(e)
+            dt_utc  = datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
+            dt_awst = dt_utc.astimezone(AWST)
+            t       = dt_awst.strftime("%I:%M %p").lstrip("0")
+            fixtures.append(
+                f"{home['team']['displayName']} vs {away['team']['displayName']}   {t}"
+            )
+        except Exception:
+            continue
+
+    return results, fixtures
+
+wc_results, wc_fixtures = fetch_world_cup()
+wc_html = ""
+if wc_results or wc_fixtures:
+    rows = ""
+    if wc_results:
+        rows += "<p style='margin:0 0 6px 0;font-size:13px;font-weight:bold;color:#555;'>Yesterday's Results</p>"
+        for r in wc_results:
+            rows += f"<p style='margin:0 0 4px 0;font-size:13px;color:#333;'>{r}</p>"
+    if wc_results and wc_fixtures:
+        rows += "<div style='height:10px;'></div>"
+    if wc_fixtures:
+        rows += "<p style='margin:0 0 6px 0;font-size:13px;font-weight:bold;color:#555;'>Today's Fixtures (AWST)</p>"
+        for f in wc_fixtures:
+            rows += f"<p style='margin:0 0 4px 0;font-size:13px;color:#333;'>{f}</p>"
+    wc_html = f"""
+  <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
+  <h3 style="font-size:14px;letter-spacing:.05em;text-transform:uppercase;color:#888;margin:0 0 10px 0;">
+    FIFA World Cup 2026
+  </h3>
+  {rows}"""
 
 # ── Build HTML email ──────────────────────────────────────────────────────────
 def news_rows(items, fallback_label):
@@ -1396,6 +1490,8 @@ html_body = f"""
   <p style="margin:0 0 4px 0;font-size:15px;font-weight:bold;color:#333;">{passage_title}</p>
   <p style="margin:0 0 14px 0;font-size:13px;color:#999;font-style:italic;">— {passage_author}</p>
   <p style="margin:0;font-size:14px;color:#444;line-height:1.75;">{passage_html}</p>
+
+  {wc_html}
 
 </body>
 </html>
