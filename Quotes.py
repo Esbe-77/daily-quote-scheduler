@@ -2,6 +2,7 @@ import smtplib
 import json
 import random
 import os
+import html
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timezone, timedelta
@@ -21,28 +22,31 @@ EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
 
 # ── RSS feeds ─────────────────────────────────────────────────────────────────
 FINANCE_FEEDS = [
-    "https://feeds.bbci.co.uk/news/business/rss.xml",
-    "https://www.aljazeera.com/xml/rss/all.xml",
     "https://feeds.reuters.com/reuters/businessNews",
+    "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
 ]
 
 TECH_FEEDS = [
-    "https://feeds.bbci.co.uk/news/technology/rss.xml",
-    "https://www.aljazeera.com/xml/rss/all.xml",
     "https://feeds.reuters.com/reuters/technologyNews",
+    "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
 ]
 
 FINANCE_KEYWORDS = [
     "economy", "economic", "market", "stock", "trade", "business", "bank", "banking",
     "inflation", "interest rate", "earnings", "treasury", "currency", "recession",
     "investment", "financial", "finance", "debt", "budget", "tax", "revenue", "profit",
-    "bond", "commodity", "oil", "energy", "dollar", "euro", "gdp",
+    "bond", "commodity", "oil", "energy", "dollar", "euro", "gdp", "central bank", "fed",
+    "wall street", "nasdaq", "crypto", "housing", "jobs", "consumer", "manufacturing",
 ]
 TECH_KEYWORDS = [
     "technology", "tech", "artificial intelligence", "ai", "software", "science",
     "scientific", "research", "discovery", "space", "climate", "innovation", "digital",
     "cyber", "robot", "quantum", "data", "computing", "chip", "semiconductor",
     "breakthrough", "genome", "biology", "physics", "chemistry", "astronomy", "nasa",
+    "cybersecurity", "startup", "cloud", "hardware", "gpu", "openai", "nvidia",
+    "microsoft", "google", "apple", "amazon", "meta", "tesla", "platform",
 ]
 
 # ── Philosophical readings (rotated daily) ───────────────────────────────────
@@ -1264,32 +1268,66 @@ def fetch_rss(feeds, keywords, n=3):
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=8) as r:
                 root = ET.fromstring(r.read())
-            ns = {"atom": "http://www.w3.org/2005/Atom"}
-            for entry in root.iter("item"):
-                title = (entry.findtext("title") or "").strip()
-                link  = (entry.findtext("link")  or "").strip()
-                desc  = (entry.findtext("description") or "").strip()
-                if title and link:
-                    all_items.append((title, link, desc))
-            for entry in root.findall(".//atom:entry", ns):
-                title = (entry.findtext("atom:title", namespaces=ns) or "").strip()
-                link_el = entry.find("atom:link", ns)
-                link = (link_el.get("href", "") if link_el is not None else "").strip()
-                desc = (entry.findtext("atom:summary", namespaces=ns) or "").strip()
+
+            for entry in root.iter():
+                tag = entry.tag.split("}")[-1]
+                if tag not in {"item", "entry"}:
+                    continue
+
+                title = ""
+                link = ""
+                desc = ""
+                for child in entry:
+                    child_tag = child.tag.split("}")[-1]
+                    if child_tag == "title" and not title:
+                        title = (child.text or "").strip()
+                    elif child_tag in {"description", "summary", "content"} and not desc:
+                        desc = (child.text or "").strip()
+                    elif child_tag == "link":
+                        href = child.get("href", "") or (child.text or "").strip()
+                        if href and not link:
+                            link = href
+
+                if not title:
+                    title = (entry.findtext(".//title") or "").strip()
+                if not link:
+                    link = (entry.get("href") or "").strip()
                 if title and link:
                     all_items.append((title, link, desc))
         except Exception:
             continue
+
     kw = [k.lower() for k in keywords]
-    filtered = [(t, l) for t, l, d in all_items
-                if any(k in (t + " " + d).lower() for k in kw)]
-    random.shuffle(filtered)
-    if len(filtered) >= n:
-        return filtered[:n]
-    filtered_links = {l for _, l in filtered}
-    extras = [(t, l) for t, l, _ in all_items if l not in filtered_links]
-    random.shuffle(extras)
-    return (filtered + extras)[:n]
+    scored = []
+    for title, link, desc in all_items:
+        text = f"{title} {desc}".lower()
+        score = sum(2 if k in text else 0 for k in kw if len(k) > 2)
+        if not score:
+            score = sum(1 for k in kw if k in text)
+        if score:
+            scored.append((score, title, link, desc))
+
+    if scored:
+        scored.sort(key=lambda item: (-item[0], item[1].lower()))
+        unique = []
+        seen_links = set()
+        for _, title, link, desc in scored:
+            if link in seen_links:
+                continue
+            seen_links.add(link)
+            unique.append((title, link, desc))
+            if len(unique) >= n:
+                return unique
+
+    deduped = []
+    seen_links = set()
+    for title, link, desc in all_items:
+        if link in seen_links:
+            continue
+        seen_links.add(link)
+        deduped.append((title, link, desc))
+    random.shuffle(deduped)
+    return deduped[:n]
 
 finance_news = fetch_rss(FINANCE_FEEDS, FINANCE_KEYWORDS, 3)
 tech_news    = fetch_rss(TECH_FEEDS,    TECH_KEYWORDS,    3)
@@ -1316,6 +1354,13 @@ CHESS_LESSONS = [
     ("Piece Activity Over Material","A rook doing nothing is worth less than a well-placed knight. When assessing a position, count activity, not just material. A pawn sacrifice that opens lines and activates all your pieces can be objectively stronger than holding the extra pawn passively."),
     ("Triangulation",              "An endgame king technique to lose a tempo. If your king needs to reach a square but the direct path gives your opponent equal opposition, take a three-move detour — a triangle — to arrive on the same square with the move still yours, putting your opponent in zugzwang."),
     ("Zugzwang and the 50-Move Rule","Zugzwang: any move you make worsens your position — your opponent uses this to force a win by making you move. The 50-move rule: if 50 moves pass without a capture or pawn move, the game is a draw. Knowing both prevents you from mishandling won endgames or letting a draw slip through."),
+    ("Think in Candidate Moves",   "Before committing to a move, ask which few replies really matter. Candidate moves are the handful of plans you can actually calculate, and most blunders happen because you skipped this filtering step. A good player looks for the move that meets the most needs at once."),
+    ("Deflection and Overloading","A defender can be overloaded if it must protect two targets at once. Deflection removes a defender from a key square, while overload forces a piece to guard more than it can handle. These motifs are everywhere once you start looking for them."),
+    ("Back-Rank Basics",          "A king and rook can be trapped on the back rank if your pieces control the escape squares. Check the back rank before attacking the enemy king, especially in rook endings or when the enemy queen is far away. Many games are lost by a simple back-rank blunder."),
+    ("Use Your Pieces Together",   "A lone piece is easy to answer; a coordinated army is hard to stop. Try to create a plan where your bishop, knight, rook, and queen all contribute to the same idea instead of wandering independently. One well-placed piece often does more than three random ones."),
+    ("The Pawn Break",            "A pawn break opens lines, challenges the centre, and creates counterplay. If your position is cramped, look for a break that either opens a file or disputes a key square. Good pawn breaks are often the hinge of the whole middlegame."),
+    ("Count the Threats",         "When you are about to move, ask yourself which threats your opponent can create after your last move. If you are not counting threats, you are probably playing one move ahead and missing the real danger. Tactical positions almost always come from hidden threats."),
+    ("Simplify to Endgames",       "If you are winning, trade down into an ending where your material edge is easier to convert. If you are losing, keep pieces on the board and create complications that make your opponent work. Endgames reward clarity; messy positions reward activity."),
 ]
 
 # ── Pick today's reading (weighted) ──────────────────────────────────────────
@@ -1433,10 +1478,12 @@ def news_rows(items, fallback_label):
     if not items:
         return f"<tr><td style='padding:6px 0;color:#888;'>Could not fetch {fallback_label} news.</td></tr>"
     rows = ""
-    for title, link in items:
+    for title, link, _ in items:
+        safe_title = html.escape(title)
+        safe_link = html.escape(link)
         rows += (
             f"<tr><td style='padding:5px 0;'>"
-            f"<a href='{link}' style='color:#1a73e8;text-decoration:none;'>{title}</a>"
+            f"<a href='{safe_link}' style='color:#1a73e8;text-decoration:none;'>{safe_title}</a>"
             f"</td></tr>"
         )
     return rows
@@ -1505,7 +1552,7 @@ def send_email():
     msg = MIMEMultipart("alternative")
     msg["From"]    = EMAIL_ADDRESS
     msg["To"]      = EMAIL_RECEIVER
-    msg["Subject"] = "Today's thought"
+    msg["Subject"] = "Today's thought, finance, tech, and chess"
     msg.attach(MIMEText(html_body, "html"))
 
     try:
