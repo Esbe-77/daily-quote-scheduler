@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 from datetime import date, datetime, timezone, timedelta
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.utils import parsedate_to_datetime
 
 # ── Settings ─────────────────────────────────────────────────────────────────
 JSON_FILE   = "stoic_quotes.json"
@@ -39,14 +40,16 @@ FINANCE_KEYWORDS = [
     "investment", "financial", "finance", "debt", "budget", "tax", "revenue", "profit",
     "bond", "commodity", "oil", "energy", "dollar", "euro", "gdp", "central bank", "fed",
     "wall street", "nasdaq", "crypto", "housing", "jobs", "consumer", "manufacturing",
+    "acquisition", "merger", "deal", "layoff", "regulation", "earnings report", "policy",
+    "interest-rate", "fed hike", "rate hike", "market turmoil", "stocks", "bonds",
 ]
 TECH_KEYWORDS = [
     "technology", "tech", "artificial intelligence", "ai", "software", "science",
-    "scientific", "research", "discovery", "space", "climate", "innovation", "digital",
-    "cyber", "robot", "quantum", "data", "computing", "chip", "semiconductor",
-    "breakthrough", "genome", "biology", "physics", "chemistry", "astronomy", "nasa",
-    "cybersecurity", "startup", "cloud", "hardware", "gpu", "openai", "nvidia",
-    "microsoft", "google", "apple", "amazon", "meta", "tesla", "platform",
+    "research", "discovery", "space", "innovation", "digital", "cyber", "robot",
+    "quantum", "data", "computing", "chip", "semiconductor", "cloud", "cybersecurity",
+    "startup", "mobile", "hardware", "gpu", "openai", "nvidia", "microsoft", "google",
+    "apple", "amazon", "meta", "tesla", "platform", "app", "launch", "acquisition",
+    "regulation", "privacy", "surge", "ai model", "machine learning", "chip shortage",
 ]
 
 # ── Philosophical readings (rotated daily) ───────────────────────────────────
@@ -1261,13 +1264,28 @@ weights = [current_weight(q) for q in quotes]
 chosen_quotes = random.choices(quotes, weights=weights, k=NUM_QUOTES)
 
 # ── Fetch RSS news ────────────────────────────────────────────────────────────
-def fetch_rss(feeds, keywords, n=3):
+def parse_date(text):
+    if not text:
+        return None
+    text = text.strip()
+    try:
+        return parsedate_to_datetime(text)
+    except Exception:
+        pass
+    try:
+        return datetime.fromisoformat(text.replace("Z", "+00:00"))
+    except Exception:
+        return None
+
+
+def fetch_rss(feeds, keywords, n=4):
     all_items = []
     for url in feeds:
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=8) as r:
-                root = ET.fromstring(r.read())
+            with urllib.request.urlopen(req, timeout=10) as r:
+                raw = r.read()
+                root = ET.fromstring(raw)
 
             for entry in root.iter():
                 tag = entry.tag.split("}")[-1]
@@ -1277,57 +1295,78 @@ def fetch_rss(feeds, keywords, n=3):
                 title = ""
                 link = ""
                 desc = ""
+                published = None
                 for child in entry:
                     child_tag = child.tag.split("}")[-1]
+                    text = (child.text or "").strip()
                     if child_tag == "title" and not title:
-                        title = (child.text or "").strip()
-                    elif child_tag in {"description", "summary", "content"} and not desc:
-                        desc = (child.text or "").strip()
+                        title = text
+                    elif child_tag in {"description", "summary", "content", "encoded"} and not desc:
+                        desc = text
                     elif child_tag == "link":
-                        href = child.get("href", "") or (child.text or "").strip()
+                        href = child.get("href", "") or text
                         if href and not link:
-                            link = href
+                            link = href.strip()
+                    elif child_tag in {"pubDate", "published", "updated"} and not published:
+                        published = parse_date(text)
 
                 if not title:
                     title = (entry.findtext(".//title") or "").strip()
                 if not link:
-                    link = (entry.get("href") or "").strip()
+                    link = (entry.findtext(".//link") or "").strip()
+                if not desc:
+                    desc = (entry.findtext(".//description") or entry.findtext(".//summary") or "").strip()
+                if not published:
+                    published = parse_date(entry.findtext(".//pubDate") or entry.findtext(".//published") or entry.findtext(".//updated") or "")
+
                 if title and link:
-                    all_items.append((title, link, desc))
+                    link = link.split("#")[0].strip()
+                    all_items.append({
+                        "title": title,
+                        "link": link,
+                        "desc": desc,
+                        "published": published,
+                    })
         except Exception:
             continue
 
     kw = [k.lower() for k in keywords]
     scored = []
-    for title, link, desc in all_items:
-        text = f"{title} {desc}".lower()
-        score = sum(2 if k in text else 0 for k in kw if len(k) > 2)
-        if not score:
-            score = sum(1 for k in kw if k in text)
+    for item in all_items:
+        text = f"{item['title']} {item['desc']}".lower()
+        score = 0
+        for k in kw:
+            if k in text:
+                score += 3 if len(k) > 4 else 1
+        if score == 0 and any(k in text for k in kw if len(k) <= 4):
+            score += 1
         if score:
-            scored.append((score, title, link, desc))
+            scored.append((score, item))
 
     if scored:
-        scored.sort(key=lambda item: (-item[0], item[1].lower()))
-        unique = []
+        scored.sort(key=lambda pair: (-pair[0], -(pair[1]["published"].timestamp() if pair[1]["published"] else 0)))
+        selected = []
         seen_links = set()
-        for _, title, link, desc in scored:
-            if link in seen_links:
+        for _, item in scored:
+            if item["link"] in seen_links:
                 continue
-            seen_links.add(link)
-            unique.append((title, link, desc))
-            if len(unique) >= n:
-                return unique
+            seen_links.add(item["link"])
+            selected.append(item)
+            if len(selected) >= n:
+                return selected
 
-    deduped = []
+    all_items.sort(key=lambda item: item["published"] or datetime.min, reverse=True)
+    unique = []
     seen_links = set()
-    for title, link, desc in all_items:
-        if link in seen_links:
+    for item in all_items:
+        if item["link"] in seen_links:
             continue
-        seen_links.add(link)
-        deduped.append((title, link, desc))
-    random.shuffle(deduped)
-    return deduped[:n]
+        seen_links.add(item["link"])
+        unique.append(item)
+        if len(unique) >= n:
+            return unique
+
+    return unique[:n]
 
 finance_news = fetch_rss(FINANCE_FEEDS, FINANCE_KEYWORDS, 3)
 tech_news    = fetch_rss(TECH_FEEDS,    TECH_KEYWORDS,    3)
@@ -1478,14 +1517,23 @@ def news_rows(items, fallback_label):
     if not items:
         return f"<tr><td style='padding:6px 0;color:#888;'>Could not fetch {fallback_label} news.</td></tr>"
     rows = ""
-    for title, link, _ in items:
-        safe_title = html.escape(title)
-        safe_link = html.escape(link)
+    for item in items:
+        title = html.escape(item["title"])
+        link = html.escape(item["link"])
+        desc = html.escape(item["desc"])
+        if len(title) < 6 or title.lower() in {"tech", "technology", "finance", "business", "news"}:
+            headline = desc.split(".")[0] if desc else title
+        else:
+            headline = title
         rows += (
-            f"<tr><td style='padding:5px 0;'>"
-            f"<a href='{safe_link}' style='color:#1a73e8;text-decoration:none;'>{safe_title}</a>"
-            f"</td></tr>"
+            f"<tr><td style='padding:10px 8px 10px 0;vertical-align:top;'>"
+            f"<a href='{link}' style='color:#1a73e8;text-decoration:none;font-weight:600;'>{headline}</a>"
         )
+        if desc:
+            snippet = html.escape(desc.replace('\n', ' ').strip())
+            snippet = snippet[:210] + ('...' if len(snippet) > 210 else '')
+            rows += f"<div style='margin:4px 0 0;font-size:13px;color:#555;line-height:1.4;'>{snippet}</div>"
+        rows += "</td></tr>"
     return rows
 
 html_body = f"""
