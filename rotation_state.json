@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "sequence": 3,
+  "groups": {
+    "quotes": {
+      "8544e71b4a0056b2ada5424714c16f7fec4e0d75bfccbe5b0e35eeeed05ae2c2": 1
+    },
+    "readings": {
+      "33e8fc24fd6934ef782b81307164eaa66987d6a7828de11650c5060b7e842581": 2
+    },
+    "chess": {
+      "8ccea093638fcf2c2e0fece3afeca338ff8e2f88f2db7bb5391f344a02995480": 3
+    }
+  }
+}
