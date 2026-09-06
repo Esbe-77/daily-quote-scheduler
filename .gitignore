@@ -1,0 +1,3 @@
+__pycache__/
+*.pyc
+rotation_state.json.tmp

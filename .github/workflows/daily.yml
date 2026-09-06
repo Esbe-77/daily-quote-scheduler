@@ -5,20 +5,30 @@ on:
     - cron: "0 21 * * *"  # Runs 0500 AWST (2100 UTC) every day
   workflow_dispatch:  # Allows manual runs
 
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-quote-delivery
+  cancel-in-progress: false
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt || true
+      - name: Test rotation and delivery safeguards
+        run: python -m unittest discover -s tests -v
 
       - name: Run script
         env:
@@ -26,3 +36,19 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
         run: python Quotes.py
+
+      - name: Save rotation history for the next run
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rotation_state.json
+          git diff --staged --quiet && exit 0
+          git commit -m "Record daily content rotation"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          echo "Could not save rotation history" >&2
+          exit 1

@@ -2150,503 +2150,943 @@
     "last_sent": null
   },
   {
-    "quote": "Begin with the part of the difficulty that your hands can reach. - Original reflection",
+    "quote": "From my grandfather Verus [I learned] good morals and the government of my temper. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "A quiet conscience is built in decisions too small for an audience. - Original reflection",
+    "quote": "Give thyself time to learn something new and good, and cease to be whirled around. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "You cannot keep the morning, but you can decide what it receives from you. - Original reflection",
+    "quote": "Since it is possible that thou mayest depart from life this very moment, regulate every act and thought accordingly. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "Patience is the willingness to work without demanding that time hurry. - Original reflection",
+    "quote": "The universe is transformation: life is opinion. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "Do not confuse the strength of a feeling with the truth of its message. - Original reflection",
+    "quote": "While thou livest, while it is in thy power, be good. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "An obstacle deserves a response, not the whole of your identity. - Original reflection",
+    "quote": "Accordingly, on every occasion a man should ask himself, Is this one of the unnecessary things? - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "The day becomes lighter when every inconvenience stops being a verdict. - Original reflection",
+    "quote": "Now a man should take away not only unnecessary acts, but also unnecessary thoughts, for thus superfluous acts will not follow after. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "Keep your promises small enough to practise and serious enough to matter. - Original reflection",
+    "quote": "Thou must turn to profit the present by the aid of reason and justice. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "You need not win the argument to leave it with your character intact. - Original reflection",
+    "quote": "Examine men’s ruling principles, even those of the wise, what kind of things they avoid, and what kind they pursue. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "What you repeat in private becomes what you rely on under pressure. - Original reflection",
+    "quote": "Always run to the short way; and the short way is the natural: accordingly say and do everything in conformity with the soundest reason. - Marcus Aurelius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Meditations (Thoughts of Marcus Aurelius)",
+      "url": "https://www.gutenberg.org/cache/epub/6920/pg6920.txt",
+      "translator": "George Long"
+    }
   },
   {
-    "quote": "Make room for doubt without giving it every chair. - Original reflection",
+    "quote": "Within our power are opinion, aim, desire, aversion, and, in one word, whatever affairs are our own. - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "A useful apology spends fewer words on intention and more effort on repair. - Original reflection",
+    "quote": "If you would improve, be content to be thought foolish and dull with regard to externals. - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "Gratitude begins when the ordinary is allowed to become visible again. - Original reflection",
+    "quote": "Do not desire to be thought to know anything; and though you should appear to others to be somebody, distrust yourself. - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "The future asks for preparation; it does not require your constant attendance. - Original reflection",
+    "quote": "For if you once gain time and respite, you will more easily command yourself. - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "Rest before exhaustion starts making your decisions. - Original reflection",
+    "quote": "Besides, which would you rather have, a sum of money or a faithful and honorable friend? - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "Your attention is a form of care; notice where you keep spending it. - Original reflection",
+    "quote": "And do you feel no shame in delivering up your own mind to any reviler, to be disconcerted and confounded? - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "Enough is a boundary you must name before desire will respect it. - Original reflection",
+    "quote": "Consider first, man, what the matter is, and what your own nature is able to bear. - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "A setback changes the route more often than it changes the destination. - Original reflection",
+    "quote": "You must be one man, either good or bad. - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "Let the evidence interrupt the story you prefer. - Original reflection",
+    "quote": "For what other master, then, do you wait as an excuse for this delay in self-reformation? - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "The smallest honest beginning is worth more than an impressive postponement. - Original reflection",
+    "quote": "You are no longer a boy but a grown man. - Epictetus",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Enchiridion",
+      "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+      "translator": "Thomas Wentworth Higginson"
+    }
   },
   {
-    "quote": "You can be disappointed without appointing disappointment your guide. - Original reflection",
+    "quote": "The student is to read history actively and not passively; to esteem his own life the text, and books the commentary. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "Leave people enough room to surprise your first impression. - Original reflection",
+    "quote": "The world exists for the education of each man. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "Courage sometimes sounds like a calm request for help. - Original reflection",
+    "quote": "Every mind must know the whole lesson for itself,—must go over the whole ground. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "Do not borrow tomorrow's distress to prove that you care today. - Original reflection",
+    "quote": "Nature is a mutable cloud which is always and never the same. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "A habit is a vote cast before the difficult moment arrives. - Original reflection",
+    "quote": "Nature is an endless combination and repetition of a very few laws. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "Measure your progress against the work, not the noise around it. - Original reflection",
+    "quote": "My life is for itself and not for a spectacle. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "The mind needs open space as much as it needs good material. - Original reflection",
+    "quote": "Do your work, and you shall reinforce yourself. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "Kindness is most revealing when there is nothing to gain from it. - Original reflection",
+    "quote": "Suppose you should contradict yourself; what then? - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "Before defending your answer, make sure you have understood the question. - Original reflection",
+    "quote": "The power men possess to annoy me I give them by a weak curiosity. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "What cannot be undone can still be met with responsibility. - Original reflection",
+    "quote": "If you can love me for what I am, we shall be the happier. - Ralph Waldo Emerson",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Essays — First Series",
+      "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt"
+    }
   },
   {
-    "quote": "A boundary spoken early can prevent resentment spoken late. - Original reflection",
+    "quote": "Good thoughts bear good fruit, bad thoughts bad fruit. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "Peace is easier to find when every preference is not treated as a necessity. - Original reflection",
+    "quote": "Men are anxious to improve their circumstances, but are unwilling to improve themselves; they therefore remain bound. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "You do not owe every provocation a performance. - Original reflection",
+    "quote": "Men imagine that thought can be kept secret, but it cannot; it rapidly crystallizes into habit, and habit solidifies into circumstance. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "The useful lesson survives after the embarrassment has faded. - Original reflection",
+    "quote": "To live continually in thoughts of ill will, cynicism, suspicion, and envy, is to be confined in a self made prison-hole. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "Choose a pace at which your values can keep up with your ambition. - Original reflection",
+    "quote": "A man should conceive of a legitimate purpose in his heart, and set out to accomplish it. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "To listen well is to suspend the speech you were preparing. - Original reflection",
+    "quote": "Achievement, of whatever kind, is the crown of effort, the diadem of thought. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "A difficult hour is not a complete description of your life. - Original reflection",
+    "quote": "Victories attained by right thought can only be maintained by watchfulness. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "Good judgement leaves room for what it has not yet seen. - Original reflection",
+    "quote": "The greatest achievement was at first and for a time a dream. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "The work you avoid often grows larger in imagination than in practice. - Original reflection",
+    "quote": "The more tranquil a man becomes, the greater is his success, his influence, his power for good. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "Protect the conditions that allow you to be generous. - Original reflection",
+    "quote": "Keep your hand firmly upon the helm of thought. - James Allen",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "As a Man Thinketh",
+      "url": "https://www.gutenberg.org/cache/epub/4507/pg4507.txt"
+    }
   },
   {
-    "quote": "Simplicity is knowing which complications have earned their place. - Original reflection",
+    "quote": "As if you could kill time without injuring eternity. - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "Try to become reliable before trying to become remarkable. - Original reflection",
+    "quote": "But it is a characteristic of wisdom not to do desperate things. - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "Your first reaction is information; your next action is a choice to examine. - Original reflection",
+    "quote": "Nature and human life are as various as our several constitutions. - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "A mistake becomes more expensive when pride insists on keeping it. - Original reflection",
+    "quote": "Who shall say what prospect life offers to another? - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "Do one necessary thing before asking whether you feel inspired. - Original reflection",
+    "quote": "I think that we may safely trust a good deal more than we do. - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "The person beside you has a history you cannot see from here. - Original reflection",
+    "quote": "Nature is as well adapted to our weakness as to our strength. - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "A slower answer can be a more respectful one. - Original reflection",
+    "quote": "The life which men praise and regard as successful is but one kind. - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "Do not turn a temporary limit into a permanent name for yourself. - Original reflection",
+    "quote": "In the long run men hit only what they aim at. - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "You can honour what was good without insisting that it return. - Original reflection",
+    "quote": "While civilization has been improving our houses, it has not equally improved the men who are to inhabit them. - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "Comparison counts another person's harvest and overlooks your own soil. - Original reflection",
+    "quote": "How could youths better learn to live than by at once trying the experiment of living? - Henry David Thoreau",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Walden",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
+    }
   },
   {
-    "quote": "Spend less effort appearing certain and more effort becoming accurate. - Original reflection",
+    "quote": "Eat not to dullness; drink not to elevation. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "The purpose of reflection is to return to life with clearer hands. - Original reflection",
+    "quote": "Speak not but what may benefit others or yourself; avoid trifling conversation. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "Let improvement be specific enough to begin this afternoon. - Original reflection",
+    "quote": "Let all your things have their places; let each part of your business have its time. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "A possession should serve your life before it asks you to serve its upkeep. - Original reflection",
+    "quote": "Resolve to perform what you ought; perform without fail what you resolve. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "Restraint preserves choices that impulse spends at once. - Original reflection",
+    "quote": "Make no expense but to do good to others or yourself; i.e., waste nothing. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "You need not make a permanent decision about a passing mood. - Original reflection",
+    "quote": "Lose no time; be always employ'd in something useful; cut off all unnecessary actions. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "Trust grows where words and ordinary actions repeatedly meet. - Original reflection",
+    "quote": "Use no hurtful deceit; think innocently and justly, and, if you speak, speak accordingly. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "Some burdens become manageable when they are described without exaggeration. - Original reflection",
+    "quote": "Wrong none by doing injuries, or omitting the benefits that are your duty. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "Give the present task the dignity of your undivided effort. - Original reflection",
+    "quote": "Avoid extreams; forbear resenting injuries so much as you think they deserve. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "Forgiveness need not reopen a door that wisdom has closed. - Original reflection",
+    "quote": "Be not disturbed at trifles, or at accidents common or unavoidable. - Benjamin Franklin",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Autobiography of Benjamin Franklin",
+      "url": "https://www.gutenberg.org/cache/epub/148/pg148.txt"
+    }
   },
   {
-    "quote": "The ability to begin again is strengthened by using it. - Original reflection",
+    "quote": "There is no vice, that doth so cover a man with shame, as to be found false and perfidious. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "An honest limit is more useful than a promise made to avoid discomfort. - Original reflection",
+    "quote": "This is certain, that a man that studieth revenge, keeps his own wounds green, which otherwise would heal, and do well. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "Let your standards guide your effort without denying your humanity. - Original reflection",
+    "quote": "Certainly if miracles be the command over nature, they appear most in adversity. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "There is freedom in enjoying something without needing to own it. - Original reflection",
+    "quote": "The virtue of prosperity, is temperance; the virtue of adversity, is fortitude; which in morals is the more heroical virtue. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "A good question can loosen what a hundred arguments have tightened. - Original reflection",
+    "quote": "A man that hath no virtue in himself, ever envieth virtue in others. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "Do not mistake familiarity with a problem for progress on it. - Original reflection",
+    "quote": "They that desire to excel in too many matters, out of levity and vain glory, are ever envious. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "The next right action rarely requires a perfect account of the whole future. - Original reflection",
+    "quote": "But power to do good, is the true and lawful end of aspiring. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "Make your daily life hospitable to the person you hope to become. - Original reflection",
+    "quote": "For in counsel, it is good to see dangers; and in execution, not to see them, except they be very great. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "What you decline determines how fully you can accept what matters. - Original reflection",
+    "quote": "Goodness I call the habit, and goodness of nature, the inclination. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "Gentleness can be precise; firmness can be kind. - Original reflection",
+    "quote": "If he be thankful for small benefits, it shows that he weighs men's minds, and not their trash. - Francis Bacon",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Essays or Counsels, Civil and Moral",
+      "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt"
+    }
   },
   {
-    "quote": "A pause gives your principles time to enter the conversation. - Original reflection",
+    "quote": "The highest excellence is like (that of) water. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "The cost of a choice includes the attention it will ask for afterwards. - Original reflection",
+    "quote": "It is better to leave a vessel unfilled, than to attempt to carry it when it is full. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Do not let yesterday's praise set today's direction without examination. - Original reflection",
+    "quote": "If you keep feeling a point that has been sharpened, the point cannot long preserve its sharpness. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "You may outgrow a goal without having wasted the effort it taught you. - Original reflection",
+    "quote": "The soft overcomes the hard; and the weak the strong. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Care for the tools, including the body and mind that use them. - Original reflection",
+    "quote": "Governing a great state is like cooking small fish. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Understanding a cause does not remove the need to address its consequences. - Original reflection",
+    "quote": "He who lightly promises is sure to keep but little faith; he who is continually thinking things easy is sure to find them difficult. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "There is no shame in being a beginner at something worth learning. - Original reflection",
+    "quote": "If they were careful at the end, as (they should be) at the beginning, they would not so ruin them. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Your character is practised most often in the way you handle inconvenience. - Original reflection",
+    "quote": "Because he does not strive, no one finds it possible to strive with him. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Leave a little space between wanting something and arranging your life around it. - Original reflection",
+    "quote": "Gentleness is sure to be victorious even in battle, and firmly to maintain its ground. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "A friendship deepens when curiosity outlasts convenience. - Original reflection",
+    "quote": "There is no calamity greater than lightly engaging in war. - Lao Tzu",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "Tao Teh King",
+      "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Be willing to lose the appearance of wisdom to gain a little of the real thing. - Original reflection",
+    "quote": "Is it not pleasant to learn with a constant perseverance and application? - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Do not demand that a worthwhile day also be an easy one. - Original reflection",
+    "quote": "Fine words and an insinuating appearance are seldom associated with true virtue. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "The right amount of preparation ends with an attempt. - Original reflection",
+    "quote": "When you have faults, do not fear to abandon them. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Make peace with limits without making excuses for avoidable neglect. - Original reflection",
+    "quote": "I will not be afflicted at men's not knowing me; I will be afflicted that I do not know men. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "You can recognise another person's pain without surrendering your own judgement. - Original reflection",
+    "quote": "Learning without thought is labour lost; thought without learning is perilous. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "A life takes shape through what receives your ordinary Tuesdays. - Original reflection",
+    "quote": "The superior man thinks of virtue; the small man thinks of comfort. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Let pleasure arrive without assigning it the duty of lasting forever. - Original reflection",
+    "quote": "The superior man wishes to be slow in his speech and earnest in his conduct. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "When you cannot see the whole path, look for the next sound foothold. - Original reflection",
+    "quote": "The wise find pleasure in water; the virtuous find pleasure in hills. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "The clearest intention still needs a place in the calendar. - Original reflection",
+    "quote": "The wise are active; the virtuous are tranquil. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "Speak so that your meaning can survive the absence of your tone. - Original reflection",
+    "quote": "I will select their good qualities and follow them, their bad qualities and avoid them. - Confucius",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Analects",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+      "translator": "James Legge"
+    }
   },
   {
-    "quote": "A useful standard can be returned to after it has been missed. - Original reflection",
+    "quote": "So then Happiness is manifestly something final and self-sufficient, being the end of all things which are and may be done. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "Do not make your peace dependent on everyone understanding you. - Original reflection",
+    "quote": "Virtue then is in a sense a mean state, since it certainly has an aptitude for aiming at the mean. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "The strength to carry on includes the judgement to change direction. - Original reflection",
+    "quote": "But a man is to be Brave, not on compulsion, but from a sense of honour. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "What deserves care deserves maintenance after the excitement has passed. - Original reflection",
+    "quote": "So then men are termed Brave for withstanding painful things. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "A moment of envy can reveal a desire that needs honest examination. - Original reflection",
+    "quote": "Yet some pause and amusement in life are generally judged to be indispensable. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "Respect your time by giving some of it away deliberately. - Original reflection",
+    "quote": "And so, in a general way of speaking, the man who is good at deliberation will be Practically Wise. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "The world need not become quiet before you can practise paying attention. - Original reflection",
+    "quote": "Again, one man may hit on a thing after long deliberation, another quickly. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "Learn to distinguish the effort that builds from the effort that merely exhausts. - Original reflection",
+    "quote": "From what has been said then it is clear that one cannot be, strictly speaking, good without Practical Wisdom nor Practically-Wise without moral goodness. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "A good ending leaves less unsaid out of fear and less said out of anger. - Original reflection",
+    "quote": "It is evident then from all this, that Self-Control is a good state and the Imperfection of it a bad one. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   },
   {
-    "quote": "Return to what matters as often as you notice that you have wandered. - Original reflection",
+    "quote": "It is not enough however merely to state the truth, we should also show how the false view arises; because this strengthens conviction. - Aristotle",
     "weight": 1.0,
-    "last_sent": null
+    "last_sent": null,
+    "source": {
+      "work": "The Nicomachean Ethics",
+      "url": "https://www.gutenberg.org/cache/epub/8438/pg8438.txt"
+    }
   }
 ]

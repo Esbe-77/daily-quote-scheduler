@@ -1,15 +1,14 @@
 import smtplib
 import json
-import random
 import os
-from datetime import date, datetime
+import html
+from rotation import Rotation
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # ── Settings ─────────────────────────────────────────────────────────────────
 JSON_FILE   = "stoic_quotes.json"
 NUM_QUOTES  = 1
-DECAY_WEEKS = 4
 SMTP_HOST   = "smtp.gmail.com"
 SMTP_PORT   = 587
 
@@ -1466,27 +1465,14 @@ Do not demand that the first day back compensate for every missed day. Excessive
 A life of practice is not necessarily a line of uninterrupted success. It may be a series of recognitions followed by renewed participation. Each return says that what matters still has a claim on you. You have wandered, you have noticed, and there is something available to do now."""),
 ]
 
-# ── Weight logic ──────────────────────────────────────────────────────────────
-def current_weight(q):
-    last = q.get("last_sent")
-    if not last:
-        return 1.0
-    weeks = (date.today() - datetime.fromisoformat(last).date()).days // 7
-    return min(1.0, weeks / DECAY_WEEKS)
-
 # ── Load quotes ───────────────────────────────────────────────────────────────
-try:
-    with open(JSON_FILE, "r", encoding="utf-8") as f:
-        quotes = json.load(f)
-except FileNotFoundError:
-    raise SystemExit(f"Error: {JSON_FILE} not found.")
+with open(JSON_FILE, "r", encoding="utf-8") as f:
+    quotes = json.load(f)
 
-for q in quotes:
-    q.setdefault("weight", 1.0)
-    q.setdefault("last_sent", None)
-
-weights = [current_weight(q) for q in quotes]
-chosen_quotes = random.choices(quotes, weights=weights, k=NUM_QUOTES)
+rotation = Rotation()
+chosen_quotes = [quotes[i] for i in rotation.choose(
+    "quotes", [q["quote"] for q in quotes], NUM_QUOTES
+)]
 
 # ── Chess lessons (rotated daily) ────────────────────────────────────────────
 CHESS_LESSONS = [
@@ -1539,38 +1525,34 @@ CHESS_LESSONS = [
     ('Train One Habit at a Time', 'Choose one thinking habit for your next few games, such as checking undefended pieces after every move. Review whether you used it, even in games you won. Results contain luck and opponent mistakes; a consistently applied habit is clearer evidence of improvement. Add another habit once the first becomes dependable.'),
 ]
 
-# ── Pick today's reading (weighted) ──────────────────────────────────────────
-try:
-    with open("passages_state.json", "r", encoding="utf-8") as f:
-        passages_state = json.load(f)
-except FileNotFoundError:
-    passages_state = {}
-
-def passage_weight(idx):
-    last = passages_state.get(str(idx), {}).get("last_sent")
-    if not last:
-        return 1.0
-    weeks = (date.today() - datetime.fromisoformat(last).date()).days // 7
-    return min(1.0, weeks / DECAY_WEEKS)
-
-p_weights = [passage_weight(i) for i in range(len(PASSAGES))]
-chosen_passage_idx = random.choices(range(len(PASSAGES)), weights=p_weights, k=1)[0]
+# ── Pick today's reading and chess lesson (least recently shown) ──────────────
+chosen_passage_idx = rotation.choose("readings", [p[2] for p in PASSAGES])[0]
 passage_title, passage_author, passage_text = PASSAGES[chosen_passage_idx]
 passage_html = passage_text.strip().replace('\n\n', '<br><br>')
 
-# ── Pick today's chess lesson (weighted) ─────────────────────────────────────
-def chess_weight(idx):
-    last = passages_state.get(f"chess_{idx}", {}).get("last_sent")
-    if not last:
-        return 1.0
-    weeks = (date.today() - datetime.fromisoformat(last).date()).days // 7
-    return min(1.0, weeks / DECAY_WEEKS)
-
-c_weights = [chess_weight(i) for i in range(len(CHESS_LESSONS))]
-chosen_chess_idx = random.choices(range(len(CHESS_LESSONS)), weights=c_weights, k=1)[0]
+chosen_chess_idx = rotation.choose("chess", [lesson[1] for lesson in CHESS_LESSONS])[0]
 chess_title, chess_body = CHESS_LESSONS[chosen_chess_idx]
 
 # ── Build HTML email ──────────────────────────────────────────────────────────
+def quote_html(quote):
+    text = html.escape(quote['quote'])
+    reference = ''
+    if source := quote.get('source'):
+        label = source['work']
+        if translator := source.get('translator'):
+            label += f' (translated by {translator})'
+        reference = (
+            '<div style="margin-top:6px;font-size:12px;font-style:normal;">'
+            f'<a href="{html.escape(source["url"], quote=True)}">'
+            f'{html.escape(label)}</a></div>'
+        )
+    return (
+        '<blockquote style="border-left:3px solid #ccc;margin:0 0 16px 0;'
+        'padding:8px 16px;font-style:italic;color:#333;">'
+        f'{text}{reference}</blockquote>'
+    )
+
+
 html_body = f"""
 <!DOCTYPE html>
 <html>
@@ -1580,7 +1562,7 @@ html_body = f"""
   <h2 style="font-size:16px;font-weight:normal;color:#555;margin-bottom:24px;">
     Today's thought
   </h2>
-  {"".join(f'<blockquote style="border-left:3px solid #ccc;margin:0 0 16px 0;padding:8px 16px;font-style:italic;color:#333;">{q["quote"]}</blockquote>' for q in chosen_quotes)}
+  {"".join(quote_html(q) for q in chosen_quotes)}
 
   <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
 
@@ -1616,30 +1598,16 @@ def send_email():
     msg["Subject"] = "Today's thought, chess, and reading"
     msg.attach(MIMEText(html_body, "html"))
 
-    try:
-        server = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+    with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=30) as server:
         server.starttls()
         server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-        server.sendmail(EMAIL_ADDRESS, EMAIL_RECEIVER, msg.as_string())
-        server.quit()
-        print("Email sent successfully.")
-    except Exception as e:
-        print("SMTP error:", e)
+        refused = server.sendmail(EMAIL_ADDRESS, EMAIL_RECEIVER, msg.as_string())
+        if refused:
+            raise smtplib.SMTPRecipientsRefused(refused)
+    print("Email sent successfully.")
 
-# ── Update weights & save ─────────────────────────────────────────────────────
-def mark_as_sent():
-    today_str = date.today().isoformat()
-    for q in chosen_quotes:
-        q["weight"]    = 0.0
-        q["last_sent"] = today_str
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
-        json.dump(quotes, f, ensure_ascii=False, indent=2)
-    passages_state[str(chosen_passage_idx)] = {"last_sent": today_str}
-    passages_state[f"chess_{chosen_chess_idx}"] = {"last_sent": today_str}
-    with open("passages_state.json", "w", encoding="utf-8") as f:
-        json.dump(passages_state, f, ensure_ascii=False, indent=2)
 
 # ── Execute ───────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     send_email()
-    mark_as_sent()
+    rotation.save()
