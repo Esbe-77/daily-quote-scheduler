@@ -2,13 +2,9 @@ import smtplib
 import json
 import random
 import os
-import html
-import urllib.request
-import xml.etree.ElementTree as ET
-from datetime import date, datetime, timezone, timedelta
+from datetime import date, datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from email.utils import parsedate_to_datetime
 
 # ── Settings ─────────────────────────────────────────────────────────────────
 JSON_FILE   = "stoic_quotes.json"
@@ -20,37 +16,6 @@ SMTP_PORT   = 587
 EMAIL_ADDRESS  = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
-
-# ── RSS feeds ─────────────────────────────────────────────────────────────────
-FINANCE_FEEDS = [
-    "https://feeds.reuters.com/reuters/businessNews",
-    "https://feeds.bbci.co.uk/news/business/rss.xml",
-    "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
-]
-
-TECH_FEEDS = [
-    "https://feeds.reuters.com/reuters/technologyNews",
-    "https://feeds.bbci.co.uk/news/technology/rss.xml",
-    "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-]
-
-FINANCE_KEYWORDS = [
-    "economy", "economic", "market", "stock", "trade", "business", "bank", "banking",
-    "inflation", "interest rate", "earnings", "treasury", "currency", "recession",
-    "investment", "financial", "finance", "debt", "budget", "tax", "revenue", "profit",
-    "bond", "commodity", "oil", "energy", "dollar", "euro", "gdp", "central bank", "fed",
-    "wall street", "nasdaq", "crypto", "housing", "jobs", "consumer", "manufacturing",
-    "acquisition", "merger", "deal", "layoff", "regulation", "earnings report", "policy",
-    "interest-rate", "fed hike", "rate hike", "market turmoil", "stocks", "bonds",
-]
-TECH_KEYWORDS = [
-    "technology", "tech", "artificial intelligence", "ai", "software", "science",
-    "research", "discovery", "space", "innovation", "digital", "cyber", "robot",
-    "quantum", "data", "computing", "chip", "semiconductor", "cloud", "cybersecurity",
-    "startup", "mobile", "hardware", "gpu", "openai", "nvidia", "microsoft", "google",
-    "apple", "amazon", "meta", "tesla", "platform", "app", "launch", "acquisition",
-    "regulation", "privacy", "surge", "ai model", "machine learning", "chip shortage",
-]
 
 # ── Philosophical readings (rotated daily) ───────────────────────────────────
 PASSAGES = [
@@ -1239,6 +1204,266 @@ The exercises varied by school. The Stoics practised morning preparation, evenin
 The implication Hadot drew was that reading ancient philosophy as we typically do — for its theoretical content, to evaluate its arguments — misses most of what it was for. A Stoic text is not primarily a set of claims to be assessed. It is a set of exercises to be performed. The question to ask of it is not 'is this true?' but 'what does it ask me to do, and what happens when I do it?'
 
 Philosophy, on this account, is not a subject. It is a practice — and its measure is not what you know but who you are becoming."""),
+
+    ("On the Space Before a Reply", "Original reflection",
+"""An unwelcome message arrives, and almost immediately an answer begins forming. Before we have established what happened, we are already assembling the defence. We know the tone we will use, the detail that will prove our point, the sentence that will make the other person feel what we feel. The speed can resemble clarity. Often it is simply momentum.
+
+There is a small practical freedom available here: the freedom to let the first answer remain unsent. This does not require suppressing anger or pretending that an insult was harmless. It requires distinguishing the experience of a feeling from the action the feeling proposes. Anger may tell us that something matters. It cannot, by itself, tell us what response will serve it.
+
+Try describing the event in language that a camera could confirm. A message was not answered. A promise was missed. Someone disagreed in front of colleagues. Then notice what you added: they never respect me; this always happens; everyone must think less of me. Some interpretations may prove accurate. They still deserve examination before becoming the foundation of a reply.
+
+The pause need not be dramatic. Put the phone down. Read the message once more. Ask what you want to be different after the conversation. An answer meant to repair a problem will often look different from one meant to discharge a feeling.
+
+There will be occasions when firmness is necessary and delay is unhelpful. The point is to choose firmness deliberately. A response can be immediate without being impulsive, just as silence can be avoidance rather than wisdom. What matters is whether your judgement has had a chance to participate.
+
+You cannot always choose what first rises in you. You can practise giving the second thought a hearing."""),
+
+    ("On Defining Enough", "Original reflection",
+"""Desire rarely announces its finishing line. We imagine that satisfaction will arrive with the next improvement: a little more money, a larger room, a more impressive title. Yet when the improvement arrives, it quickly becomes the background. What once appeared sufficient becomes the minimum from which the next comparison begins.
+
+This does not mean ambition is foolish. A better income can relieve real pressure, and better tools can support worthwhile work. The difficulty begins when we ask acquisition to settle a question we have never defined. Enough for what? Security, comfort, approval, freedom, or the pleasure of knowing someone else has less? These purposes are different, and they do not all have attainable endpoints.
+
+Consider choosing a practical standard before the opportunity to expand appears. What would let you meet your obligations, protect some unclaimed time, and enjoy the activities you value? Such a standard will change with circumstances. Its usefulness lies in making the discussion explicit rather than allowing comparison to conduct it silently.
+
+There is also an overlooked cost to more. Every possession asks for space and attention. Every additional commitment occupies hours that cannot be used elsewhere. A desirable opportunity may be expensive in the very freedom it was supposed to purchase. The full price is not always written on the label.
+
+For one ordinary decision today, ask whether the addition would solve a real problem or merely quiet a comparison for an afternoon. You may still choose it. But the choice will have become more honest.
+
+Contentment need not mean refusing improvement. It can mean having a place to stand while improving, a point from which your present life is already allowed to count. Without that permission, arrival becomes a promise that desire is always authorised to postpone."""),
+
+    ("On Keeping a Small Promise", "Original reflection",
+"""Large intentions can make us feel changed before anything has happened. We decide to become disciplined, patient, well read, or physically stronger, and the picture is briefly convincing. The imagined future supplies some of the satisfaction of achievement. Then the ordinary day returns, with its interruptions and its lack of interest in our declaration.
+
+A small promise has a different character. It can be kept or broken today. Ten attentive minutes with a book, one necessary conversation, a short walk after lunch: these do not provide a heroic identity. They provide evidence. You said you would do something, and you did it when the moment arrived.
+
+The size matters because reliability develops through repetition. A promise that depends on exceptional energy is really an agreement with a version of yourself who seldom appears. A manageable promise includes the tired person, the busy person, the person whose morning did not go well. It makes room for the life you actually lead.
+
+This is not an argument for remaining forever at the smallest level. Once a practice is dependable, it can grow. But growth built on reliability differs from growth built on enthusiasm. One has somewhere to return when conditions worsen; the other must wait for another burst of feeling.
+
+If you miss a day, examine the obstacle without turning the event into a judgement of your entire character. Was the promise vague? Was the time unrealistic? Did you need a reminder or a smaller version? Repair the arrangement, then keep the next appointment.
+
+Self-trust is not produced by insisting that you are capable of anything. It grows from becoming someone whose ordinary commitments have weight. Begin with a promise small enough to keep and important enough that keeping it means something."""),
+
+    ("On Changing Your Mind in Public", "Original reflection",
+"""It is often easier to discover an error than to admit it in front of the people who heard us make it. Privately, the evidence may already be decisive. Publicly, we continue defending the old position, adding qualifications that protect its appearance while quietly abandoning its substance. We have stopped investigating the question and started protecting a portrait.
+
+The portrait is understandable. We want to be competent, consistent, worthy of trust. Yet consistency can mean two different things: repeating yesterday's answer, or applying the same honest method when new information appears. The second kind sometimes requires the first to break.
+
+A useful correction is plain. Say what you believed, what changed your view, and what you now think. There is usually no need for a lengthy performance of humiliation. Nor is it helpful to suggest that you secretly meant the corrected version all along. Both responses make the admission more about your image than the question itself.
+
+Changing your mind also deserves proportion. One new fact does not automatically overturn everything, and confidence should not swing wildly with the last persuasive voice. Ask how strong the evidence is and which part of your conclusion it actually affects. An honest revision can be small and specific.
+
+Try noticing the physical moment when a discussion becomes defensive: the urge to interrupt, the selective memory, the sudden interest in an opponent's minor wording error. These can be signs that belonging to a position has become more important than understanding it.
+
+Trust does not require a record without mistakes. It requires some confidence that mistakes, once seen, will not be deliberately preserved. The sentence 'I was wrong about that' can cost a little pride while making future words more credible. That is often a good exchange."""),
+
+    ("On the Work Nobody Notices", "Original reflection",
+"""Much of what makes a life function is nearly invisible when it is done well. The room is ready, the bill is paid, the awkward detail has been checked. Someone remembered an appointment or repaired a small fault before it became a large one. Because there is no crisis, there may also be no applause.
+
+Visible achievement is easier to describe. It has a date and a result. Maintenance is harder to celebrate because its success often looks like nothing happening. Yet the dependable background of ordinary life is not supplied automatically. It is repeatedly made by people spending attention on things that will soon need attention again.
+
+This kind of work can become a source of resentment when it is taken for granted. Recognising its value does not mean accepting an unfair share of it. Sometimes the responsible action is to name the work, divide it more fairly, or stop allowing silence to conceal an unequal arrangement. Care includes care for the person providing it.
+
+There is nevertheless dignity in doing something well without making recognition its only reward. The immediate result may be modest: one less difficulty for someone else, a tool that lasts longer, a promise that can be relied upon. Those are real contributions even when nobody describes them as accomplishments.
+
+Look around today for one piece of maintenance you normally overlook. Notice who performs it. Offer thanks that names the actual action, or take a fair share without waiting to be asked. Specific recognition sees more than a general compliment.
+
+A good life contains beginnings and breakthroughs, but it also contains washing, checking, mending, and returning. What matters is often sustained by the willingness to do again what did not stay done. The repetition does not make the work meaningless. It makes the benefit continue."""),
+
+    ("On Leaving Room in a Day", "Original reflection",
+"""A completely filled calendar can look like a well-managed life. Every hour has a purpose, every gap has been assigned, and the day appears to promise maximum use of time. The arrangement works beautifully until something takes longer than expected, someone needs help, or you discover that concentration cannot be ordered to arrive precisely on schedule.
+
+Space is easy to mistake for waste because its benefit is often preventive. The unclaimed half hour absorbs a delay. The pause between conversations allows one person's concerns to stop echoing through the next meeting. A little room means that an ordinary surprise does not immediately become a personal emergency.
+
+There is a moral consequence as well as a practical one. When every minute is already owed, generosity becomes expensive. A small request can feel like an attack. We may blame others for interrupting a life whose design has left no allowance for the fact that other people exist.
+
+Not everyone has much control over their schedule. Work, care, and financial pressure can consume most available time. The point is not to prescribe spacious mornings to someone struggling through the day. It is to notice where a little choice remains and resist filling that space automatically.
+
+Before adding one more commitment, consider its surrounding demands: preparation, travel, recovery, and the attention that lingers afterwards. The appointment is rarely the whole cost. A realistic calendar includes the human being who must live inside it.
+
+Leave one small interval unclaimed if you can. It need not become productive in another form. Let it serve as room to notice, adjust, or simply arrive. A day can be full of meaning without being full at every minute. Sometimes the space between obligations is what allows you to meet them well."""),
+
+    ("On Taking Criticism Apart", "Original reflection",
+"""Criticism tends to arrive as a single object: a sentence that stings, a judgement that feels too broad, a tone we immediately dislike. Our first impulse is often to accept all of it or reject all of it. Either we become the failure being described, or the speaker becomes someone whose opinion can be ignored.
+
+A more useful response is to take the object apart. What specific action is being criticised? What evidence is offered? Is the proposed standard reasonable? Which part can be checked? A rude delivery may contain a valid observation, while a gentle delivery can still contain an unfair demand. Tone and accuracy are separate questions.
+
+Suppose someone says you are unreliable. The label is broad, but perhaps you missed two agreed deadlines. You need not accept a permanent description of your character to acknowledge those events. You can ask what happened, communicate earlier next time, or make fewer promises. Specific responsibility creates possibilities that global shame tends to close.
+
+The opposite is also important. If criticism is vague, contradictory, or designed only to wound, you do not have to manufacture a lesson from every insult. Ask for an example when useful. Set a boundary when needed. Reflection does not require handing another person unlimited authority over your self-understanding.
+
+Allow enough time for the initial sting to settle before reaching a verdict. Then write the useful portion in language you could act on tomorrow. If there is nothing concrete to change, the comment may deserve less space than it initially occupied.
+
+Being teachable is not the same as being easily diminished. It is the ability to extract information without confusing it with identity. You remain a person capable of judgement, including judgement about the criticism itself."""),
+
+    ("On Enjoying What Will End", "Original reflection",
+"""A pleasant afternoon sometimes contains a strange interruption: the thought that it will soon be over. We are still with friends, still looking at the sea, still hearing the music, but part of the mind has moved ahead to the loss. We begin missing the experience while it is available.
+
+The wish underneath this is tender and impossible. We want the good thing to be safe from time. Yet an experience does not become more fully ours by worrying about its departure. The worry uses some of the attention through which the experience could actually be enjoyed.
+
+There is another way to acknowledge an ending. Notice it briefly, as a reason to return. This meal will not repeat in precisely this form. These people will change. The light is moving. Rather than making the moment inadequate, its limits can help distinguish it from the countless occasions we assume will always be available.
+
+This is not a demand to feel grateful at all times or to turn every pleasure into a solemn meditation. Excessive effort to appreciate something can become another form of absence. Sometimes the best response is simply to stop checking the clock, ask another question, or taste what you are eating.
+
+When the ending comes, sadness may be appropriate. Enjoyment does not purchase immunity from missing what mattered. But the later sadness need not be rehearsed in advance, as though rehearsal could reduce the cost.
+
+Choose one ordinary pleasure today and let it be complete without being permanent. Do not require it to become a possession, a photograph, or a plan for repetition. Some things enrich a life by passing through it. Your part is not to prevent their passing, but to be sufficiently present that they do not pass entirely unnoticed."""),
+
+    ("On Beginning Without Confidence", "Original reflection",
+"""Confidence is pleasant company, but it is an unreliable starting condition. If we require certainty that we will perform well before attempting unfamiliar work, we create a difficult arrangement: the feeling that usually grows from experience must somehow arrive before experience is allowed to begin.
+
+A beginner has good reasons to feel uncertain. The task is not yet familiar, the likely mistakes are unclear, and comparison supplies examples of people who have already practised for years. The discomfort is not necessarily evidence that the activity is wrong for us. It may simply be the sensation of having something to learn.
+
+Instead of asking whether you feel ready for the entire undertaking, define a first attempt that can teach you something. Write a rough paragraph. Play a slow game and review one mistake. Ask a basic question. Make the attempt limited enough that its purpose is learning rather than proving your worth.
+
+Preparation still matters. Some activities require instruction, supervision, or careful safeguards before action. But preparation can also become a hiding place when each new resource postpones the same manageable first step. Ask what information the next hour of study would provide that a modest attempt would not.
+
+Afterwards, evaluate the attempt at the level of the task. What worked? Where did you lose track? What would make the next try more useful? Avoid turning a clumsy beginning into a prediction about your permanent ability. Predictions made from the first attempt have very little evidence to work with.
+
+Confidence may eventually follow. It may also fluctuate even as competence grows. You do not need to settle that in advance. The immediate requirement is smaller: enough willingness to participate in the process through which skill is built. A beginning can be worthwhile before it feels convincing."""),
+
+    ("On Attention as a Form of Friendship", "Original reflection",
+"""It is possible to spend an evening with someone and remain largely occupied by yourself. You listen for an opening to tell your related story. You prepare advice before the problem is fully described. You recognise the subject and assume you already know what the person will say. The conversation continues, but curiosity has quietly left.
+
+Attention asks for a temporary suspension of that certainty. The friend in front of you is not merely the person you remember. Something may have changed since your last meeting: a worry, a hope, a private disappointment they do not yet know how to name. Familiarity can support understanding, but it can also make us stop looking.
+
+A useful question is often simple and specific. What has that been like for you? Which part is hardest? Do you want help thinking it through, or would it help to be heard? These questions leave the other person some authority over their own experience. They also prevent advice from becoming a way to end our discomfort.
+
+Listening does not mean agreement with everything said. Friendship can require honest disagreement. Yet a challenge usually lands differently when the other person knows their position has first been understood. Accuracy in listening is itself a form of respect.
+
+Try leaving one pause unfilled in your next conversation. Let the person finish the thought after the thought. Notice whether your urge to speak comes from something useful to offer or from impatience with not being central for a moment.
+
+Friendship is sustained by practical acts as well as words: showing up, remembering, helping. But attention gives those acts their personal quality. It says that your care is directed towards this particular person, whose life is still unfolding, rather than towards a fixed picture you have stopped revising."""),
+
+    ("On the Difference Between Rest and Escape", "Original reflection",
+"""At the end of a demanding day, almost anything that interrupts effort can look like rest. We reach for a screen, move between small distractions, and avoid whatever might ask something of us. Sometimes this is harmless pleasure. Sometimes an hour passes and we feel no more restored, only less willing to stop.
+
+The distinction is not between respectable and disreputable activities. A walk can become another performance to measure, while a familiar comedy can provide real ease. What matters is the effect and the purpose. Does the activity help you recover, or mainly postpone your encounter with a feeling or obligation that remains unchanged?
+
+Escape is not always a moral failure. People need relief, and difficult circumstances can narrow the available forms of it. The useful question is gentle and practical: what kind of tiredness is this? A body that needs sleep, a mind saturated with information, and a person lonely for conversation may require different responses.
+
+Before settling into the default evening, take a minute to name what is depleted. Then choose one response that fits, if circumstances allow. Eat something, close the stream of information, speak to someone, sit outside, or go to bed. A modest action directed at the actual need may help more than a long period of unchosen distraction.
+
+Rest also deserves freedom from the demand to justify itself through future productivity. You are not merely maintaining an instrument for tomorrow's work. Enjoyment and recovery belong within a life, even when they produce nothing that can be counted.
+
+The aim is not to supervise every leisure moment. It is to notice when the familiar form of relief has stopped relieving anything. From there, a different choice becomes possible, and the evening can begin to give something back."""),
+
+    ("On Envy as a Question", "Original reflection",
+"""Another person's success can produce an uncomfortable double response. We may be glad for them and still feel diminished. Their news becomes a private comparison: why not me, why not yet, what does this say about my life? The feeling can be followed quickly by shame for having felt it at all.
+
+Envy is more useful when treated as a question than as a verdict. What exactly do you imagine the other person has? Recognition, freedom, security, creative work, companionship? The visible achievement may stand for something much more specific. Until that desire is named, comparison tends to remain broad and punishing.
+
+Then ask whether you want the actual life involved or only its most attractive photograph. The result may come with routines, risks, responsibilities, and sacrifices you would not choose. Recognising those costs does not require belittling the achievement. It simply restores the parts that envy leaves outside the frame.
+
+Sometimes the answer reveals a desire worth acting on. You may want to make more room for learning, seek work with greater autonomy, or take a neglected ambition seriously. In that case, translate the feeling into one step within your circumstances. Another person's progress can become evidence of a possibility without becoming a judgement of your pace.
+
+Other times, the desire belongs mostly to an imagined audience. You want the admiration attached to the result more than the activity itself. That is useful to discover before committing years to pursuing it.
+
+You do not need to become someone who never compares. Begin by becoming more precise about comparison when it arrives. Congratulate the other person honestly if you can, then return to the question their news raised. The feeling need not direct your behaviour to provide information about what you value."""),
+
+    ("On Repair After an Apology", "Original reflection",
+"""An apology can bring immediate relief to the person offering it. The difficult words have been spoken, responsibility has been acknowledged, and the wish to move forward feels reasonable. Yet for the person affected, the situation may be largely unchanged. The missed work remains, the trust is unsettled, or the consequence still needs attention.
+
+This is why repair matters. It asks what can be done beyond describing regret. Can you replace what was damaged, complete what was neglected, correct the false impression, or change the arrangement that allowed the same mistake to recur? The answer turns remorse towards the world outside your own discomfort.
+
+A useful apology names the action plainly. Explanations may help understanding, but they should not crowd out responsibility. There is a difference between explaining why you were distracted and suggesting that distraction made the broken promise cease to matter. The other person's experience does not disappear because your intention was different.
+
+Repair also requires patience about its reception. An apology is not a contract that obliges someone to forgive on schedule. They may need time, distance, or evidence of changed behaviour. Asking repeatedly whether everything is now fine can shift the burden back onto the person who was hurt.
+
+Consider a small unresolved matter in your own life. If an apology has already been made, ask whether a practical step remains. Perhaps the most respectful next move is a quiet action rather than another conversation about how sorry you feel.
+
+Not everything can be restored. Some consequences must be accepted rather than reversed. Even then, responsibility can shape what happens next. The measure of an apology is not only the sincerity of the moment in which it is spoken. It is also the pattern of conduct that follows after the relief has passed."""),
+
+    ("On Being a Person Beyond Your Work", "Original reflection",
+"""Work offers a clear vocabulary for describing ourselves. It supplies a title, a set of problems, a place where effort can produce visible results. When someone asks who we are, it is easy to answer with what we do. There is nothing strange about this; work occupies a substantial portion of many lives.
+
+The difficulty comes when the description becomes complete. A poor result then threatens more than a project. A quiet period feels like personal emptiness. Retirement, redundancy, illness, or a change of direction can become frightening partly because there seems to be no remaining language for the person outside the role.
+
+Having other sources of meaning does not require caring less about your work. It requires allowing other relationships and activities to matter without borrowing their importance from professional achievement. You can be a dependable friend, an attentive parent, a curious reader, or an enthusiastic beginner without converting those roles into further measures of performance.
+
+Ask what you do that would still be worth doing if nobody could add it to your biography. A conversation, a meal prepared with care, a walk whose destination is simply home. Such activities may appear small beside a career, yet they remind you that living is larger than being evaluated.
+
+If your life has become narrow through necessity, begin modestly. Reopen one interest or make one appointment with someone whose company does not depend on your usefulness. The purpose is not to achieve perfect balance. It is to keep more than one door open.
+
+A profession can express your abilities and values without containing all of them. When work goes well, that wider life gives the success somewhere to belong. When work becomes difficult, it provides evidence that a setback in one role has not erased the whole person."""),
+
+    ("On Making a Boundary Clear", "Original reflection",
+"""Resentment sometimes begins with an agreement we did not mean. We say yes because the refusal feels awkward, because we want to appear generous, or because we hope the other person will somehow notice the cost without being told. Later, the request feels unreasonable even though our answer gave little sign of difficulty.
+
+A clear boundary brings the hidden information into the conversation earlier. I cannot take that on this week. I can help for an hour. I am willing to discuss the problem, but not while being shouted at. These statements give the other person something concrete to understand rather than asking them to interpret accumulated frustration.
+
+The boundary concerns what you can offer or what you will do. It does not guarantee control over another person's response. They may be disappointed, disagree, or ask again. The discomfort of their reaction does not automatically mean the limit was unkind. Nor does having a limit make every way of expressing it fair.
+
+Kindness helps with the manner; clarity helps with the meaning. Lengthy justifications can invite a negotiation over every detail when the actual answer is already settled. A brief explanation may be enough. Where obligations are shared, propose a workable alternative rather than silently abandoning your part.
+
+Think of one place where you are repeatedly agreeing and then resenting the agreement. What limit would make your participation sustainable? State it before the next crisis if possible, when both people have more room to respond thoughtfully.
+
+Generosity is more dependable when it is freely chosen and realistically supported. A boundary can protect the conditions that make future help possible. It may feel less pleasing in the moment than an immediate yes, but it offers something valuable: an answer the other person can actually rely on."""),
+
+    ("On Measuring an Ordinary Day", "Original reflection",
+"""At the end of a day, the unfinished tasks often speak first. They are specific and easy to count. The quieter accomplishments are less insistent: you remained patient in a difficult exchange, attended to someone who needed you, or stopped a small problem from becoming larger. A day can therefore appear empty while containing much that mattered.
+
+The way we measure shapes the way we live. If only completed tasks count, care begins to look like interruption. If only pleasant feelings count, a worthwhile but difficult day looks like failure. If only praise counts, private integrity becomes almost invisible. No single measure captures the whole of a human day.
+
+This does not make practical goals irrelevant. Deadlines and obligations are real. But a review can include more than output. What received your attention? Where did you act in accordance with your values? What needs repair? What helped you or someone else live a little better? These questions broaden the evidence without removing responsibility.
+
+Try a brief evening account with three parts: something done, something learned, and something to adjust. Keep each specific. 'I was useless' provides no guidance. 'I postponed the difficult call until I was too tired' suggests a change you can make tomorrow.
+
+Include ordinary enjoyment as well. A good conversation or a few minutes in the garden need not earn their place by improving later performance. They are part of the life the work is supposed to support.
+
+The purpose of review is not to award yourself a flattering score. It is to see accurately enough to continue with judgement. Some days will reveal neglect; others will reveal effort you were too hurried to notice. Both findings are more useful than allowing the loudest unfinished task to write the entire account."""),
+
+    ("On Carrying Uncertainty", "Original reflection",
+"""Waiting for an answer can make the mind extraordinarily busy. We rehearse the likely outcome, then the unlikely one, then the conversation we might have if either occurs. Nothing outside us has changed, but inwardly we have lived through several versions of the future, each demanding a fresh emotional response.
+
+Some preparation is useful. If different outcomes require different actions, a little planning can reduce confusion later. The difficulty is knowing when planning has stopped producing options and started repeating the same fears. Repetition can feel responsible because it is effortful, even when it adds no information.
+
+Separate the situation into what is known, what remains unknown, and what can be done before the answer arrives. Write a short plan if needed. Then identify when it would make sense to check again. This gives uncertainty a practical arrangement instead of unlimited access to every idle moment.
+
+The unresolved feeling may remain. A plan does not require the body to feel calm immediately, and you do not have to treat continued unease as a failed exercise. You can carry discomfort while cooking a meal, completing a task, or listening to someone else. Attention can move even when certainty has not arrived.
+
+Avoid promising yourself that everything will turn out well. Sometimes it will not. A sturdier reassurance is that you can meet the actual information when it comes, use available support, and decide the next step with more evidence than you have now.
+
+Choose one useful action that belongs to today, however ordinary. Doing it does not mean you have stopped caring about the unanswered question. It means the question has not been granted ownership of the whole day. Uncertainty may be present without being the only thing your life is allowed to contain."""),
+
+    ("On Letting a Goal Change", "Original reflection",
+"""A goal can organise years of effort. It tells us what to practise, which opportunities to accept, and why certain sacrifices seem worthwhile. Because it has supplied so much direction, questioning it can feel disloyal to the person who first chose it and to the work already invested.
+
+Yet the past effort cannot decide the future by itself. The relevant question is whether continuing now serves a purpose you still endorse. You may have learned more about the work, your circumstances may have changed, or the reward may no longer justify its cost. Discovering this is different from claiming that every difficult phase is a sign to stop.
+
+Distinguish fatigue from a change in values. Rest may restore a commitment that exhaustion has made invisible. A conversation or a smaller adjustment may solve a problem that initially looked fundamental. Give the decision enough time and evidence to become clearer, especially when the consequences are substantial.
+
+Then compare realistic alternatives. Continuing has costs, but leaving does too. Avoid comparing the hardest version of your current path with a frictionless picture of another. Ask what the next year would require under each choice, including responsibilities to other people.
+
+If you do change direction, the previous effort is not automatically wasted. Skills, relationships, and self-knowledge can travel beyond the goal that first produced them. Some losses may remain, and they deserve honest acknowledgement without becoming reasons to enlarge them indefinitely.
+
+There is courage in persistence and courage in revision. The outward action alone does not tell us which is needed. What matters is whether you are choosing with attention to present reality or merely obeying an old decision because changing it would require an explanation. Your earlier self made a choice with earlier information. You are allowed to use what has since been learned."""),
+
+    ("On Making Knowledge Useful", "Original reflection",
+"""Reading can give us the satisfying feeling of movement. We encounter a clear idea, recognise its truth, underline a sentence, and continue. By evening, we may have collected several principles for living while responding to ordinary frustrations in precisely the familiar way. Understanding has occurred, but practice has not yet been arranged.
+
+The gap is not necessarily hypocrisy. Knowing a principle and recalling it under pressure are different abilities. A calm reader can appreciate patience more easily than a tired person can practise it during an interruption. The idea needs a connection to a situation in which it will be used.
+
+After a useful passage, choose one concrete application. If the subject is attention, put the phone away for a conversation. If it is restraint, pause before one habitual purchase. If it is honesty, correct a small misleading impression you have allowed to remain. The action should be specific enough that you can later tell whether it happened.
+
+Then observe the result without demanding an immediate transformation. What made the practice difficult? Did you forget, resist, or discover that the principle needed qualification? An unsuccessful attempt can teach more about applying an idea than another hour of admiring it in general terms.
+
+This does not mean every book must become a programme of improvement. Reading also offers pleasure, beauty, companionship, and knowledge valuable for its own sake. But when you turn to a text for guidance, give at least one part of it a chance to enter your conduct.
+
+A modest practice repeated over time can make a familiar sentence newly intelligible. You begin to know what it costs, where it helps, and where your interpretation was too simple. The page then becomes a companion to experience. Its wisdom is tested in the place it was meant to matter: the next ordinary choice."""),
+
+    ("On Returning After You Wander", "Original reflection",
+"""Attention wanders, routines break, and good intentions become obscured by ordinary demands. We notice that several days have passed without the walk, the reading, the careful conversation we meant to preserve. The discovery can lead to a severe conclusion: if the practice were truly ours, surely we would not keep losing it.
+
+That conclusion makes continuity the only acceptable form of commitment. But many worthwhile practices are sustained through returning. A musician resumes after illness. A friend calls after a busy month. Someone who spoke impatiently repairs the exchange and tries to respond differently next time. The interruption is real; it need not become the end.
+
+The first task is to notice without adding unnecessary punishment. Shame can make the return feel larger than the original practice. Suddenly a ten-minute activity seems to require an explanation of your whole character. Reduce the scale again. What would resuming look like today, under the conditions that actually exist?
+
+The second task is to learn from the break. Perhaps the routine depended on a time that was never dependable. Perhaps the commitment was too ambitious, or you needed to share the responsibility. Returning to an unchanged arrangement may simply reproduce the same obstacle. Flexibility can protect the purpose when the original method stops working.
+
+Do not demand that the first day back compensate for every missed day. Excessive effort can turn the return into another beginning that is too difficult to maintain. Resume at a level you can repeat, then build from there.
+
+A life of practice is not necessarily a line of uninterrupted success. It may be a series of recognitions followed by renewed participation. Each return says that what matters still has a claim on you. You have wandered, you have noticed, and there is something available to do now."""),
 ]
 
 # ── Weight logic ──────────────────────────────────────────────────────────────
@@ -1262,114 +1487,6 @@ for q in quotes:
 
 weights = [current_weight(q) for q in quotes]
 chosen_quotes = random.choices(quotes, weights=weights, k=NUM_QUOTES)
-
-# ── Fetch RSS news ────────────────────────────────────────────────────────────
-def parse_date(text):
-    if not text:
-        return None
-    text = text.strip()
-    try:
-        return parsedate_to_datetime(text)
-    except Exception:
-        pass
-    try:
-        return datetime.fromisoformat(text.replace("Z", "+00:00"))
-    except Exception:
-        return None
-
-
-def fetch_rss(feeds, keywords, n=4):
-    all_items = []
-    for url in feeds:
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=10) as r:
-                raw = r.read()
-                root = ET.fromstring(raw)
-
-            for entry in root.iter():
-                tag = entry.tag.split("}")[-1]
-                if tag not in {"item", "entry"}:
-                    continue
-
-                title = ""
-                link = ""
-                desc = ""
-                published = None
-                for child in entry:
-                    child_tag = child.tag.split("}")[-1]
-                    text = (child.text or "").strip()
-                    if child_tag == "title" and not title:
-                        title = text
-                    elif child_tag in {"description", "summary", "content", "encoded"} and not desc:
-                        desc = text
-                    elif child_tag == "link":
-                        href = child.get("href", "") or text
-                        if href and not link:
-                            link = href.strip()
-                    elif child_tag in {"pubDate", "published", "updated"} and not published:
-                        published = parse_date(text)
-
-                if not title:
-                    title = (entry.findtext(".//title") or "").strip()
-                if not link:
-                    link = (entry.findtext(".//link") or "").strip()
-                if not desc:
-                    desc = (entry.findtext(".//description") or entry.findtext(".//summary") or "").strip()
-                if not published:
-                    published = parse_date(entry.findtext(".//pubDate") or entry.findtext(".//published") or entry.findtext(".//updated") or "")
-
-                if title and link:
-                    link = link.split("#")[0].strip()
-                    all_items.append({
-                        "title": title,
-                        "link": link,
-                        "desc": desc,
-                        "published": published,
-                    })
-        except Exception:
-            continue
-
-    kw = [k.lower() for k in keywords]
-    scored = []
-    for item in all_items:
-        text = f"{item['title']} {item['desc']}".lower()
-        score = 0
-        for k in kw:
-            if k in text:
-                score += 3 if len(k) > 4 else 1
-        if score == 0 and any(k in text for k in kw if len(k) <= 4):
-            score += 1
-        if score:
-            scored.append((score, item))
-
-    if scored:
-        scored.sort(key=lambda pair: (-pair[0], -(pair[1]["published"].timestamp() if pair[1]["published"] else 0)))
-        selected = []
-        seen_links = set()
-        for _, item in scored:
-            if item["link"] in seen_links:
-                continue
-            seen_links.add(item["link"])
-            selected.append(item)
-            if len(selected) >= n:
-                return selected
-
-    all_items.sort(key=lambda item: item["published"] or datetime.min, reverse=True)
-    unique = []
-    seen_links = set()
-    for item in all_items:
-        if item["link"] in seen_links:
-            continue
-        seen_links.add(item["link"])
-        unique.append(item)
-        if len(unique) >= n:
-            return unique
-
-    return unique[:n]
-
-finance_news = fetch_rss(FINANCE_FEEDS, FINANCE_KEYWORDS, 3)
-tech_news    = fetch_rss(TECH_FEEDS,    TECH_KEYWORDS,    3)
 
 # ── Chess lessons (rotated daily) ────────────────────────────────────────────
 CHESS_LESSONS = [
@@ -1400,6 +1517,26 @@ CHESS_LESSONS = [
     ("The Pawn Break",            "A pawn break opens lines, challenges the centre, and creates counterplay. If your position is cramped, look for a break that either opens a file or disputes a key square. Good pawn breaks are often the hinge of the whole middlegame."),
     ("Count the Threats",         "When you are about to move, ask yourself which threats your opponent can create after your last move. If you are not counting threats, you are probably playing one move ahead and missing the real danger. Tactical positions almost always come from hidden threats."),
     ("Simplify to Endgames",       "If you are winning, trade down into an ending where your material edge is easier to convert. If you are losing, keep pieces on the board and create complications that make your opponent work. Endgames reward clarity; messy positions reward activity."),
+    ('Ask What Changed', 'Every move changes attacks, defenders, or open lines. After your opponent moves, identify what the piece now threatens and what its old square no longer protects. Only then resume your plan. Practise naming one change before each reply; this turns looking at the board into an active search.'),
+    ('Safety Before Ambition', "A plan has no value if the next reply wins your queen. Before committing, imagine your move on the board and inspect your opponent's checks and captures. Look especially at the square you leave behind. This final safety check catches threats that were absent in the original position."),
+    ('Count Legal Recaptures', 'A defended piece is not automatically safe. Calculate the exchange in order, using only legal captures, and compare the material left afterwards. A pinned defender may be unable to recapture, and moving one defender may expose another target. Counting attackers is a starting point; playing through the sequence is the proof.'),
+    ('Improve the Least Useful Piece', 'When there is no urgent threat, find the piece contributing least. Ask which safe square would give it more useful moves or a target, then work out a route. Improving your worst piece increases the resources available for future plans without requiring you to invent an immediate attack.'),
+    ('Give Every Rook an Entry Square', 'An open file is useful because it can carry a rook into the enemy position. Before occupying one, identify a safe entry square and the defender controlling it. If there is no way in, consider exchanging that defender or using another file. Possessing a road matters when it leads somewhere.'),
+    ('Know What a Pawn Stops Guarding', 'A pawn push changes its attacked squares permanently. Before advancing, name the squares it currently protects and check whether an enemy piece could use them afterwards. Then compare that cost with the space or threat you gain. This is a concrete way to evaluate a pawn move beyond how aggressive it looks.'),
+    ("Find the Opponent's Best Defence", "A variation is only convincing if it survives a strong reply. After finding an attractive move, search deliberately for the opponent's best defence: a capture, a queen trade, an escape square, or a counterattack. Treat your idea as something to test. An opponent who cooperates in your imagination teaches you very little."),
+    ('Stop Calculation at a Stable Position', 'Do not evaluate a line while pieces are still hanging or checks are forcing replies. Continue until the immediate exchanges and threats settle, then count material and assess king safety. Otherwise you may celebrate a captured rook while overlooking that your queen falls on the next move.'),
+    ('Understand the Price of a Tempo', 'A tempo matters when your opponent can use the next move to change something important. Chasing a piece is useful if your own position improves while it retreats. If your attacking pawn move creates weaknesses and the enemy piece reaches a better square, gaining time may have gained you nothing.'),
+    ('Attack Where You Can Bring Help', 'An attack needs usable force near its target. Count which of your pieces can join safely and which enemy defenders can respond. If reinforcements take several moves, improve coordination before sacrificing. Local superiority explains why a smaller active group can succeed while a larger army on the other wing cannot help.'),
+    ('Make a Second Target', "One weakness may be easy to defend with all the opponent's pieces nearby. Fix it in place, then create pressure elsewhere without dropping your first threat. Defenders cannot occupy two distant squares at once. Practise switching targets only when your own king and material remain safe during the manoeuvre."),
+    ('Trade by the Position You Get', 'Before offering an exchange, picture the board after the recapture. Which file opens, which pawn moves, and whose remaining piece improves? Equal point values do not make a trade equal in usefulness. Choose exchanges for their consequences, and check tactics before trusting a favourable-looking endgame.'),
+    ('Use the King When Checks Subside', 'The king can attack and defend nearby squares, but exposing it to major pieces can be dangerous. As checking threats diminish, look for a safe route towards the centre or a weak pawn. Ask what your king can accomplish in three moves instead of leaving it where opening safety required it.'),
+    ('Count the Pawn Race Exactly', 'When passed pawns race, count legal moves to promotion for both sides, including whose turn it is. Check whether a king can intercept, a capture changes the route, or promotion gives check. A single forcing move can decide the race, so replace the impression of speed with a concrete sequence.'),
+    ('Opposition Is About Entry Squares', "In king endings, opposition helps when it forces the other king to yield an important square. Start by naming the square you need to enter, then calculate the king moves and pawn waiting moves. Having opposition is not a goal by itself; gaining access while preventing the opponent's access is the point."),
+    ('Check for Stalemate Before Finishing', 'When the opponent has few pieces, a move that removes every legal reply may produce stalemate if their king is not in check. Before a winning capture or queen move, identify a legal reply for them. If there is none, verify that the king is checked before celebrating.'),
+    ('Keep Rooks Active in Defence', "A passive rook may protect a pawn while allowing the enemy king to improve freely. Look for safe checking distance, attacks on enemy pawns, or a file that restricts their king. Compare these active resources with passive defence by calculating the opponent's threats; activity helps only when it meets the immediate danger."),
+    ('Spend Time Where Choices Matter', 'Use more thinking time when a move is irreversible, a forcing sequence begins, or several plausible choices lead to different positions. On routine moves, still perform a brief safety check. Saving a little time throughout the game leaves enough to calculate the position where a single decision changes the result.'),
+    ('Review the First Wrong Assumption', 'After a game, find the first moment your evaluation stopped matching the position. Write what you believed, what reply you missed, and what board feature should have alerted you. A useful lesson describes a repeatable thinking error. Merely recording the best move does not explain how to find it next time.'),
+    ('Train One Habit at a Time', 'Choose one thinking habit for your next few games, such as checking undefended pieces after every move. Review whether you used it, even in games you won. Results contain luck and opponent mistakes; a consistently applied habit is clearer evidence of improvement. Add another habit once the first becomes dependable.'),
 ]
 
 # ── Pick today's reading (weighted) ──────────────────────────────────────────
@@ -1433,109 +1570,7 @@ c_weights = [chess_weight(i) for i in range(len(CHESS_LESSONS))]
 chosen_chess_idx = random.choices(range(len(CHESS_LESSONS)), weights=c_weights, k=1)[0]
 chess_title, chess_body = CHESS_LESSONS[chosen_chess_idx]
 
-# ── World Cup (auto-expires 2026-07-19) ───────────────────────────────────────
-AWST   = timezone(timedelta(hours=8))
-WC_END = date(2026, 7, 19)
-
-def fetch_world_cup():
-    today_awst = datetime.now(AWST).date()
-    if today_awst > WC_END:
-        return [], []
-    yesterday = today_awst - timedelta(days=1)
-
-    def get_events(d):
-        url = (
-            "https://site.api.espn.com/apis/site/v2/sports/soccer"
-            f"/fifa.world/scoreboard?dates={d.strftime('%Y%m%d')}"
-        )
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=10) as r:
-                return json.loads(r.read()).get("events", [])
-        except Exception:
-            return []
-
-    def home_away(event):
-        comps = event.get("competitions", [{}])[0].get("competitors", [])
-        home = next((c for c in comps if c.get("homeAway") == "home"), comps[0] if comps else {})
-        away = next((c for c in comps if c.get("homeAway") == "away"), comps[-1] if comps else {})
-        return home, away
-
-    results = []
-    for e in get_events(yesterday):
-        if not e.get("status", {}).get("type", {}).get("completed"):
-            continue
-        try:
-            home, away = home_away(e)
-            results.append(
-                f"{home['team']['displayName']} {home.get('score', '?')} "
-                f"– {away.get('score', '?')} {away['team']['displayName']}"
-            )
-        except Exception:
-            continue
-
-    fixtures = []
-    for e in get_events(today_awst):
-        if e.get("status", {}).get("type", {}).get("completed"):
-            continue
-        try:
-            home, away = home_away(e)
-            dt_utc  = datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
-            dt_awst = dt_utc.astimezone(AWST)
-            t       = dt_awst.strftime("%I:%M %p").lstrip("0")
-            fixtures.append(
-                f"{home['team']['displayName']} vs {away['team']['displayName']}   {t}"
-            )
-        except Exception:
-            continue
-
-    return results, fixtures
-
-wc_results, wc_fixtures = fetch_world_cup()
-wc_html = ""
-if wc_results or wc_fixtures:
-    rows = ""
-    if wc_results:
-        rows += "<p style='margin:0 0 6px 0;font-size:13px;font-weight:bold;color:#555;'>Yesterday's Results</p>"
-        for r in wc_results:
-            rows += f"<p style='margin:0 0 4px 0;font-size:13px;color:#333;'>{r}</p>"
-    if wc_results and wc_fixtures:
-        rows += "<div style='height:10px;'></div>"
-    if wc_fixtures:
-        rows += "<p style='margin:0 0 6px 0;font-size:13px;font-weight:bold;color:#555;'>Today's Fixtures (AWST)</p>"
-        for f in wc_fixtures:
-            rows += f"<p style='margin:0 0 4px 0;font-size:13px;color:#333;'>{f}</p>"
-    wc_html = f"""
-  <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
-  <h3 style="font-size:14px;letter-spacing:.05em;text-transform:uppercase;color:#888;margin:0 0 10px 0;">
-    FIFA World Cup 2026
-  </h3>
-  {rows}"""
-
 # ── Build HTML email ──────────────────────────────────────────────────────────
-def news_rows(items, fallback_label):
-    if not items:
-        return f"<tr><td style='padding:6px 0;color:#888;'>Could not fetch {fallback_label} news.</td></tr>"
-    rows = ""
-    for item in items:
-        title = html.escape(item["title"])
-        link = html.escape(item["link"])
-        desc = html.escape(item["desc"])
-        if len(title) < 6 or title.lower() in {"tech", "technology", "finance", "business", "news"}:
-            headline = desc.split(".")[0] if desc else title
-        else:
-            headline = title
-        rows += (
-            f"<tr><td style='padding:10px 8px 10px 0;vertical-align:top;'>"
-            f"<a href='{link}' style='color:#1a73e8;text-decoration:none;font-weight:600;'>{headline}</a>"
-        )
-        if desc:
-            snippet = html.escape(desc.replace('\n', ' ').strip())
-            snippet = snippet[:210] + ('...' if len(snippet) > 210 else '')
-            rows += f"<div style='margin:4px 0 0;font-size:13px;color:#555;line-height:1.4;'>{snippet}</div>"
-        rows += "</td></tr>"
-    return rows
-
 html_body = f"""
 <!DOCTYPE html>
 <html>
@@ -1546,26 +1581,6 @@ html_body = f"""
     Today's thought
   </h2>
   {"".join(f'<blockquote style="border-left:3px solid #ccc;margin:0 0 16px 0;padding:8px 16px;font-style:italic;color:#333;">{q["quote"]}</blockquote>' for q in chosen_quotes)}
-
-  <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
-
-  <!-- Finance -->
-  <h3 style="font-size:14px;letter-spacing:.05em;text-transform:uppercase;color:#888;margin:0 0 10px 0;">
-    Finance
-  </h3>
-  <table style="width:100%;border-collapse:collapse;">
-    {news_rows(finance_news, "finance")}
-  </table>
-
-  <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
-
-  <!-- Tech -->
-  <h3 style="font-size:14px;letter-spacing:.05em;text-transform:uppercase;color:#888;margin:0 0 10px 0;">
-    Technology
-  </h3>
-  <table style="width:100%;border-collapse:collapse;">
-    {news_rows(tech_news, "tech")}
-  </table>
 
   <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
 
@@ -1586,8 +1601,6 @@ html_body = f"""
   <p style="margin:0 0 14px 0;font-size:13px;color:#999;font-style:italic;">— {passage_author}</p>
   <p style="margin:0;font-size:14px;color:#444;line-height:1.75;">{passage_html}</p>
 
-  {wc_html}
-
 </body>
 </html>
 """
@@ -1600,7 +1613,7 @@ def send_email():
     msg = MIMEMultipart("alternative")
     msg["From"]    = EMAIL_ADDRESS
     msg["To"]      = EMAIL_RECEIVER
-    msg["Subject"] = "Today's thought, finance, tech, and chess"
+    msg["Subject"] = "Today's thought, chess, and reading"
     msg.attach(MIMEText(html_body, "html"))
 
     try:
